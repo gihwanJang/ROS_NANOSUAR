@@ -1,0 +1,772 @@
+[0.000000] (-) TimerEvent: {}
+[0.000551] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.000750] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.000914] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.001058] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.001191] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.001320] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.003587] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.003837] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.004207] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.004428] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.004623] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.004763] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.004906] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.006862] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.007478] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.007762] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.007890] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.008001] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.008116] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.008246] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.009458] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.009669] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.009815] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.009965] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/jetson/ros_ws/install/ros2_shared')])}
+[0.010183] (gscam2) JobStarted: {'identifier': 'gscam2'}
+[0.094299] (-) TimerEvent: {}
+[0.097381] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'cmake'}
+[0.104271] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'build'}
+[0.108275] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/gscam2', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('GSCAM_CONFIG', "nvarguscamerasrc sensor_mode=0 ! 'video/x-raw(memory:NVMM),width=3820, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=0 ! 'video/x-raw,width=960, height=616' ! nvvidconv ! nvegltransform ! nveglglessink"), ('LD_LIBRARY_PATH', '/home/jetson/ros_ws/install/gscam2/lib:/home/jetson/ros_ws/install/nanosaur_msgs/lib:/home/jetson/ros_ws/install/jetson_stats_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/ros_ws/install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/gscam2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages:/home/jetson/ros_ws/build/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:/home/jetson/ros_ws/install/jetson_stats_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent')]), 'shell': False}
+[0.194610] (-) TimerEvent: {}
+[0.298326] (-) TimerEvent: {}
+[0.399204] (-) TimerEvent: {}
+[0.500023] (-) TimerEvent: {}
+[0.600873] (-) TimerEvent: {}
+[0.701748] (-) TimerEvent: {}
+[0.803176] (-) TimerEvent: {}
+[0.843454] (gscam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam_node\x1b[0m\n'}
+[0.844663] (gscam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam_main\x1b[0m\n'}
+[0.903360] (-) TimerEvent: {}
+[0.919158] (gscam2) StdoutLine: {'line': b'[ 22%] Built target subscriber_node\n'}
+[1.003552] (-) TimerEvent: {}
+[1.016980] (gscam2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o\x1b[0m\n'}
+[1.036416] (gscam2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o\x1b[0m\n'}
+[1.103732] (-) TimerEvent: {}
+[1.204549] (-) TimerEvent: {}
+[1.305338] (-) TimerEvent: {}
+[1.406195] (-) TimerEvent: {}
+[1.527229] (-) TimerEvent: {}
+[1.628010] (-) TimerEvent: {}
+[1.728841] (-) TimerEvent: {}
+[1.829735] (-) TimerEvent: {}
+[1.930556] (-) TimerEvent: {}
+[2.031432] (-) TimerEvent: {}
+[2.132245] (-) TimerEvent: {}
+[2.233069] (-) TimerEvent: {}
+[2.333936] (-) TimerEvent: {}
+[2.436047] (-) TimerEvent: {}
+[2.537041] (-) TimerEvent: {}
+[2.638422] (-) TimerEvent: {}
+[2.739299] (-) TimerEvent: {}
+[2.840242] (-) TimerEvent: {}
+[2.941072] (-) TimerEvent: {}
+[3.041958] (-) TimerEvent: {}
+[3.142731] (-) TimerEvent: {}
+[3.243555] (-) TimerEvent: {}
+[3.344345] (-) TimerEvent: {}
+[3.445179] (-) TimerEvent: {}
+[3.546105] (-) TimerEvent: {}
+[3.646988] (-) TimerEvent: {}
+[3.747957] (-) TimerEvent: {}
+[3.848857] (-) TimerEvent: {}
+[3.949734] (-) TimerEvent: {}
+[4.050684] (-) TimerEvent: {}
+[4.151678] (-) TimerEvent: {}
+[4.252676] (-) TimerEvent: {}
+[4.353715] (-) TimerEvent: {}
+[4.454561] (-) TimerEvent: {}
+[4.555445] (-) TimerEvent: {}
+[4.656376] (-) TimerEvent: {}
+[4.757202] (-) TimerEvent: {}
+[4.858140] (-) TimerEvent: {}
+[4.959124] (-) TimerEvent: {}
+[5.060283] (-) TimerEvent: {}
+[5.161419] (-) TimerEvent: {}
+[5.263151] (-) TimerEvent: {}
+[5.364541] (-) TimerEvent: {}
+[5.465843] (-) TimerEvent: {}
+[5.566663] (-) TimerEvent: {}
+[5.667569] (-) TimerEvent: {}
+[5.768426] (-) TimerEvent: {}
+[5.869177] (-) TimerEvent: {}
+[5.969978] (-) TimerEvent: {}
+[6.070713] (-) TimerEvent: {}
+[6.171473] (-) TimerEvent: {}
+[6.272237] (-) TimerEvent: {}
+[6.372981] (-) TimerEvent: {}
+[6.473806] (-) TimerEvent: {}
+[6.574793] (-) TimerEvent: {}
+[6.675596] (-) TimerEvent: {}
+[6.776372] (-) TimerEvent: {}
+[6.877228] (-) TimerEvent: {}
+[6.978005] (-) TimerEvent: {}
+[7.078782] (-) TimerEvent: {}
+[7.179669] (-) TimerEvent: {}
+[14.053920] (-) TimerEvent: {}
+[14.154655] (-) TimerEvent: {}
+[14.255495] (-) TimerEvent: {}
+[14.356236] (-) TimerEvent: {}
+[14.457162] (-) TimerEvent: {}
+[14.557950] (-) TimerEvent: {}
+[14.658797] (-) TimerEvent: {}
+[14.759665] (-) TimerEvent: {}
+[14.860461] (-) TimerEvent: {}
+[14.961155] (-) TimerEvent: {}
+[15.061940] (-) TimerEvent: {}
+[15.162690] (-) TimerEvent: {}
+[15.263540] (-) TimerEvent: {}
+[15.364379] (-) TimerEvent: {}
+[15.465174] (-) TimerEvent: {}
+[15.567280] (-) TimerEvent: {}
+[15.668068] (-) TimerEvent: {}
+[15.768830] (-) TimerEvent: {}
+[15.869822] (-) TimerEvent: {}
+[15.970566] (-) TimerEvent: {}
+[16.071368] (-) TimerEvent: {}
+[16.172110] (-) TimerEvent: {}
+[16.272795] (-) TimerEvent: {}
+[16.373609] (-) TimerEvent: {}
+[16.474385] (-) TimerEvent: {}
+[16.575147] (-) TimerEvent: {}
+[16.675907] (-) TimerEvent: {}
+[16.776725] (-) TimerEvent: {}
+[16.877482] (-) TimerEvent: {}
+[16.978203] (-) TimerEvent: {}
+[17.078948] (-) TimerEvent: {}
+[17.179773] (-) TimerEvent: {}
+[17.280512] (-) TimerEvent: {}
+[17.381328] (-) TimerEvent: {}
+[17.482098] (-) TimerEvent: {}
+[17.582840] (-) TimerEvent: {}
+[17.683678] (-) TimerEvent: {}
+[17.784453] (-) TimerEvent: {}
+[17.885294] (-) TimerEvent: {}
+[17.986348] (-) TimerEvent: {}
+[18.087140] (-) TimerEvent: {}
+[18.187998] (-) TimerEvent: {}
+[18.288795] (-) TimerEvent: {}
+[18.389632] (-) TimerEvent: {}
+[18.490396] (-) TimerEvent: {}
+[18.591080] (-) TimerEvent: {}
+[18.691732] (-) TimerEvent: {}
+[18.792419] (-) TimerEvent: {}
+[18.893212] (-) TimerEvent: {}
+[18.993982] (-) TimerEvent: {}
+[19.094805] (-) TimerEvent: {}
+[19.196138] (-) TimerEvent: {}
+[19.296826] (-) TimerEvent: {}
+[19.397538] (-) TimerEvent: {}
+[19.498484] (-) TimerEvent: {}
+[19.599382] (-) TimerEvent: {}
+[19.700251] (-) TimerEvent: {}
+[19.801080] (-) TimerEvent: {}
+[19.901926] (-) TimerEvent: {}
+[20.002684] (-) TimerEvent: {}
+[20.103463] (-) TimerEvent: {}
+[20.204311] (-) TimerEvent: {}
+[20.311210] (-) TimerEvent: {}
+[20.411948] (-) TimerEvent: {}
+[20.512706] (-) TimerEvent: {}
+[20.613599] (-) TimerEvent: {}
+[20.714318] (-) TimerEvent: {}
+[20.820789] (-) TimerEvent: {}
+[23.087707] (-) TimerEvent: {}
+[23.188433] (-) TimerEvent: {}
+[23.289147] (-) TimerEvent: {}
+[23.389901] (-) TimerEvent: {}
+[23.490708] (-) TimerEvent: {}
+[23.591425] (-) TimerEvent: {}
+[23.692134] (-) TimerEvent: {}
+[23.792825] (-) TimerEvent: {}
+[23.893564] (-) TimerEvent: {}
+[23.994703] (-) TimerEvent: {}
+[24.095684] (-) TimerEvent: {}
+[24.196454] (-) TimerEvent: {}
+[24.297251] (-) TimerEvent: {}
+[24.397998] (-) TimerEvent: {}
+[24.499115] (-) TimerEvent: {}
+[24.599860] (-) TimerEvent: {}
+[24.700774] (-) TimerEvent: {}
+[24.801549] (-) TimerEvent: {}
+[24.902326] (-) TimerEvent: {}
+[25.003130] (-) TimerEvent: {}
+[25.103858] (-) TimerEvent: {}
+[25.204603] (-) TimerEvent: {}
+[25.305414] (-) TimerEvent: {}
+[25.406206] (-) TimerEvent: {}
+[25.507008] (-) TimerEvent: {}
+[25.607938] (-) TimerEvent: {}
+[25.708824] (-) TimerEvent: {}
+[25.811135] (-) TimerEvent: {}
+[25.911946] (-) TimerEvent: {}
+[26.012809] (-) TimerEvent: {}
+[26.113699] (-) TimerEvent: {}
+[26.214868] (-) TimerEvent: {}
+[26.315734] (-) TimerEvent: {}
+[26.417066] (-) TimerEvent: {}
+[26.517951] (-) TimerEvent: {}
+[26.618755] (-) TimerEvent: {}
+[26.719755] (-) TimerEvent: {}
+[26.820559] (-) TimerEvent: {}
+[26.921268] (-) TimerEvent: {}
+[27.022043] (-) TimerEvent: {}
+[27.122838] (-) TimerEvent: {}
+[27.223616] (-) TimerEvent: {}
+[27.324304] (-) TimerEvent: {}
+[27.425010] (-) TimerEvent: {}
+[27.525797] (-) TimerEvent: {}
+[27.626512] (-) TimerEvent: {}
+[27.727326] (-) TimerEvent: {}
+[27.828163] (-) TimerEvent: {}
+[27.929096] (-) TimerEvent: {}
+[28.029908] (-) TimerEvent: {}
+[28.130732] (-) TimerEvent: {}
+[28.231514] (-) TimerEvent: {}
+[28.332247] (-) TimerEvent: {}
+[28.433005] (-) TimerEvent: {}
+[28.533739] (-) TimerEvent: {}
+[28.634511] (-) TimerEvent: {}
+[28.735195] (-) TimerEvent: {}
+[28.835973] (-) TimerEvent: {}
+[28.936894] (-) TimerEvent: {}
+[29.037704] (-) TimerEvent: {}
+[29.138444] (-) TimerEvent: {}
+[29.239235] (-) TimerEvent: {}
+[29.340032] (-) TimerEvent: {}
+[29.440870] (-) TimerEvent: {}
+[29.541647] (-) TimerEvent: {}
+[29.642507] (-) TimerEvent: {}
+[29.743359] (-) TimerEvent: {}
+[29.844089] (-) TimerEvent: {}
+[29.944826] (-) TimerEvent: {}
+[30.045592] (-) TimerEvent: {}
+[30.146482] (-) TimerEvent: {}
+[30.247350] (-) TimerEvent: {}
+[32.871762] (-) TimerEvent: {}
+[33.018238] (-) TimerEvent: {}
+[33.677971] (-) TimerEvent: {}
+[33.779012] (-) TimerEvent: {}
+[33.879836] (-) TimerEvent: {}
+[33.980543] (-) TimerEvent: {}
+[34.081287] (-) TimerEvent: {}
+[34.182149] (-) TimerEvent: {}
+[34.282853] (-) TimerEvent: {}
+[34.383664] (-) TimerEvent: {}
+[34.484323] (-) TimerEvent: {}
+[34.584985] (-) TimerEvent: {}
+[34.685692] (-) TimerEvent: {}
+[34.786448] (-) TimerEvent: {}
+[34.887220] (-) TimerEvent: {}
+[34.987920] (-) TimerEvent: {}
+[35.088618] (-) TimerEvent: {}
+[35.189285] (-) TimerEvent: {}
+[35.290138] (-) TimerEvent: {}
+[35.390959] (-) TimerEvent: {}
+[35.491783] (-) TimerEvent: {}
+[35.592513] (-) TimerEvent: {}
+[35.832269] (-) TimerEvent: {}
+[35.933160] (-) TimerEvent: {}
+[36.033934] (-) TimerEvent: {}
+[36.134652] (-) TimerEvent: {}
+[36.235492] (-) TimerEvent: {}
+[36.336267] (-) TimerEvent: {}
+[36.437072] (-) TimerEvent: {}
+[36.537847] (-) TimerEvent: {}
+[36.638542] (-) TimerEvent: {}
+[36.739351] (-) TimerEvent: {}
+[36.840034] (-) TimerEvent: {}
+[36.940843] (-) TimerEvent: {}
+[37.041668] (-) TimerEvent: {}
+[37.142499] (-) TimerEvent: {}
+[37.243388] (-) TimerEvent: {}
+[37.344149] (-) TimerEvent: {}
+[37.444867] (-) TimerEvent: {}
+[37.545675] (-) TimerEvent: {}
+[37.646471] (-) TimerEvent: {}
+[37.747301] (-) TimerEvent: {}
+[37.852159] (-) TimerEvent: {}
+[37.952966] (-) TimerEvent: {}
+[38.054397] (-) TimerEvent: {}
+[38.157018] (-) TimerEvent: {}
+[38.257912] (-) TimerEvent: {}
+[38.361858] (-) TimerEvent: {}
+[38.462721] (-) TimerEvent: {}
+[38.563762] (-) TimerEvent: {}
+[38.664464] (-) TimerEvent: {}
+[38.765287] (-) TimerEvent: {}
+[38.866003] (-) TimerEvent: {}
+[38.966878] (-) TimerEvent: {}
+[39.075754] (-) TimerEvent: {}
+[40.417306] (-) TimerEvent: {}
+[40.518075] (-) TimerEvent: {}
+[40.618947] (-) TimerEvent: {}
+[40.719792] (-) TimerEvent: {}
+[40.820502] (-) TimerEvent: {}
+[40.921333] (-) TimerEvent: {}
+[41.022199] (-) TimerEvent: {}
+[41.122988] (-) TimerEvent: {}
+[41.223903] (-) TimerEvent: {}
+[41.324710] (-) TimerEvent: {}
+[41.425439] (-) TimerEvent: {}
+[41.526162] (-) TimerEvent: {}
+[41.626954] (-) TimerEvent: {}
+[41.727808] (-) TimerEvent: {}
+[41.828508] (-) TimerEvent: {}
+[41.929258] (-) TimerEvent: {}
+[42.030033] (-) TimerEvent: {}
+[42.130812] (-) TimerEvent: {}
+[42.231652] (-) TimerEvent: {}
+[42.332408] (-) TimerEvent: {}
+[42.433199] (-) TimerEvent: {}
+[42.533982] (-) TimerEvent: {}
+[42.634710] (-) TimerEvent: {}
+[42.735451] (-) TimerEvent: {}
+[42.836176] (-) TimerEvent: {}
+[42.936915] (-) TimerEvent: {}
+[43.037672] (-) TimerEvent: {}
+[43.138436] (-) TimerEvent: {}
+[43.239217] (-) TimerEvent: {}
+[43.340002] (-) TimerEvent: {}
+[43.440744] (-) TimerEvent: {}
+[43.541541] (-) TimerEvent: {}
+[43.642430] (-) TimerEvent: {}
+[43.743301] (-) TimerEvent: {}
+[43.844218] (-) TimerEvent: {}
+[43.944920] (-) TimerEvent: {}
+[44.045716] (-) TimerEvent: {}
+[44.146503] (-) TimerEvent: {}
+[44.247353] (-) TimerEvent: {}
+[44.348082] (-) TimerEvent: {}
+[44.448820] (-) TimerEvent: {}
+[44.549544] (-) TimerEvent: {}
+[44.651590] (-) TimerEvent: {}
+[44.752310] (-) TimerEvent: {}
+[44.853071] (-) TimerEvent: {}
+[44.953978] (-) TimerEvent: {}
+[45.054714] (-) TimerEvent: {}
+[45.155302] (-) TimerEvent: {}
+[45.256026] (-) TimerEvent: {}
+[45.356794] (-) TimerEvent: {}
+[45.457543] (-) TimerEvent: {}
+[45.558308] (-) TimerEvent: {}
+[45.659067] (-) TimerEvent: {}
+[45.759863] (-) TimerEvent: {}
+[45.860767] (-) TimerEvent: {}
+[46.851645] (-) TimerEvent: {}
+[46.952453] (-) TimerEvent: {}
+[47.053542] (-) TimerEvent: {}
+[47.154372] (-) TimerEvent: {}
+[47.255118] (-) TimerEvent: {}
+[47.356071] (-) TimerEvent: {}
+[47.456902] (-) TimerEvent: {}
+[47.567205] (-) TimerEvent: {}
+[47.667946] (-) TimerEvent: {}
+[47.768712] (-) TimerEvent: {}
+[47.869464] (-) TimerEvent: {}
+[47.970303] (-) TimerEvent: {}
+[48.071281] (-) TimerEvent: {}
+[48.172105] (-) TimerEvent: {}
+[48.272834] (-) TimerEvent: {}
+[48.373803] (-) TimerEvent: {}
+[48.474597] (-) TimerEvent: {}
+[48.575355] (-) TimerEvent: {}
+[48.676162] (-) TimerEvent: {}
+[48.776899] (-) TimerEvent: {}
+[48.877652] (-) TimerEvent: {}
+[48.978427] (-) TimerEvent: {}
+[49.079244] (-) TimerEvent: {}
+[49.180018] (-) TimerEvent: {}
+[49.280755] (-) TimerEvent: {}
+[49.381510] (-) TimerEvent: {}
+[49.482213] (-) TimerEvent: {}
+[49.582966] (-) TimerEvent: {}
+[49.683746] (-) TimerEvent: {}
+[49.784446] (-) TimerEvent: {}
+[49.885230] (-) TimerEvent: {}
+[49.985951] (-) TimerEvent: {}
+[50.086671] (-) TimerEvent: {}
+[50.187592] (-) TimerEvent: {}
+[50.288627] (-) TimerEvent: {}
+[50.389403] (-) TimerEvent: {}
+[50.490222] (-) TimerEvent: {}
+[50.591020] (-) TimerEvent: {}
+[50.691821] (-) TimerEvent: {}
+[50.792730] (-) TimerEvent: {}
+[50.893511] (-) TimerEvent: {}
+[50.994271] (-) TimerEvent: {}
+[51.095103] (-) TimerEvent: {}
+[51.196020] (-) TimerEvent: {}
+[51.296706] (-) TimerEvent: {}
+[51.397434] (-) TimerEvent: {}
+[51.498139] (-) TimerEvent: {}
+[51.598934] (-) TimerEvent: {}
+[51.948778] (-) TimerEvent: {}
+[52.054278] (-) TimerEvent: {}
+[52.155544] (-) TimerEvent: {}
+[52.256373] (-) TimerEvent: {}
+[52.357088] (-) TimerEvent: {}
+[52.457856] (-) TimerEvent: {}
+[52.558551] (-) TimerEvent: {}
+[52.659455] (-) TimerEvent: {}
+[52.760167] (-) TimerEvent: {}
+[52.861170] (-) TimerEvent: {}
+[52.962062] (-) TimerEvent: {}
+[53.062871] (-) TimerEvent: {}
+[53.163643] (-) TimerEvent: {}
+[53.264363] (-) TimerEvent: {}
+[53.365214] (-) TimerEvent: {}
+[53.466173] (-) TimerEvent: {}
+[53.566974] (-) TimerEvent: {}
+[53.667820] (-) TimerEvent: {}
+[53.768573] (-) TimerEvent: {}
+[53.869317] (-) TimerEvent: {}
+[53.970092] (-) TimerEvent: {}
+[54.070805] (-) TimerEvent: {}
+[54.171594] (-) TimerEvent: {}
+[54.272370] (-) TimerEvent: {}
+[54.377324] (-) TimerEvent: {}
+[54.478186] (-) TimerEvent: {}
+[54.578900] (-) TimerEvent: {}
+[54.679627] (-) TimerEvent: {}
+[54.780550] (-) TimerEvent: {}
+[54.881618] (-) TimerEvent: {}
+[54.982401] (-) TimerEvent: {}
+[55.083245] (-) TimerEvent: {}
+[55.184325] (-) TimerEvent: {}
+[55.287277] (-) TimerEvent: {}
+[55.388045] (-) TimerEvent: {}
+[55.488750] (-) TimerEvent: {}
+[64.685921] (-) TimerEvent: {}
+[80.455866] (-) TimerEvent: {}
+[107.543280] (-) TimerEvent: {}
+[107.644137] (-) TimerEvent: {}
+[107.744930] (-) TimerEvent: {}
+[107.845897] (-) TimerEvent: {}
+[107.947278] (-) TimerEvent: {}
+[108.048774] (-) TimerEvent: {}
+[108.149516] (-) TimerEvent: {}
+[108.252891] (-) TimerEvent: {}
+[108.353742] (-) TimerEvent: {}
+[108.454737] (-) TimerEvent: {}
+[108.555705] (-) TimerEvent: {}
+[108.656505] (-) TimerEvent: {}
+[108.757294] (-) TimerEvent: {}
+[108.858187] (-) TimerEvent: {}
+[108.959257] (-) TimerEvent: {}
+[109.060061] (-) TimerEvent: {}
+[109.161127] (-) TimerEvent: {}
+[109.261924] (-) TimerEvent: {}
+[109.362716] (-) TimerEvent: {}
+[109.463549] (-) TimerEvent: {}
+[109.564318] (-) TimerEvent: {}
+[109.665121] (-) TimerEvent: {}
+[109.765939] (-) TimerEvent: {}
+[109.866771] (-) TimerEvent: {}
+[109.967767] (-) TimerEvent: {}
+[110.068646] (-) TimerEvent: {}
+[110.169492] (-) TimerEvent: {}
+[110.270291] (-) TimerEvent: {}
+[110.371209] (-) TimerEvent: {}
+[110.472085] (-) TimerEvent: {}
+[110.573109] (-) TimerEvent: {}
+[110.674074] (-) TimerEvent: {}
+[110.774870] (-) TimerEvent: {}
+[110.875768] (-) TimerEvent: {}
+[110.976772] (-) TimerEvent: {}
+[111.077573] (-) TimerEvent: {}
+[111.179748] (-) TimerEvent: {}
+[111.281996] (-) TimerEvent: {}
+[111.382892] (-) TimerEvent: {}
+[111.485254] (-) TimerEvent: {}
+[111.587087] (-) TimerEvent: {}
+[111.687959] (-) TimerEvent: {}
+[111.788879] (-) TimerEvent: {}
+[111.930758] (-) TimerEvent: {}
+[112.031703] (-) TimerEvent: {}
+[112.132500] (-) TimerEvent: {}
+[112.233366] (-) TimerEvent: {}
+[112.334568] (-) TimerEvent: {}
+[112.436853] (-) TimerEvent: {}
+[112.539653] (-) TimerEvent: {}
+[112.640897] (-) TimerEvent: {}
+[112.741816] (-) TimerEvent: {}
+[112.842718] (-) TimerEvent: {}
+[112.943606] (-) TimerEvent: {}
+[113.044375] (-) TimerEvent: {}
+[113.145318] (-) TimerEvent: {}
+[113.246152] (-) TimerEvent: {}
+[113.347197] (-) TimerEvent: {}
+[113.459558] (-) TimerEvent: {}
+[113.560541] (-) TimerEvent: {}
+[113.661460] (-) TimerEvent: {}
+[113.762393] (-) TimerEvent: {}
+[113.863409] (-) TimerEvent: {}
+[113.964235] (-) TimerEvent: {}
+[114.068504] (-) TimerEvent: {}
+[114.169410] (-) TimerEvent: {}
+[114.270438] (-) TimerEvent: {}
+[114.371301] (-) TimerEvent: {}
+[114.472499] (-) TimerEvent: {}
+[114.573461] (-) TimerEvent: {}
+[114.674259] (-) TimerEvent: {}
+[114.775091] (-) TimerEvent: {}
+[114.876042] (-) TimerEvent: {}
+[114.976944] (-) TimerEvent: {}
+[115.077960] (-) TimerEvent: {}
+[115.179466] (-) TimerEvent: {}
+[115.280338] (-) TimerEvent: {}
+[115.381227] (-) TimerEvent: {}
+[115.482197] (-) TimerEvent: {}
+[115.583115] (-) TimerEvent: {}
+[115.685640] (-) TimerEvent: {}
+[115.786402] (-) TimerEvent: {}
+[115.887274] (-) TimerEvent: {}
+[115.988169] (-) TimerEvent: {}
+[116.089515] (-) TimerEvent: {}
+[116.190397] (-) TimerEvent: {}
+[116.291467] (-) TimerEvent: {}
+[116.392400] (-) TimerEvent: {}
+[116.493326] (-) TimerEvent: {}
+[116.594228] (-) TimerEvent: {}
+[116.694999] (-) TimerEvent: {}
+[116.795748] (-) TimerEvent: {}
+[116.896512] (-) TimerEvent: {}
+[116.997314] (-) TimerEvent: {}
+[117.098286] (-) TimerEvent: {}
+[117.199187] (-) TimerEvent: {}
+[117.300319] (-) TimerEvent: {}
+[117.401062] (-) TimerEvent: {}
+[117.501874] (-) TimerEvent: {}
+[117.602619] (-) TimerEvent: {}
+[117.703380] (-) TimerEvent: {}
+[117.804112] (-) TimerEvent: {}
+[117.905099] (-) TimerEvent: {}
+[118.005981] (-) TimerEvent: {}
+[118.106656] (-) TimerEvent: {}
+[118.207406] (-) TimerEvent: {}
+[118.308193] (-) TimerEvent: {}
+[118.408933] (-) TimerEvent: {}
+[118.509645] (-) TimerEvent: {}
+[118.610408] (-) TimerEvent: {}
+[118.711169] (-) TimerEvent: {}
+[118.811897] (-) TimerEvent: {}
+[118.912616] (-) TimerEvent: {}
+[119.013321] (-) TimerEvent: {}
+[119.114019] (-) TimerEvent: {}
+[119.214720] (-) TimerEvent: {}
+[119.315522] (-) TimerEvent: {}
+[119.416311] (-) TimerEvent: {}
+[119.517084] (-) TimerEvent: {}
+[119.617837] (-) TimerEvent: {}
+[119.720156] (-) TimerEvent: {}
+[119.820941] (-) TimerEvent: {}
+[119.921711] (-) TimerEvent: {}
+[120.022478] (-) TimerEvent: {}
+[120.123237] (-) TimerEvent: {}
+[120.224018] (-) TimerEvent: {}
+[120.324810] (-) TimerEvent: {}
+[120.425628] (-) TimerEvent: {}
+[120.526537] (-) TimerEvent: {}
+[120.627516] (-) TimerEvent: {}
+[120.728269] (-) TimerEvent: {}
+[120.829008] (-) TimerEvent: {}
+[120.929740] (-) TimerEvent: {}
+[121.030564] (-) TimerEvent: {}
+[121.131808] (-) TimerEvent: {}
+[121.232597] (-) TimerEvent: {}
+[121.334194] (-) TimerEvent: {}
+[121.435025] (-) TimerEvent: {}
+[121.535830] (-) TimerEvent: {}
+[121.636621] (-) TimerEvent: {}
+[121.738080] (-) TimerEvent: {}
+[121.838819] (-) TimerEvent: {}
+[121.939623] (-) TimerEvent: {}
+[122.040361] (-) TimerEvent: {}
+[122.141221] (-) TimerEvent: {}
+[122.241978] (-) TimerEvent: {}
+[122.342788] (-) TimerEvent: {}
+[122.443575] (-) TimerEvent: {}
+[122.544378] (-) TimerEvent: {}
+[122.645231] (-) TimerEvent: {}
+[122.745979] (-) TimerEvent: {}
+[122.846845] (-) TimerEvent: {}
+[122.947702] (-) TimerEvent: {}
+[123.048621] (-) TimerEvent: {}
+[123.149506] (-) TimerEvent: {}
+[123.250328] (-) TimerEvent: {}
+[123.351185] (-) TimerEvent: {}
+[123.452120] (-) TimerEvent: {}
+[123.552983] (-) TimerEvent: {}
+[123.654196] (-) TimerEvent: {}
+[123.755149] (-) TimerEvent: {}
+[123.855954] (-) TimerEvent: {}
+[123.956775] (-) TimerEvent: {}
+[124.057546] (-) TimerEvent: {}
+[124.158534] (-) TimerEvent: {}
+[124.259746] (-) TimerEvent: {}
+[124.360572] (-) TimerEvent: {}
+[124.461435] (-) TimerEvent: {}
+[124.562387] (-) TimerEvent: {}
+[124.663240] (-) TimerEvent: {}
+[124.763976] (-) TimerEvent: {}
+[124.864848] (-) TimerEvent: {}
+[124.965675] (-) TimerEvent: {}
+[125.066463] (-) TimerEvent: {}
+[125.167314] (-) TimerEvent: {}
+[125.268078] (-) TimerEvent: {}
+[125.368832] (-) TimerEvent: {}
+[125.469610] (-) TimerEvent: {}
+[125.570369] (-) TimerEvent: {}
+[125.678550] (-) TimerEvent: {}
+[125.779421] (-) TimerEvent: {}
+[125.880330] (-) TimerEvent: {}
+[125.981118] (-) TimerEvent: {}
+[126.081938] (-) TimerEvent: {}
+[126.182726] (-) TimerEvent: {}
+[126.283595] (-) TimerEvent: {}
+[126.384417] (-) TimerEvent: {}
+[126.485198] (-) TimerEvent: {}
+[126.585983] (-) TimerEvent: {}
+[126.686774] (-) TimerEvent: {}
+[126.787589] (-) TimerEvent: {}
+[126.888399] (-) TimerEvent: {}
+[126.989262] (-) TimerEvent: {}
+[127.090070] (-) TimerEvent: {}
+[127.190853] (-) TimerEvent: {}
+[127.291687] (-) TimerEvent: {}
+[127.392511] (-) TimerEvent: {}
+[127.493262] (-) TimerEvent: {}
+[127.595216] (-) TimerEvent: {}
+[127.696043] (-) TimerEvent: {}
+[127.796768] (-) TimerEvent: {}
+[127.924742] (gscam2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libgscam_node.so\x1b[0m\n'}
+[128.235375] (-) TimerEvent: {}
+[128.235926] (gscam2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable gscam_main\x1b[0m\n'}
+[128.335552] (-) TimerEvent: {}
+[128.436441] (-) TimerEvent: {}
+[128.537277] (-) TimerEvent: {}
+[128.638112] (-) TimerEvent: {}
+[128.738952] (-) TimerEvent: {}
+[128.839822] (-) TimerEvent: {}
+[128.940614] (-) TimerEvent: {}
+[129.041546] (-) TimerEvent: {}
+[129.144439] (-) TimerEvent: {}
+[129.245326] (-) TimerEvent: {}
+[129.346874] (-) TimerEvent: {}
+[129.448202] (-) TimerEvent: {}
+[129.548995] (-) TimerEvent: {}
+[129.650297] (-) TimerEvent: {}
+[129.752817] (-) TimerEvent: {}
+[129.853572] (-) TimerEvent: {}
+[129.954509] (-) TimerEvent: {}
+[130.055392] (-) TimerEvent: {}
+[130.156239] (-) TimerEvent: {}
+[130.257039] (-) TimerEvent: {}
+[130.357832] (-) TimerEvent: {}
+[130.458600] (-) TimerEvent: {}
+[130.559585] (-) TimerEvent: {}
+[130.662736] (-) TimerEvent: {}
+[130.764266] (-) TimerEvent: {}
+[130.865122] (-) TimerEvent: {}
+[130.967565] (-) TimerEvent: {}
+[131.068380] (-) TimerEvent: {}
+[131.169394] (-) TimerEvent: {}
+[131.271826] (-) TimerEvent: {}
+[131.372688] (-) TimerEvent: {}
+[131.387422] (gscam2) StdoutLine: {'line': b'[ 66%] Built target gscam_node\n'}
+[131.465473] (gscam2) StdoutLine: {'line': b'[ 77%] Built target gscam_main\n'}
+[131.472863] (-) TimerEvent: {}
+[131.573695] (-) TimerEvent: {}
+[131.674456] (-) TimerEvent: {}
+[131.715540] (gscam2) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable ipc_test_main\x1b[0m\n'}
+[131.774639] (-) TimerEvent: {}
+[131.875531] (-) TimerEvent: {}
+[131.976344] (-) TimerEvent: {}
+[132.077257] (-) TimerEvent: {}
+[132.178034] (-) TimerEvent: {}
+[132.278859] (-) TimerEvent: {}
+[132.379825] (-) TimerEvent: {}
+[132.480784] (-) TimerEvent: {}
+[132.581743] (-) TimerEvent: {}
+[132.682592] (-) TimerEvent: {}
+[132.783418] (-) TimerEvent: {}
+[132.791654] (gscam2) StdoutLine: {'line': b'[100%] Built target ipc_test_main\n'}
+[132.883659] (-) TimerEvent: {}
+[132.991126] (-) TimerEvent: {}
+[133.103935] (-) TimerEvent: {}
+[133.145125] (gscam2) CommandEnded: {'returncode': 0}
+[133.631663] (-) TimerEvent: {}
+[133.751010] (-) TimerEvent: {}
+[133.841378] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'install'}
+[133.851364] (-) TimerEvent: {}
+[133.973073] (-) TimerEvent: {}
+[134.098501] (-) TimerEvent: {}
+[134.142594] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/gscam2', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('GSCAM_CONFIG', "nvarguscamerasrc sensor_mode=0 ! 'video/x-raw(memory:NVMM),width=3820, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=0 ! 'video/x-raw,width=960, height=616' ! nvvidconv ! nvegltransform ! nveglglessink"), ('LD_LIBRARY_PATH', '/home/jetson/ros_ws/install/gscam2/lib:/home/jetson/ros_ws/install/nanosaur_msgs/lib:/home/jetson/ros_ws/install/jetson_stats_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/ros_ws/install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/gscam2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages:/home/jetson/ros_ws/build/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:/home/jetson/ros_ws/install/jetson_stats_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent')]), 'shell': False}
+[134.199779] (-) TimerEvent: {}
+[134.301519] (-) TimerEvent: {}
+[134.403283] (-) TimerEvent: {}
+[134.504188] (-) TimerEvent: {}
+[134.605057] (-) TimerEvent: {}
+[134.670890] (gscam2) StdoutLine: {'line': b'[ 33%] Built target gscam_main\n'}
+[134.705362] (-) TimerEvent: {}
+[134.808258] (-) TimerEvent: {}
+[134.820142] (gscam2) StdoutLine: {'line': b'[ 55%] Built target gscam_node\n'}
+[134.908443] (-) TimerEvent: {}
+[134.954039] (gscam2) StdoutLine: {'line': b'[ 77%] Built target subscriber_node\n'}
+[135.008643] (-) TimerEvent: {}
+[135.088499] (gscam2) StdoutLine: {'line': b'[100%] Built target ipc_test_main\n'}
+[135.108827] (-) TimerEvent: {}
+[135.178707] (gscam2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[135.209010] (-) TimerEvent: {}
+[135.220334] (gscam2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[135.222944] (gscam2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[135.227045] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/library_path.sh\n'}
+[135.228783] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/library_path.dsv\n'}
+[135.232085] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/package_run_dependencies/gscam2\n'}
+[135.233918] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/parent_prefix_path/gscam2\n'}
+[135.235740] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.sh\n'}
+[135.245821] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.dsv\n'}
+[135.246855] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/path.sh\n'}
+[135.247751] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/path.dsv\n'}
+[135.248425] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.bash\n'}
+[135.249082] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.sh\n'}
+[135.249718] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.zsh\n'}
+[135.250550] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.dsv\n'}
+[135.251505] (gscam2) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/package.dsv\n'}
+[135.288599] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/packages/gscam2\n'}
+[135.290428] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/rclcpp_components/gscam2\n'}
+[135.292221] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[135.293708] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[135.295331] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_interfaces-extras.cmake\n'}
+[135.296870] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[135.298235] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config.cmake\n'}
+[135.299446] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config-version.cmake\n'}
+[135.300513] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/package.xml\n'}
+[135.303495] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/include/gscam2/gscam_node.hpp\n'}
+[135.304569] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/include/gscam2/subscriber_node.hpp\n'}
+[135.306597] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/lib/gscam2/gscam_main\n'}
+[135.307723] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/lib/gscam2/ipc_test_main\n'}
+[135.309118] (-) TimerEvent: {}
+[135.310678] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/composition_launch.py\n'}
+[135.311818] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/container_param_launch.py\n'}
+[135.312658] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/node_param_launch.py\n'}
+[135.314596] (gscam2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/republish_launch.py\n'}
+[135.316609] (gscam2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_gscam_nodeExport.cmake\n'}
+[135.317405] (gscam2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_gscam_nodeExport-noconfig.cmake\n'}
+[135.318420] (gscam2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_subscriber_nodeExport.cmake\n'}
+[135.319187] (gscam2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_subscriber_nodeExport-noconfig.cmake\n'}
+[135.321493] (gscam2) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/gscam2/lib/libgscam_node.so\n'}
+[135.330481] (gscam2) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/ros_ws/install/gscam2/lib/libgscam_node.so" to ""\n'}
+[135.334119] (gscam2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros_ws/install/gscam2/lib/libsubscriber_node.so\n'}
+[135.351314] (gscam2) CommandEnded: {'returncode': 0}
+[135.414382] (-) TimerEvent: {}
+[135.515201] (-) TimerEvent: {}
+[135.617365] (-) TimerEvent: {}
+[135.722162] (-) TimerEvent: {}
+[135.828776] (-) TimerEvent: {}
+[135.936748] (-) TimerEvent: {}
+[136.045279] (-) TimerEvent: {}
+[136.146495] (-) TimerEvent: {}
+[136.190939] (gscam2) JobEnded: {'identifier': 'gscam2', 'rc': 0}
+[136.202001] (-) EventReactorShutdown: {}

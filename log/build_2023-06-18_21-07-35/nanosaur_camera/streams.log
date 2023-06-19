@@ -1,0 +1,54 @@
+[0.128s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera
+[0.567s] -- The C compiler identification is GNU 7.5.0
+[0.820s] -- The CXX compiler identification is GNU 7.5.0
+[0.834s] -- Check for working C compiler: /usr/bin/cc
+[1.265s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.276s] -- Detecting C compiler ABI info
+[1.634s] -- Detecting C compiler ABI info - done
+[1.688s] -- Detecting C compile features
+[2.845s] -- Detecting C compile features - done
+[2.854s] -- Check for working CXX compiler: /usr/bin/c++
+[3.436s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.439s] -- Detecting CXX compiler ABI info
+[4.106s] -- Detecting CXX compiler ABI info - done
+[4.136s] -- Detecting CXX compile features
+[6.838s] -- Detecting CXX compile features - done
+[6.862s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[7.170s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[7.171s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.848s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[12.187s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[12.804s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[12.819s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.827s] -- Looking for pthread.h
+[14.040s] -- Looking for pthread.h - found
+[14.114s] -- Looking for pthread_create
+[15.448s] -- Looking for pthread_create - not found
+[15.451s] -- Looking for pthread_create in pthreads
+[93.667s] -- Looking for pthread_create in pthreads - not found
+[93.688s] -- Looking for pthread_create in pthread
+[94.785s] -- Looking for pthread_create in pthread - found
+[94.822s] -- Found Threads: TRUE  
+[95.421s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[95.702s] -- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+[95.806s] CMake Error at CMakeLists.txt:24 (find_package):
+[95.813s]   By not providing "Findjetson-utils.cmake" in CMAKE_MODULE_PATH this project
+[95.814s]   has asked CMake to find a package configuration file provided by
+[95.815s]   "jetson-utils", but CMake did not find one.
+[95.815s] 
+[95.816s]   Could not find a package configuration file provided by "jetson-utils" with
+[95.817s]   any of the following names:
+[95.818s] 
+[95.819s]     jetson-utilsConfig.cmake
+[95.819s]     jetson-utils-config.cmake
+[95.820s] 
+[95.821s]   Add the installation prefix of "jetson-utils" to CMAKE_PREFIX_PATH or set
+[95.822s]   "jetson-utils_DIR" to a directory containing one of the above files.  If
+[95.826s]   "jetson-utils" provides a separate development package or SDK, be sure it
+[95.827s]   has been installed.
+[95.828s] 
+[95.830s] 
+[95.901s] -- Configuring incomplete, errors occurred!
+[95.902s] See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeOutput.log".
+[95.906s] See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeError.log".
+[96.250s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera

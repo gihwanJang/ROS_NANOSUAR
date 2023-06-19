@@ -1,0 +1,770 @@
+[1.864s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.864s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7facf89c88>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7facf89c88>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7facf06a90>)
+[1.998s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.001s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros_ws'
+[2.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.003s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.004s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extensions ['ignore', 'ignore_ament_install']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'ignore'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'ignore_ament_install'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extensions ['colcon_pkg']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'colcon_pkg'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extensions ['colcon_meta']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'colcon_meta'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extensions ['ros']
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'ros'
+[2.076s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extensions ['cmake', 'python']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'cmake'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'python'
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extensions ['python_setup_py']
+[2.077s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur) by extension 'python_setup_py'
+[2.078s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extensions ['ignore', 'ignore_ament_install']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extension 'ignore'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extension 'ignore_ament_install'
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extensions ['colcon_pkg']
+[2.079s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extension 'colcon_pkg'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extensions ['colcon_meta']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extension 'colcon_meta'
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extensions ['ros']
+[2.080s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur) by extension 'ros'
+[2.093s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur/nanosaur' with type 'ros.ament_cmake' and name 'nanosaur'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extensions ['ignore', 'ignore_ament_install']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extension 'ignore'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extension 'ignore_ament_install'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extensions ['colcon_pkg']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extension 'colcon_pkg'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extensions ['colcon_meta']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extension 'colcon_meta'
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extensions ['ros']
+[2.096s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_control) by extension 'ros'
+[2.104s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur/nanosaur_control' with type 'ros.ament_cmake' and name 'nanosaur_control'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extensions ['ignore', 'ignore_ament_install']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extension 'ignore'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extension 'ignore_ament_install'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extensions ['colcon_pkg']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extension 'colcon_pkg'
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extensions ['colcon_meta']
+[2.106s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extension 'colcon_meta'
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extensions ['ros']
+[2.107s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_description) by extension 'ros'
+[2.111s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur/nanosaur_description' with type 'ros.ament_cmake' and name 'nanosaur_description'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extension 'ignore'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extension 'ignore_ament_install'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extensions ['colcon_pkg']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extension 'colcon_pkg'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extensions ['colcon_meta']
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extension 'colcon_meta'
+[2.113s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extensions ['ros']
+[2.114s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur/nanosaur_msgs) by extension 'ros'
+[2.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur/nanosaur_msgs' with type 'ros.ament_cmake' and name 'nanosaur_msgs'
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'ignore'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'ignore_ament_install'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extensions ['colcon_pkg']
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'colcon_pkg'
+[2.119s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extensions ['colcon_meta']
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'colcon_meta'
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extensions ['ros']
+[2.120s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'ros'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extensions ['cmake', 'python']
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'cmake'
+[2.121s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'python'
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extensions ['python_setup_py']
+[2.122s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot) by extension 'python_setup_py'
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extensions ['ignore', 'ignore_ament_install']
+[2.123s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extension 'ignore'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extension 'ignore_ament_install'
+[2.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extensions ['colcon_pkg']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extension 'colcon_pkg'
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extensions ['colcon_meta']
+[2.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extension 'colcon_meta'
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extensions ['ros']
+[2.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_base) by extension 'ros'
+[2.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_robot/nanosaur_base' with type 'ros.ament_python' and name 'nanosaur_base'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extension 'ignore'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extension 'ignore_ament_install'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extensions ['colcon_pkg']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extension 'colcon_pkg'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extensions ['colcon_meta']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extension 'colcon_meta'
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extensions ['ros']
+[2.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_bringup) by extension 'ros'
+[2.137s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_robot/nanosaur_bringup' with type 'ros.ament_cmake' and name 'nanosaur_bringup'
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extension 'ignore'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extension 'ignore_ament_install'
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extensions ['colcon_pkg']
+[2.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extension 'colcon_pkg'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extensions ['colcon_meta']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extension 'colcon_meta'
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extensions ['ros']
+[2.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_robot/nanosaur_robot) by extension 'ros'
+[2.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_robot/nanosaur_robot' with type 'ros.ament_cmake' and name 'nanosaur_robot'
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extensions ['ignore', 'ignore_ament_install']
+[2.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'ignore'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'ignore_ament_install'
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extensions ['colcon_pkg']
+[2.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'colcon_pkg'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extensions ['colcon_meta']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'colcon_meta'
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extensions ['ros']
+[2.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'ros'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extensions ['cmake', 'python']
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'cmake'
+[2.147s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'python'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extensions ['python_setup_py']
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations) by extension 'python_setup_py'
+[2.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extension 'ignore'
+[2.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extension 'ignore_ament_install'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extensions ['colcon_pkg']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extension 'colcon_pkg'
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extensions ['colcon_meta']
+[2.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extension 'colcon_meta'
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extensions ['ros']
+[2.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_gazebo) by extension 'ros'
+[2.155s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_simulations/nanosaur_gazebo' with type 'ros.ament_cmake' and name 'nanosaur_gazebo'
+[2.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extensions ['ignore', 'ignore_ament_install']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extension 'ignore'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extension 'ignore_ament_install'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extensions ['colcon_pkg']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extension 'colcon_pkg'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extensions ['colcon_meta']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extension 'colcon_meta'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extensions ['ros']
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_ignition) by extension 'ros'
+[2.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_simulations/nanosaur_ignition' with type 'ros.ament_python' and name 'nanosaur_ignition'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extensions ['ignore', 'ignore_ament_install']
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extension 'ignore'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extension 'ignore_ament_install'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extensions ['colcon_pkg']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extension 'colcon_pkg'
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extensions ['colcon_meta']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extension 'colcon_meta'
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extensions ['ros']
+[2.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_isaac_sim) by extension 'ros'
+[2.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_simulations/nanosaur_isaac_sim' with type 'ros.ament_cmake' and name 'nanosaur_isaac_sim'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extensions ['ignore', 'ignore_ament_install']
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extension 'ignore'
+[2.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extension 'ignore_ament_install'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extensions ['colcon_pkg']
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extension 'colcon_pkg'
+[2.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extensions ['colcon_meta']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extension 'colcon_meta'
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extensions ['ros']
+[2.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_simulations) by extension 'ros'
+[2.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_simulations/nanosaur_simulations' with type 'ros.ament_cmake' and name 'nanosaur_simulations'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extensions ['ignore', 'ignore_ament_install']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extension 'ignore'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extension 'ignore_ament_install'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extensions ['colcon_pkg']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extension 'colcon_pkg'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extensions ['colcon_meta']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extension 'colcon_meta'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extensions ['ros']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/nanosaur_simulations/nanosaur_worlds) by extension 'ros'
+[2.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nanosaur_simulations/nanosaur_worlds' with type 'ros.ament_cmake' and name 'nanosaur_worlds'
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extensions ['ignore', 'ignore_ament_install']
+[2.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'ignore'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'ignore_ament_install'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extensions ['colcon_pkg']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'colcon_pkg'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extensions ['colcon_meta']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'colcon_meta'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extensions ['ros']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'ros'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extensions ['cmake', 'python']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'cmake'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'python'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extensions ['python_setup_py']
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur) by extension 'python_setup_py'
+[2.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extensions ['ignore', 'ignore_ament_install']
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'ignore'
+[2.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'ignore_ament_install'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extensions ['colcon_pkg']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'colcon_pkg'
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extensions ['colcon_meta']
+[2.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'colcon_meta'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extensions ['ros']
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'ros'
+[2.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extensions ['cmake', 'python']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'cmake'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'python'
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extensions ['python_setup_py']
+[2.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/STL) by extension 'python_setup_py'
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extension 'ignore'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extension 'ignore_ament_install'
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extensions ['colcon_pkg']
+[2.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extension 'colcon_pkg'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extensions ['colcon_meta']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extension 'colcon_meta'
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extensions ['ros']
+[2.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/cpp_first_pkg) by extension 'ros'
+[2.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb_nanosaur/cpp_first_pkg' with type 'ros.ament_cmake' and name 'cpp_first_pkg'
+[2.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extensions ['ignore', 'ignore_ament_install']
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'ignore'
+[2.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'ignore_ament_install'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extensions ['colcon_pkg']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'colcon_pkg'
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extensions ['colcon_meta']
+[2.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'colcon_meta'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extensions ['ros']
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'ros'
+[2.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extensions ['cmake', 'python']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'cmake'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'python'
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extensions ['python_setup_py']
+[2.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/images) by extension 'python_setup_py'
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extensions ['ignore', 'ignore_ament_install']
+[2.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'ignore'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'ignore_ament_install'
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extensions ['colcon_pkg']
+[2.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'colcon_pkg'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extensions ['colcon_meta']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'colcon_meta'
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extensions ['ros']
+[2.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'ros'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extensions ['cmake', 'python']
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'cmake'
+[2.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'python'
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extensions ['python_setup_py']
+[2.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/install) by extension 'python_setup_py'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extensions ['ignore', 'ignore_ament_install']
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extension 'ignore'
+[2.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extension 'ignore_ament_install'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extensions ['colcon_pkg']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extension 'colcon_pkg'
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extensions ['colcon_meta']
+[2.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extension 'colcon_meta'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extensions ['ros']
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_camera) by extension 'ros'
+[2.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb_nanosaur/nanosaur_camera' with type 'ros.ament_cmake' and name 'nanosaur_camera'
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extensions ['ignore', 'ignore_ament_install']
+[2.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extension 'ignore'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extension 'ignore_ament_install'
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extensions ['colcon_pkg']
+[2.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extension 'colcon_pkg'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extensions ['colcon_meta']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extension 'colcon_meta'
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extensions ['ros']
+[2.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_emotion) by extension 'ros'
+[2.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb_nanosaur/nanosaur_emotion' with type 'ros.ament_cmake' and name 'nanosaur_emotion'
+[2.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extensions ['ignore', 'ignore_ament_install']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extension 'ignore_ament_install'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extensions ['colcon_pkg']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extension 'colcon_pkg'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extensions ['colcon_meta']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extension 'colcon_meta'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extensions ['ros']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/nanosaur_hardware) by extension 'ros'
+[2.230s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb_nanosaur/nanosaur_hardware' with type 'ros.ament_python' and name 'nanosaur_hardware'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extensions ['ignore', 'ignore_ament_install']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'ignore'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'ignore_ament_install'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extensions ['colcon_pkg']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'colcon_pkg'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extensions ['colcon_meta']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'colcon_meta'
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extensions ['ros']
+[2.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'ros'
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extensions ['cmake', 'python']
+[2.234s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'cmake'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'python'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extensions ['python_setup_py']
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/tests) by extension 'python_setup_py'
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extensions ['ignore', 'ignore_ament_install']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extension 'ignore'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extension 'ignore_ament_install'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extensions ['colcon_pkg']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extension 'colcon_pkg'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extensions ['colcon_meta']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extension 'colcon_meta'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extensions ['ros']
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/rb_nanosaur/webrtc_pkg) by extension 'ros'
+[2.243s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rb_nanosaur/webrtc_pkg' with type 'ros.ament_python' and name 'webrtc_pkg'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extensions ['ignore', 'ignore_ament_install']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'ignore'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'ignore_ament_install'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extensions ['colcon_pkg']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'colcon_pkg'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extensions ['colcon_meta']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'colcon_meta'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extensions ['ros']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'ros'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extensions ['cmake', 'python']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'cmake'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'python'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extensions ['python_setup_py']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats) by extension 'python_setup_py'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extension 'ignore'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extension 'ignore_ament_install'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extensions ['colcon_pkg']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extension 'colcon_pkg'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extensions ['colcon_meta']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extension 'colcon_meta'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extensions ['ros']
+[2.251s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_msgs) by extension 'ros'
+[2.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_jetson_stats/jetson_stats_msgs' with type 'ros.ament_cmake' and name 'jetson_stats_msgs'
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extensions ['ignore', 'ignore_ament_install']
+[2.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extension 'ignore'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extension 'ignore_ament_install'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extensions ['colcon_pkg']
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extension 'colcon_pkg'
+[2.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extensions ['colcon_meta']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extension 'colcon_meta'
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extensions ['ros']
+[2.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/jetson_stats_wrapper) by extension 'ros'
+[2.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_jetson_stats/jetson_stats_wrapper' with type 'ros.ament_python' and name 'jetson_stats_wrapper'
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extensions ['ignore', 'ignore_ament_install']
+[2.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extension 'ignore'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extension 'ignore_ament_install'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extensions ['colcon_pkg']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extension 'colcon_pkg'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extensions ['colcon_meta']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extension 'colcon_meta'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extensions ['ros']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_jetson_stats/ros2_jetson_stats) by extension 'ros'
+[2.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_jetson_stats/ros2_jetson_stats' with type 'ros.ament_cmake' and name 'ros2_jetson_stats'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extensions ['ignore', 'ignore_ament_install']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extension 'ignore'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extension 'ignore_ament_install'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extensions ['colcon_pkg']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extension 'colcon_pkg'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extensions ['colcon_meta']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extension 'colcon_meta'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extensions ['ros']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_system_manager) by extension 'ros'
+[2.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_system_manager' with type 'ros.ament_python' and name 'ros2_system_manager'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ignore'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ignore_ament_install'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['colcon_pkg']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'colcon_pkg'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['colcon_meta']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'colcon_meta'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extensions ['ros']
+[2.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_teleop_keyboard) by extension 'ros'
+[2.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_teleop_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[2.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.283s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.439s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 153 installed packages in /opt/ros/eloquent
+[2.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.686s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_args' from command line to 'None'
+[2.686s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target' from command line to 'None'
+[2.686s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.686s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.687s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.687s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.687s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.687s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.687s] Level 5:colcon.colcon_core.verb:set package 'cpp_first_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.688s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_first_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/cpp_first_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/cpp_first_pkg', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.694s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'cmake_args' from command line to 'None'
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'cmake_target' from command line to 'None'
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.695s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.696s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.696s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.696s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.696s] DEBUG:colcon.colcon_core.verb:Building package 'jetson_stats_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/jetson_stats_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/jetson_stats_msgs', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'cmake_args' from command line to 'None'
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'cmake_target' from command line to 'None'
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.703s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'cmake_clean_first' from command line to 'False'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'cmake_force_configure' from command line to 'False'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'ament_cmake_args' from command line to 'None'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[2.704s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.705s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_camera', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera', 'symlink_install': False, 'test_result_base': None}
+[2.712s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'cmake_args' from command line to 'None'
+[2.712s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'cmake_target' from command line to 'None'
+[2.712s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.712s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.713s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.714s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_control', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur/nanosaur_control', 'symlink_install': False, 'test_result_base': None}
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'cmake_args' from command line to 'None'
+[2.720s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'cmake_target' from command line to 'None'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.721s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.722s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.722s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_description', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur/nanosaur_description', 'symlink_install': False, 'test_result_base': None}
+[2.728s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'cmake_args' from command line to 'None'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'cmake_target' from command line to 'None'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'cmake_clean_cache' from command line to 'False'
+[2.729s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'cmake_clean_first' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'cmake_force_configure' from command line to 'False'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'ament_cmake_args' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'catkin_cmake_args' from command line to 'None'
+[2.730s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_emotion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.730s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_emotion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_emotion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_emotion', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_emotion', 'symlink_install': False, 'test_result_base': None}
+[2.737s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'cmake_args' from command line to 'None'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'cmake_target' from command line to 'None'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[2.738s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[2.739s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.740s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_hardware', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_hardware', 'symlink_install': False, 'test_result_base': None}
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'cmake_args' from command line to 'None'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'cmake_target' from command line to 'None'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.747s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.748s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.748s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.748s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.748s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.748s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_msgs', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur/nanosaur_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.755s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'cmake_args' from command line to 'None'
+[2.755s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'cmake_target' from command line to 'None'
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[2.756s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[2.757s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.757s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_simulations', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_simulations/nanosaur_simulations', 'symlink_install': False, 'test_result_base': None}
+[2.764s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'cmake_args' from command line to 'None'
+[2.764s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'cmake_target' from command line to 'None'
+[2.764s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.764s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[2.764s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[2.765s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.766s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_worlds', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_simulations/nanosaur_worlds', 'symlink_install': False, 'test_result_base': None}
+[2.772s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'cmake_args' from command line to 'None'
+[2.772s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'cmake_target' from command line to 'None'
+[2.772s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'cmake_clean_first' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'cmake_force_configure' from command line to 'False'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'ament_cmake_args' from command line to 'None'
+[2.773s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[2.774s] Level 5:colcon.colcon_core.verb:set package 'ros2_system_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.774s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_system_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/ros2_system_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/ros2_system_manager', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/ros2_system_manager', 'symlink_install': False, 'test_result_base': None}
+[2.780s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[2.781s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[2.782s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[2.782s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[2.782s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[2.782s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.782s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/ros2_teleop_keyboard', 'symlink_install': False, 'test_result_base': None}
+[2.789s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'cmake_args' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'cmake_target' from command line to 'None'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.790s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.791s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.792s] Level 5:colcon.colcon_core.verb:set package 'webrtc_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.792s] DEBUG:colcon.colcon_core.verb:Building package 'webrtc_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/webrtc_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/webrtc_pkg', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/rb_nanosaur/webrtc_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.799s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'cmake_args' from command line to 'None'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'cmake_target' from command line to 'None'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'cmake_clean_cache' from command line to 'False'
+[2.800s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'cmake_clean_first' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'cmake_force_configure' from command line to 'False'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'ament_cmake_args' from command line to 'None'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'catkin_cmake_args' from command line to 'None'
+[2.801s] Level 5:colcon.colcon_core.verb:set package 'jetson_stats_wrapper' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.801s] DEBUG:colcon.colcon_core.verb:Building package 'jetson_stats_wrapper' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/jetson_stats_wrapper', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/jetson_stats_wrapper', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_wrapper', 'symlink_install': False, 'test_result_base': None}
+[2.808s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'cmake_args' from command line to 'None'
+[2.809s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'cmake_target' from command line to 'None'
+[2.809s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.809s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'cmake_clean_cache' from command line to 'False'
+[2.809s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'cmake_clean_first' from command line to 'False'
+[2.809s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'cmake_force_configure' from command line to 'False'
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'ament_cmake_args' from command line to 'None'
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'catkin_cmake_args' from command line to 'None'
+[2.810s] Level 5:colcon.colcon_core.verb:set package 'nanosaur' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.810s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur/nanosaur', 'symlink_install': False, 'test_result_base': None}
+[2.817s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'cmake_args' from command line to 'None'
+[2.818s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'cmake_target' from command line to 'None'
+[2.818s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.818s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'cmake_clean_cache' from command line to 'False'
+[2.818s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'cmake_clean_first' from command line to 'False'
+[2.818s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'cmake_force_configure' from command line to 'False'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'ament_cmake_args' from command line to 'None'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'catkin_cmake_args' from command line to 'None'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.819s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_base', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_robot/nanosaur_base', 'symlink_install': False, 'test_result_base': None}
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'cmake_args' from command line to 'None'
+[2.826s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'cmake_target' from command line to 'None'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[2.827s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[2.828s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.828s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_gazebo', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_simulations/nanosaur_gazebo', 'symlink_install': False, 'test_result_base': None}
+[2.835s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'cmake_args' from command line to 'None'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'cmake_target' from command line to 'None'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'cmake_clean_cache' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'cmake_clean_first' from command line to 'False'
+[2.836s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'cmake_force_configure' from command line to 'False'
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'ament_cmake_args' from command line to 'None'
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'catkin_cmake_args' from command line to 'None'
+[2.837s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_ignition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.837s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_ignition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_ignition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_ignition', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_simulations/nanosaur_ignition', 'symlink_install': False, 'test_result_base': None}
+[2.844s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'cmake_args' from command line to 'None'
+[2.845s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'cmake_target' from command line to 'None'
+[2.845s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.845s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.845s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'cmake_clean_first' from command line to 'False'
+[2.846s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'cmake_force_configure' from command line to 'False'
+[2.846s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'ament_cmake_args' from command line to 'None'
+[2.846s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.846s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_isaac_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.846s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_isaac_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_isaac_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_isaac_sim', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_simulations/nanosaur_isaac_sim', 'symlink_install': False, 'test_result_base': None}
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'cmake_args' from command line to 'None'
+[2.853s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'cmake_target' from command line to 'None'
+[2.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'cmake_clean_cache' from command line to 'False'
+[2.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'cmake_clean_first' from command line to 'False'
+[2.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'cmake_force_configure' from command line to 'False'
+[2.854s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'ament_cmake_args' from command line to 'None'
+[2.855s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'catkin_cmake_args' from command line to 'None'
+[2.855s] Level 5:colcon.colcon_core.verb:set package 'ros2_jetson_stats' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.855s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_jetson_stats' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/ros2_jetson_stats', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/ros2_jetson_stats', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/ros2_jetson_stats/ros2_jetson_stats', 'symlink_install': False, 'test_result_base': None}
+[2.862s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'cmake_args' from command line to 'None'
+[2.862s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'cmake_target' from command line to 'None'
+[2.862s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.862s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.863s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.864s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_bringup', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_robot/nanosaur_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.870s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'cmake_args' from command line to 'None'
+[2.870s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'cmake_target' from command line to 'None'
+[2.871s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.871s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[2.871s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'cmake_clean_first' from command line to 'False'
+[2.871s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'cmake_force_configure' from command line to 'False'
+[2.871s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'ament_cmake_args' from command line to 'None'
+[2.872s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[2.872s] Level 5:colcon.colcon_core.verb:set package 'nanosaur_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.872s] DEBUG:colcon.colcon_core.verb:Building package 'nanosaur_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros_ws/build/nanosaur_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros_ws/install/nanosaur_robot', 'merge_install': False, 'path': '/home/jetson/ros_ws/src/nanosaur_robot/nanosaur_robot', 'symlink_install': False, 'test_result_base': None}
+[2.876s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.897s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.899s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros_ws/src/nanosaur/nanosaur_control' with build type 'ament_cmake'
+[2.900s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros_ws/src/nanosaur/nanosaur_control'
+[2.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.934s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.957s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros_ws/src/nanosaur/nanosaur_description' with build type 'ament_cmake'
+[2.959s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros_ws/src/nanosaur/nanosaur_description'
+[2.969s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.969s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.990s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs' with build type 'ament_cmake'
+[2.991s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs'
+[3.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.031s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros_ws/src/nanosaur/nanosaur_msgs' with build type 'ament_cmake'
+[3.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros_ws/src/nanosaur/nanosaur_msgs'
+[3.043s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.044s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_control': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_control -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_control
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_description -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description
+[3.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/jetson_stats_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs
+[3.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_msgs
+[5.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_description -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description
+[5.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description -- -j4 -l4
+[5.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description -- -j4 -l4
+[6.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description --target install -- -j4 -l4
+[6.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nanosaur_description)
+[6.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description --target install -- -j4 -l4
+[7.020s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description' for CMake module files
+[7.024s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description' for CMake config files
+[7.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('nanosaur_description', 'cmake_prefix_path')
+[7.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/hook/cmake_prefix_path.ps1'
+[7.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/hook/cmake_prefix_path.dsv'
+[7.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/hook/cmake_prefix_path.sh'
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/bin'
+[7.053s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/lib/pkgconfig/nanosaur_description.pc'
+[7.054s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/lib/python3.6/site-packages'
+[7.057s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/bin'
+[7.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.ps1'
+[7.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.dsv'
+[7.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.sh'
+[7.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.bash'
+[7.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.zsh'
+[7.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros_ws/install/nanosaur_description/share/colcon-core/packages/nanosaur_description)
+[7.260s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nanosaur_description)
+[7.281s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description' for CMake module files
+[7.291s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description' for CMake config files
+[7.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('nanosaur_description', 'cmake_prefix_path')
+[7.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/hook/cmake_prefix_path.ps1'
+[7.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/hook/cmake_prefix_path.dsv'
+[7.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/hook/cmake_prefix_path.sh'
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/bin'
+[7.325s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/lib/pkgconfig/nanosaur_description.pc'
+[7.327s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/lib/python3.6/site-packages'
+[7.328s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_description/bin'
+[7.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.ps1'
+[7.342s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.dsv'
+[7.345s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.sh'
+[7.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.bash'
+[7.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.zsh'
+[7.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros_ws/install/nanosaur_description/share/colcon-core/packages/nanosaur_description)
+[7.363s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg' with build type 'ament_cmake'
+[7.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg'
+[7.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.392s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.457s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/cpp_first_pkg
+[11.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_control -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_control
+[11.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_control': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control -- -j4 -l4
+[11.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control -- -j4 -l4
+[12.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_control': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control --target install -- -j4 -l4
+[12.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nanosaur_control)
+[12.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control --target install -- -j4 -l4
+[12.754s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control' for CMake module files
+[12.758s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control' for CMake config files
+[12.759s] Level 1:colcon.colcon_core.shell:create_environment_hook('nanosaur_control', 'cmake_prefix_path')
+[12.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/hook/cmake_prefix_path.ps1'
+[12.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/hook/cmake_prefix_path.dsv'
+[12.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/hook/cmake_prefix_path.sh'
+[12.810s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/bin'
+[12.811s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/lib/pkgconfig/nanosaur_control.pc'
+[12.812s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/lib/python3.6/site-packages'
+[12.813s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/bin'
+[12.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.ps1'
+[12.824s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.dsv'
+[12.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.sh'
+[12.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.bash'
+[12.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.zsh'
+[12.832s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros_ws/install/nanosaur_control/share/colcon-core/packages/nanosaur_control)
+[12.936s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nanosaur_control)
+[12.949s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control' for CMake module files
+[12.953s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control' for CMake config files
+[12.954s] Level 1:colcon.colcon_core.shell:create_environment_hook('nanosaur_control', 'cmake_prefix_path')
+[12.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/hook/cmake_prefix_path.ps1'
+[12.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/hook/cmake_prefix_path.dsv'
+[12.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/hook/cmake_prefix_path.sh'
+[12.970s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/bin'
+[12.970s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/lib/pkgconfig/nanosaur_control.pc'
+[12.971s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/lib/python3.6/site-packages'
+[12.973s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_control/bin'
+[12.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.ps1'
+[12.987s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.dsv'
+[13.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.sh'
+[13.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.bash'
+[13.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.zsh'
+[13.372s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros_ws/install/nanosaur_control/share/colcon-core/packages/nanosaur_control)
+[13.377s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera' with build type 'ament_cmake'
+[13.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera'
+[13.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera
+[16.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/jetson_stats_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs
+[16.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/jetson_stats_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/jetson_stats_msgs -- -j4 -l4
+[19.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/cpp_first_pkg
+[19.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg -- -j4 -l4
+[19.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_msgs
+[19.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros_ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_msgs -- -j4 -l4
+[109.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera
+[110.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nanosaur_camera)
+[110.316s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_camera' for CMake module files
+[110.335s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_camera' for CMake config files
+[110.420s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_camera/bin'
+[110.426s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_camera/lib/pkgconfig/nanosaur_camera.pc'
+[110.442s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_camera/lib/python3.6/site-packages'
+[110.443s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros_ws/install/nanosaur_camera/bin'
+[110.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_camera/share/nanosaur_camera/package.ps1'
+[110.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros_ws/install/nanosaur_camera/share/nanosaur_camera/package.dsv'
+[110.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_camera/share/nanosaur_camera/package.sh'
+[110.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_camera/share/nanosaur_camera/package.bash'
+[110.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros_ws/install/nanosaur_camera/share/nanosaur_camera/package.zsh'
+[110.640s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros_ws/install/nanosaur_camera/share/colcon-core/packages/nanosaur_camera)
+[147.055s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[147.087s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[147.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[147.090s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[147.239s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[147.240s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[147.241s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[147.468s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[147.494s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros_ws/install/local_setup.ps1'
+[147.502s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros_ws/install/_local_setup_util_ps1.py'
+[147.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros_ws/install/setup.ps1'
+[147.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros_ws/install/local_setup.sh'
+[147.541s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros_ws/install/_local_setup_util_sh.py'
+[147.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros_ws/install/setup.sh'
+[147.557s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros_ws/install/local_setup.bash'
+[147.561s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros_ws/install/setup.bash'
+[147.570s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros_ws/install/local_setup.zsh'
+[147.576s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros_ws/install/setup.zsh'

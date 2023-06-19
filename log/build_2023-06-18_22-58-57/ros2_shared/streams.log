@@ -1,0 +1,7 @@
+[0.072s] Invoking command in '/home/jetson/ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/ros2_shared
+[0.454s] CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.455s]   CMake 3.12 or higher is required.  You are running version 3.10.2
+[0.455s] 
+[0.456s] 
+[0.457s] -- Configuring incomplete, errors occurred!
+[0.469s] Invoked command in '/home/jetson/ros_ws/build/ros2_shared' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/ros2_shared

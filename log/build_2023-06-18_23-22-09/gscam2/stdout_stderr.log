@@ -1,0 +1,22 @@
+[ 11%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[ 33%] Built target subscriber_node
+[ 44%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+ #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+ #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+CMakeFiles/gscam_node.dir/build.make:62: recipe for target 'CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o' failed
+CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed
+make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1
+make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+CMakeFiles/Makefile2:206: recipe for target 'CMakeFiles/gscam_node.dir/all' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed
+make: *** [all] Error 2
+Makefile:140: recipe for target 'all' failed

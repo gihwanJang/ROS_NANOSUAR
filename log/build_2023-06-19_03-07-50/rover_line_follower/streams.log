@@ -1,0 +1,28 @@
+[11.950s] Invoking command in '/home/jetson/ros_ws/build/rover_line_follower': PYTHONPATH=/home/jetson/ros_ws/build/rover_line_follower/prefix_override:/home/jetson/ros_ws/install/rover_line_follower/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros_ws/build/rover_line_follower/build --no-deps install_data
+[13.729s] running develop
+[13.735s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[13.736s]   EasyInstallDeprecationWarning,
+[13.744s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[13.745s]   setuptools.SetuptoolsDeprecationWarning,
+[14.040s] /home/jetson/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[14.041s]   PkgResourcesDeprecationWarning,
+[14.511s] running egg_info
+[14.512s] writing rover_line_follower.egg-info/PKG-INFO
+[14.513s] writing dependency_links to rover_line_follower.egg-info/dependency_links.txt
+[14.521s] writing entry points to rover_line_follower.egg-info/entry_points.txt
+[14.521s] writing requirements to rover_line_follower.egg-info/requires.txt
+[14.522s] writing top-level names to rover_line_follower.egg-info/top_level.txt
+[14.533s] reading manifest file 'rover_line_follower.egg-info/SOURCES.txt'
+[14.540s] writing manifest file 'rover_line_follower.egg-info/SOURCES.txt'
+[14.547s] running build_ext
+[14.548s] Creating /home/jetson/ros_ws/install/rover_line_follower/lib/python3.6/site-packages/rover-line-follower.egg-link (link to .)
+[14.552s] Installing rover_line_follower = rover_line_follower.rover_line_follower:mainimage_pub script to /home/jetson/ros_ws/install/rover_line_follower/lib/rover_line_follower
+[14.554s] 
+[14.556s] Installed /home/jetson/ros_ws/build/rover_line_follower
+[14.557s] running install_data
+[14.558s] creating /home/jetson/ros_ws/install/rover_line_follower/share/ament_index
+[14.559s] creating /home/jetson/ros_ws/install/rover_line_follower/share/ament_index/resource_index
+[14.559s] creating /home/jetson/ros_ws/install/rover_line_follower/share/ament_index/resource_index/packages
+[14.560s] copying resource/rover_line_follower -> /home/jetson/ros_ws/install/rover_line_follower/share/ament_index/resource_index/packages
+[14.561s] copying package.xml -> /home/jetson/ros_ws/install/rover_line_follower/share/rover_line_follower
+[14.690s] Invoked command in '/home/jetson/ros_ws/build/rover_line_follower' returned '0': PYTHONPATH=/home/jetson/ros_ws/build/rover_line_follower/prefix_override:/home/jetson/ros_ws/install/rover_line_follower/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros_ws/build/rover_line_follower/build --no-deps install_data

@@ -1,0 +1,2 @@
+
+string power_mode

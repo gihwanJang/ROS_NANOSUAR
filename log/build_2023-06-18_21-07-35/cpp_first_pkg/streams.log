@@ -1,0 +1,66 @@
+[0.093s] Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/cpp_first_pkg
+[0.422s] -- The C compiler identification is GNU 7.5.0
+[0.716s] -- The CXX compiler identification is GNU 7.5.0
+[0.742s] -- Check for working C compiler: /usr/bin/cc
+[1.137s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.139s] -- Detecting C compiler ABI info
+[1.498s] -- Detecting C compiler ABI info - done
+[1.546s] -- Detecting C compile features
+[2.829s] -- Detecting C compile features - done
+[2.846s] -- Check for working CXX compiler: /usr/bin/c++
+[3.275s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.276s] -- Detecting CXX compiler ABI info
+[3.696s] -- Detecting CXX compiler ABI info - done
+[3.733s] -- Detecting CXX compile features
+[6.268s] -- Detecting CXX compile features - done
+[6.292s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[6.503s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[6.505s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.169s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[8.286s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[8.525s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[8.533s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.544s] -- Looking for pthread.h
+[9.036s] -- Looking for pthread.h - found
+[9.038s] -- Looking for pthread_create
+[9.609s] -- Looking for pthread_create - not found
+[9.610s] -- Looking for pthread_create in pthreads
+[10.082s] -- Looking for pthread_create in pthreads - not found
+[10.085s] -- Looking for pthread_create in pthread
+[10.584s] -- Looking for pthread_create in pthread - found
+[10.596s] -- Found Threads: TRUE  
+[10.849s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[11.835s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[11.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[11.843s] -- Configured cppcheck include dirs: 
+[11.848s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[11.851s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.855s] -- Added test 'lint_cmake' to check CMake code style
+[11.858s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[11.863s] -- Added test 'uncrustify' to check C / C++ code style
+[11.867s] -- Added test 'xmllint' to check XML markup files
+[11.879s] -- Configuring done
+[12.242s] -- Generating done
+[12.259s] -- Build files have been written to: /home/jetson/ros_ws/build/cpp_first_pkg
+[12.317s] Invoked command in '/home/jetson/ros_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/cpp_first_pkg
+[12.321s] Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg -- -j4 -l4
+[12.716s] [35m[1mScanning dependencies of target simple_loop_node[0m
+[12.726s] [35m[1mScanning dependencies of target lifecycle_node[0m
+[12.732s] [35m[1mScanning dependencies of target simple_oop_node[0m
+[12.882s] [35m[1mScanning dependencies of target simple_node[0m
+[13.290s] [ 20%] [32mBuilding CXX object CMakeFiles/simple_oop_node.dir/src/simple_oop.cpp.o[0m
+[13.291s] [ 30%] [32mBuilding CXX object CMakeFiles/simple_loop_node.dir/src/simple_loop.cpp.o[0m
+[13.294s] [ 30%] [32mBuilding CXX object CMakeFiles/lifecycle_node.dir/src/lifecycle.cpp.o[0m
+[13.302s] [ 40%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/simple.cpp.o[0m
+[98.176s] [ 50%] [32m[1mLinking CXX executable simple_node[0m
+[98.855s] [ 60%] [32m[1mLinking CXX executable simple_loop_node[0m
+[99.481s] [ 60%] Built target simple_loop_node
+[99.504s] [ 60%] Built target simple_node
+[99.526s] [ 70%] [32m[1mLinking CXX executable simple_oop_node[0m
+[99.592s] [ 80%] [32m[1mLinking CXX executable lifecycle_node[0m
+[100.794s] [ 80%] Built target lifecycle_node
+[100.936s] [ 80%] Built target simple_oop_node
+[101.133s] [35m[1mScanning dependencies of target simple_without_oop_node[0m
+[101.608s] [ 90%] [32mBuilding CXX object CMakeFiles/simple_without_oop_node.dir/src/simple_without_oop.cpp.o[0m
+[108.211s] [100%] [32m[1mLinking CXX executable simple_without_oop_node[0m
+[108.694s] [100%] Built target simple_without_oop_node

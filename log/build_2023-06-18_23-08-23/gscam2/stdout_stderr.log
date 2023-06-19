@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found camera_calibration_parsers: 2.2.1 (/opt/ros/eloquent/share/camera_calibration_parsers/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+-- Found class_loader: 1.4.1 (/opt/ros/eloquent/share/class_loader/cmake)
+-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+-- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+-- Found rclpy: 0.8.5 (/opt/ros/eloquent/share/rclpy/cmake)
+-- Found ros2_shared: 0.1.0 (/home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/ros_ws/build/gscam2
+[35m[1mScanning dependencies of target gscam_main[0m
+[35m[1mScanning dependencies of target gscam_node[0m
+[35m[1mScanning dependencies of target subscriber_node[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_main.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+ #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/gscam_node.dir/build.make:62: recipe for target 'CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o' failed
+make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1
+CMakeFiles/Makefile2:206: recipe for target 'CMakeFiles/gscam_node.dir/all' failed
+make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+ #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed
+make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed
+make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+[ 55%] [32m[1mLinking CXX shared library libsubscriber_node.so[0m
+[ 55%] Built target subscriber_node
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -1,0 +1,51 @@
+[0.171s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_control': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_control -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_control
+[0.895s] -- The C compiler identification is GNU 7.5.0
+[1.427s] -- The CXX compiler identification is GNU 7.5.0
+[1.463s] -- Check for working C compiler: /usr/bin/cc
+[1.801s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.803s] -- Detecting C compiler ABI info
+[2.171s] -- Detecting C compiler ABI info - done
+[2.197s] -- Detecting C compile features
+[3.402s] -- Detecting C compile features - done
+[3.420s] -- Check for working CXX compiler: /usr/bin/c++
+[3.842s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.843s] -- Detecting CXX compiler ABI info
+[4.357s] -- Detecting CXX compiler ABI info - done
+[4.393s] -- Detecting CXX compile features
+[6.387s] -- Detecting CXX compile features - done
+[6.418s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[6.574s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[6.575s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.651s] -- Configuring done
+[8.663s] -- Generating done
+[8.670s] -- Build files have been written to: /home/jetson/ros_ws/build/nanosaur_control
+[8.694s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_control -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_control
+[8.703s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_control': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control -- -j4 -l4
+[8.932s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control -- -j4 -l4
+[9.115s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_control': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control --target install -- -j4 -l4
+[9.349s] [36mInstall the project...[0m
+[9.387s] -- Install configuration: ""
+[9.388s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/launch
+[9.389s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/launch/teleop.launch.py
+[9.415s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/launch/twist_control.launch.py
+[9.532s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config
+[9.533s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/twist_mux_topics.yaml
+[9.562s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/joystick.yaml
+[9.640s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/ps3.nanosaur.yml
+[9.732s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/twist_mux_locks.yaml
+[9.788s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/ament_index/resource_index/package_run_dependencies/nanosaur_control
+[9.789s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/ament_index/resource_index/parent_prefix_path/nanosaur_control
+[9.790s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/ament_prefix_path.sh
+[9.791s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/ament_prefix_path.dsv
+[9.792s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/path.sh
+[9.793s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/path.dsv
+[9.794s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.bash
+[9.795s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.sh
+[9.796s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.zsh
+[9.798s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.dsv
+[9.799s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.dsv
+[9.799s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/ament_index/resource_index/packages/nanosaur_control
+[9.800s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/cmake/nanosaur_controlConfig.cmake
+[9.801s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/cmake/nanosaur_controlConfig-version.cmake
+[9.802s] -- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.xml
+[9.815s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_control --target install -- -j4 -l4

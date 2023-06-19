@@ -1,0 +1,432 @@
+[0.000000] (-) TimerEvent: {}
+[0.000529] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.005773] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.005964] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.006116] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.006268] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.006413] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.006930] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.007112] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.009585] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.010060] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.010244] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.012788] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.013271] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.013451] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.014500] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.014835] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.015045] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.015227] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.017790] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.020155] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.020420] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.020666] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.020886] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.021108] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/jetson/ros_ws/install/ros2_shared')])}
+[0.021346] (gscam2) JobStarted: {'identifier': 'gscam2'}
+[0.078291] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'cmake'}
+[0.081540] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/gscam2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/gscam2'], 'cwd': '/home/jetson/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib:/home/jetson/ros_ws/install/jetson_stats_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/ros_ws/install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/gscam2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages:/home/jetson/ros_ws/build/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:/home/jetson/ros_ws/install/jetson_stats_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent')]), 'shell': False}
+[0.100511] (-) TimerEvent: {}
+[0.160198] (gscam2) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.200699] (-) TimerEvent: {}
+[0.277181] (gscam2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.300918] (-) TimerEvent: {}
+[0.401754] (-) TimerEvent: {}
+[0.502599] (-) TimerEvent: {}
+[0.603728] (-) TimerEvent: {}
+[0.704475] (-) TimerEvent: {}
+[0.805285] (-) TimerEvent: {}
+[0.906034] (-) TimerEvent: {}
+[1.006821] (-) TimerEvent: {}
+[1.107576] (-) TimerEvent: {}
+[1.208322] (-) TimerEvent: {}
+[1.309103] (-) TimerEvent: {}
+[1.409891] (-) TimerEvent: {}
+[1.510772] (-) TimerEvent: {}
+[1.520674] (gscam2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.546538] (gscam2) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 2.2.1 (/opt/ros/eloquent/share/camera_calibration_parsers/cmake)\n'}
+[1.600536] (gscam2) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.610953] (-) TimerEvent: {}
+[1.711686] (-) TimerEvent: {}
+[1.730380] (gscam2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.736718] (gscam2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.811916] (-) TimerEvent: {}
+[1.912714] (-) TimerEvent: {}
+[2.013506] (-) TimerEvent: {}
+[2.025555] (gscam2) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[2.035583] (gscam2) StdoutLine: {'line': b'-- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)\n'}
+[2.041663] (gscam2) StdoutLine: {'line': b'-- Found class_loader: 1.4.1 (/opt/ros/eloquent/share/class_loader/cmake)\n'}
+[2.042840] (gscam2) StdoutLine: {'line': b'-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)\n'}
+[2.058982] (gscam2) StdoutLine: {'line': b'-- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)\n'}
+[2.113714] (-) TimerEvent: {}
+[2.123331] (gscam2) StdoutLine: {'line': b'-- Found rclpy: 0.8.5 (/opt/ros/eloquent/share/rclpy/cmake)\n'}
+[2.124406] (gscam2) StdoutLine: {'line': b'-- Found ros2_shared: 0.1.0 (/home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake)\n'}
+[2.213941] (-) TimerEvent: {}
+[2.314768] (-) TimerEvent: {}
+[2.415527] (-) TimerEvent: {}
+[2.516352] (-) TimerEvent: {}
+[2.617160] (-) TimerEvent: {}
+[2.717900] (-) TimerEvent: {}
+[2.818707] (-) TimerEvent: {}
+[2.919447] (-) TimerEvent: {}
+[3.020218] (-) TimerEvent: {}
+[3.101446] (gscam2) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.120414] (-) TimerEvent: {}
+[3.221233] (-) TimerEvent: {}
+[3.322069] (-) TimerEvent: {}
+[3.369875] (gscam2) StdoutLine: {'line': b'-- Generating done\n'}
+[3.377713] (gscam2) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/gscam2\n'}
+[3.389640] (gscam2) CommandEnded: {'returncode': 0}
+[3.393345] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'build'}
+[3.397630] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/gscam2', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib:/home/jetson/ros_ws/install/jetson_stats_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/ros_ws/install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/gscam2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages:/home/jetson/ros_ws/build/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:/home/jetson/ros_ws/install/jetson_stats_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent')]), 'shell': False}
+[3.422310] (-) TimerEvent: {}
+[3.523382] (-) TimerEvent: {}
+[3.571837] (gscam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam_main\x1b[0m\n'}
+[3.574961] (gscam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam_node\x1b[0m\n'}
+[3.594166] (gscam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target subscriber_node\x1b[0m\n'}
+[3.623563] (-) TimerEvent: {}
+[3.724411] (-) TimerEvent: {}
+[3.825143] (-) TimerEvent: {}
+[3.870901] (gscam2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[3.925352] (-) TimerEvent: {}
+[3.958860] (gscam2) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_main.cpp.o\x1b[0m\n'}
+[3.992997] (gscam2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o\x1b[0m\n'}
+[4.007493] (gscam2) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o\x1b[0m\n'}
+[4.025536] (-) TimerEvent: {}
+[4.126366] (-) TimerEvent: {}
+[4.227515] (-) TimerEvent: {}
+[4.328332] (-) TimerEvent: {}
+[4.429222] (-) TimerEvent: {}
+[4.530232] (-) TimerEvent: {}
+[4.634668] (-) TimerEvent: {}
+[4.736124] (-) TimerEvent: {}
+[4.836940] (-) TimerEvent: {}
+[4.937737] (-) TimerEvent: {}
+[5.038524] (-) TimerEvent: {}
+[5.139466] (-) TimerEvent: {}
+[5.240265] (-) TimerEvent: {}
+[5.341179] (-) TimerEvent: {}
+[5.442088] (-) TimerEvent: {}
+[5.542905] (-) TimerEvent: {}
+[5.643646] (-) TimerEvent: {}
+[5.744410] (-) TimerEvent: {}
+[5.845183] (-) TimerEvent: {}
+[5.935187] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory\n'}
+[5.937254] (gscam2) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"camera_info_manager/camera_info_manager.hpp"\x1b[m\x1b[K\n'}
+[5.937975] (gscam2) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.938674] (gscam2) StderrLine: {'line': b'compilation terminated.\n'}
+[5.945383] (-) TimerEvent: {}
+[5.950037] (gscam2) StdoutLine: {'line': b"CMakeFiles/gscam_node.dir/build.make:62: recipe for target 'CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o' failed\n"}
+[5.951013] (gscam2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1\n'}
+[5.951712] (gscam2) StdoutLine: {'line': b"CMakeFiles/Makefile2:206: recipe for target 'CMakeFiles/gscam_node.dir/all' failed\n"}
+[5.952338] (gscam2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2\n'}
+[5.952963] (gscam2) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[5.985946] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory\n'}
+[5.986893] (gscam2) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"camera_info_manager/camera_info_manager.hpp"\x1b[m\x1b[K\n'}
+[5.987574] (gscam2) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.988987] (gscam2) StderrLine: {'line': b'compilation terminated.\n'}
+[5.995841] (gscam2) StdoutLine: {'line': b"CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed\n"}
+[5.996712] (gscam2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1\n'}
+[5.997363] (gscam2) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[6.046059] (-) TimerEvent: {}
+[6.147878] (-) TimerEvent: {}
+[6.248686] (-) TimerEvent: {}
+[6.349550] (-) TimerEvent: {}
+[6.450428] (-) TimerEvent: {}
+[6.551276] (-) TimerEvent: {}
+[6.652083] (-) TimerEvent: {}
+[6.753116] (-) TimerEvent: {}
+[6.853944] (-) TimerEvent: {}
+[6.954879] (-) TimerEvent: {}
+[7.055773] (-) TimerEvent: {}
+[7.156646] (-) TimerEvent: {}
+[7.257530] (-) TimerEvent: {}
+[7.358381] (-) TimerEvent: {}
+[7.459284] (-) TimerEvent: {}
+[7.560148] (-) TimerEvent: {}
+[7.661388] (-) TimerEvent: {}
+[7.762341] (-) TimerEvent: {}
+[7.863253] (-) TimerEvent: {}
+[7.964090] (-) TimerEvent: {}
+[8.065303] (-) TimerEvent: {}
+[8.166444] (-) TimerEvent: {}
+[8.267687] (-) TimerEvent: {}
+[8.368651] (-) TimerEvent: {}
+[8.469948] (-) TimerEvent: {}
+[8.570871] (-) TimerEvent: {}
+[8.672286] (-) TimerEvent: {}
+[8.773097] (-) TimerEvent: {}
+[8.874059] (-) TimerEvent: {}
+[8.974995] (-) TimerEvent: {}
+[9.076568] (-) TimerEvent: {}
+[9.177552] (-) TimerEvent: {}
+[9.306816] (-) TimerEvent: {}
+[9.407626] (-) TimerEvent: {}
+[9.508353] (-) TimerEvent: {}
+[9.609219] (-) TimerEvent: {}
+[9.709973] (-) TimerEvent: {}
+[9.810807] (-) TimerEvent: {}
+[9.911573] (-) TimerEvent: {}
+[10.012414] (-) TimerEvent: {}
+[10.113217] (-) TimerEvent: {}
+[10.215380] (-) TimerEvent: {}
+[10.318136] (-) TimerEvent: {}
+[10.418967] (-) TimerEvent: {}
+[10.519845] (-) TimerEvent: {}
+[10.628976] (-) TimerEvent: {}
+[10.730347] (-) TimerEvent: {}
+[10.831161] (-) TimerEvent: {}
+[10.931989] (-) TimerEvent: {}
+[11.032895] (-) TimerEvent: {}
+[11.133745] (-) TimerEvent: {}
+[11.234698] (-) TimerEvent: {}
+[11.335660] (-) TimerEvent: {}
+[11.436430] (-) TimerEvent: {}
+[11.537185] (-) TimerEvent: {}
+[11.638022] (-) TimerEvent: {}
+[11.738968] (-) TimerEvent: {}
+[11.839813] (-) TimerEvent: {}
+[11.940576] (-) TimerEvent: {}
+[12.041420] (-) TimerEvent: {}
+[12.142238] (-) TimerEvent: {}
+[12.243070] (-) TimerEvent: {}
+[12.343837] (-) TimerEvent: {}
+[12.444606] (-) TimerEvent: {}
+[12.545453] (-) TimerEvent: {}
+[12.646244] (-) TimerEvent: {}
+[12.747023] (-) TimerEvent: {}
+[12.847764] (-) TimerEvent: {}
+[12.948487] (-) TimerEvent: {}
+[13.049228] (-) TimerEvent: {}
+[13.149953] (-) TimerEvent: {}
+[13.250739] (-) TimerEvent: {}
+[13.351495] (-) TimerEvent: {}
+[13.452251] (-) TimerEvent: {}
+[13.553499] (-) TimerEvent: {}
+[13.654219] (-) TimerEvent: {}
+[13.754995] (-) TimerEvent: {}
+[13.855898] (-) TimerEvent: {}
+[13.958053] (-) TimerEvent: {}
+[14.058917] (-) TimerEvent: {}
+[14.160277] (-) TimerEvent: {}
+[14.261140] (-) TimerEvent: {}
+[17.753636] (-) TimerEvent: {}
+[17.854488] (-) TimerEvent: {}
+[17.955322] (-) TimerEvent: {}
+[18.056091] (-) TimerEvent: {}
+[18.156788] (-) TimerEvent: {}
+[18.257485] (-) TimerEvent: {}
+[18.358199] (-) TimerEvent: {}
+[18.458948] (-) TimerEvent: {}
+[18.559907] (-) TimerEvent: {}
+[18.660597] (-) TimerEvent: {}
+[18.761383] (-) TimerEvent: {}
+[18.862092] (-) TimerEvent: {}
+[18.962771] (-) TimerEvent: {}
+[19.063474] (-) TimerEvent: {}
+[19.164233] (-) TimerEvent: {}
+[19.264975] (-) TimerEvent: {}
+[20.211636] (-) TimerEvent: {}
+[20.312391] (-) TimerEvent: {}
+[20.413099] (-) TimerEvent: {}
+[20.513827] (-) TimerEvent: {}
+[20.614596] (-) TimerEvent: {}
+[20.715377] (-) TimerEvent: {}
+[20.816062] (-) TimerEvent: {}
+[20.916819] (-) TimerEvent: {}
+[21.017600] (-) TimerEvent: {}
+[21.118366] (-) TimerEvent: {}
+[21.219121] (-) TimerEvent: {}
+[21.319900] (-) TimerEvent: {}
+[21.420660] (-) TimerEvent: {}
+[21.521403] (-) TimerEvent: {}
+[21.622155] (-) TimerEvent: {}
+[21.724291] (-) TimerEvent: {}
+[21.825055] (-) TimerEvent: {}
+[21.926030] (-) TimerEvent: {}
+[22.026927] (-) TimerEvent: {}
+[22.127743] (-) TimerEvent: {}
+[22.228622] (-) TimerEvent: {}
+[22.329596] (-) TimerEvent: {}
+[22.430396] (-) TimerEvent: {}
+[22.531328] (-) TimerEvent: {}
+[22.632222] (-) TimerEvent: {}
+[22.733164] (-) TimerEvent: {}
+[22.834040] (-) TimerEvent: {}
+[22.934938] (-) TimerEvent: {}
+[23.035778] (-) TimerEvent: {}
+[23.136585] (-) TimerEvent: {}
+[23.237368] (-) TimerEvent: {}
+[23.338135] (-) TimerEvent: {}
+[23.438935] (-) TimerEvent: {}
+[23.539641] (-) TimerEvent: {}
+[23.640331] (-) TimerEvent: {}
+[23.741108] (-) TimerEvent: {}
+[23.841833] (-) TimerEvent: {}
+[23.942681] (-) TimerEvent: {}
+[24.043525] (-) TimerEvent: {}
+[24.144240] (-) TimerEvent: {}
+[24.245041] (-) TimerEvent: {}
+[24.345849] (-) TimerEvent: {}
+[24.464259] (-) TimerEvent: {}
+[24.565059] (-) TimerEvent: {}
+[24.665876] (-) TimerEvent: {}
+[24.766749] (-) TimerEvent: {}
+[24.867671] (-) TimerEvent: {}
+[24.969283] (-) TimerEvent: {}
+[25.070046] (-) TimerEvent: {}
+[25.171036] (-) TimerEvent: {}
+[25.271932] (-) TimerEvent: {}
+[25.372776] (-) TimerEvent: {}
+[25.473554] (-) TimerEvent: {}
+[25.574399] (-) TimerEvent: {}
+[25.675277] (-) TimerEvent: {}
+[25.777023] (-) TimerEvent: {}
+[25.877820] (-) TimerEvent: {}
+[25.978668] (-) TimerEvent: {}
+[26.079466] (-) TimerEvent: {}
+[26.180267] (-) TimerEvent: {}
+[26.282349] (-) TimerEvent: {}
+[26.383738] (-) TimerEvent: {}
+[26.484650] (-) TimerEvent: {}
+[26.586511] (-) TimerEvent: {}
+[26.687588] (-) TimerEvent: {}
+[26.788463] (-) TimerEvent: {}
+[26.889715] (-) TimerEvent: {}
+[26.990843] (-) TimerEvent: {}
+[27.091646] (-) TimerEvent: {}
+[27.192483] (-) TimerEvent: {}
+[27.293200] (-) TimerEvent: {}
+[27.394137] (-) TimerEvent: {}
+[27.495052] (-) TimerEvent: {}
+[27.595797] (-) TimerEvent: {}
+[27.696589] (-) TimerEvent: {}
+[27.797345] (-) TimerEvent: {}
+[27.898133] (-) TimerEvent: {}
+[27.999099] (-) TimerEvent: {}
+[28.100268] (-) TimerEvent: {}
+[28.201054] (-) TimerEvent: {}
+[28.301805] (-) TimerEvent: {}
+[28.402543] (-) TimerEvent: {}
+[28.503482] (-) TimerEvent: {}
+[28.605086] (-) TimerEvent: {}
+[28.706787] (-) TimerEvent: {}
+[28.807594] (-) TimerEvent: {}
+[28.909043] (-) TimerEvent: {}
+[29.010587] (-) TimerEvent: {}
+[29.111387] (-) TimerEvent: {}
+[29.212362] (-) TimerEvent: {}
+[29.313894] (-) TimerEvent: {}
+[29.415695] (-) TimerEvent: {}
+[29.516538] (-) TimerEvent: {}
+[30.126184] (-) TimerEvent: {}
+[30.227025] (-) TimerEvent: {}
+[30.327804] (-) TimerEvent: {}
+[30.428703] (-) TimerEvent: {}
+[30.529504] (-) TimerEvent: {}
+[30.630284] (-) TimerEvent: {}
+[30.889478] (-) TimerEvent: {}
+[31.873250] (-) TimerEvent: {}
+[31.974028] (-) TimerEvent: {}
+[32.074854] (-) TimerEvent: {}
+[32.175612] (-) TimerEvent: {}
+[32.276389] (-) TimerEvent: {}
+[32.377311] (-) TimerEvent: {}
+[32.478140] (-) TimerEvent: {}
+[32.578981] (-) TimerEvent: {}
+[32.679740] (-) TimerEvent: {}
+[32.780414] (-) TimerEvent: {}
+[32.881017] (-) TimerEvent: {}
+[32.981696] (-) TimerEvent: {}
+[33.082419] (-) TimerEvent: {}
+[33.183216] (-) TimerEvent: {}
+[33.283930] (-) TimerEvent: {}
+[33.384724] (-) TimerEvent: {}
+[33.485529] (-) TimerEvent: {}
+[33.586257] (-) TimerEvent: {}
+[33.687075] (-) TimerEvent: {}
+[33.787944] (-) TimerEvent: {}
+[33.888841] (-) TimerEvent: {}
+[33.991410] (-) TimerEvent: {}
+[34.096167] (-) TimerEvent: {}
+[34.196970] (-) TimerEvent: {}
+[34.297827] (-) TimerEvent: {}
+[34.399140] (-) TimerEvent: {}
+[34.500129] (-) TimerEvent: {}
+[34.602376] (-) TimerEvent: {}
+[34.703344] (-) TimerEvent: {}
+[34.804162] (-) TimerEvent: {}
+[34.905053] (-) TimerEvent: {}
+[35.005978] (-) TimerEvent: {}
+[35.106960] (-) TimerEvent: {}
+[35.207899] (-) TimerEvent: {}
+[35.308788] (-) TimerEvent: {}
+[35.409525] (-) TimerEvent: {}
+[35.510355] (-) TimerEvent: {}
+[35.611285] (-) TimerEvent: {}
+[35.712099] (-) TimerEvent: {}
+[35.812907] (-) TimerEvent: {}
+[35.913681] (-) TimerEvent: {}
+[36.014541] (-) TimerEvent: {}
+[36.115452] (-) TimerEvent: {}
+[36.216307] (-) TimerEvent: {}
+[36.317189] (-) TimerEvent: {}
+[36.418071] (-) TimerEvent: {}
+[36.519070] (-) TimerEvent: {}
+[36.619860] (-) TimerEvent: {}
+[36.720672] (-) TimerEvent: {}
+[36.821447] (-) TimerEvent: {}
+[36.922741] (-) TimerEvent: {}
+[37.023591] (-) TimerEvent: {}
+[37.124376] (-) TimerEvent: {}
+[37.225177] (-) TimerEvent: {}
+[37.325987] (-) TimerEvent: {}
+[37.426832] (-) TimerEvent: {}
+[37.527681] (-) TimerEvent: {}
+[37.628462] (-) TimerEvent: {}
+[37.730201] (-) TimerEvent: {}
+[37.831168] (-) TimerEvent: {}
+[37.931950] (-) TimerEvent: {}
+[38.032703] (-) TimerEvent: {}
+[38.133467] (-) TimerEvent: {}
+[38.234380] (-) TimerEvent: {}
+[38.335198] (-) TimerEvent: {}
+[38.436015] (-) TimerEvent: {}
+[38.536832] (-) TimerEvent: {}
+[38.637643] (-) TimerEvent: {}
+[38.714318] (gscam2) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed\n"}
+[38.758811] (-) TimerEvent: {}
+[38.759396] (gscam2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2\n'}
+[38.859004] (-) TimerEvent: {}
+[38.959816] (-) TimerEvent: {}
+[39.060711] (-) TimerEvent: {}
+[39.161596] (-) TimerEvent: {}
+[39.262483] (-) TimerEvent: {}
+[39.363485] (-) TimerEvent: {}
+[39.464674] (-) TimerEvent: {}
+[39.565997] (-) TimerEvent: {}
+[39.666984] (-) TimerEvent: {}
+[39.767951] (-) TimerEvent: {}
+[39.868754] (-) TimerEvent: {}
+[39.969555] (-) TimerEvent: {}
+[39.996832] (gscam2) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libsubscriber_node.so\x1b[0m\n'}
+[40.069739] (-) TimerEvent: {}
+[40.170657] (-) TimerEvent: {}
+[40.271566] (-) TimerEvent: {}
+[40.372387] (-) TimerEvent: {}
+[40.473153] (-) TimerEvent: {}
+[40.574172] (-) TimerEvent: {}
+[40.675225] (-) TimerEvent: {}
+[40.776147] (-) TimerEvent: {}
+[40.876907] (-) TimerEvent: {}
+[40.977710] (-) TimerEvent: {}
+[41.078601] (-) TimerEvent: {}
+[41.093345] (gscam2) StdoutLine: {'line': b'[ 55%] Built target subscriber_node\n'}
+[41.097937] (gscam2) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[41.099242] (gscam2) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[41.123393] (gscam2) CommandEnded: {'returncode': 2}
+[41.178858] (-) TimerEvent: {}
+[41.281213] (-) TimerEvent: {}
+[41.383820] (-) TimerEvent: {}
+[41.397782] (gscam2) JobEnded: {'identifier': 'gscam2', 'rc': 2}
+[41.410263] (-) EventReactorShutdown: {}

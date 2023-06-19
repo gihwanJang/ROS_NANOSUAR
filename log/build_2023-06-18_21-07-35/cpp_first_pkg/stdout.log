@@ -1,0 +1,63 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jetson/ros_ws/build/cpp_first_pkg
+[35m[1mScanning dependencies of target simple_loop_node[0m
+[35m[1mScanning dependencies of target lifecycle_node[0m
+[35m[1mScanning dependencies of target simple_oop_node[0m
+[35m[1mScanning dependencies of target simple_node[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/simple_oop_node.dir/src/simple_oop.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/simple_loop_node.dir/src/simple_loop.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/lifecycle_node.dir/src/lifecycle.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/simple_node.dir/src/simple.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable simple_node[0m
+[ 60%] [32m[1mLinking CXX executable simple_loop_node[0m
+[ 60%] Built target simple_loop_node
+[ 60%] Built target simple_node
+[ 70%] [32m[1mLinking CXX executable simple_oop_node[0m
+[ 80%] [32m[1mLinking CXX executable lifecycle_node[0m
+[ 80%] Built target lifecycle_node
+[ 80%] Built target simple_oop_node
+[35m[1mScanning dependencies of target simple_without_oop_node[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/simple_without_oop_node.dir/src/simple_without_oop.cpp.o[0m
+[100%] [32m[1mLinking CXX executable simple_without_oop_node[0m
+[100%] Built target simple_without_oop_node

@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.005115] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.005346] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.005491] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.005609] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.005726] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.005843] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.005956] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.006073] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.006190] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.006306] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.006426] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.006559] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.006693] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.006825] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.006953] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.007077] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.007199] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.007319] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.007438] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.007556] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.007685] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.010043] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.010304] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.010678] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/jetson/ros_ws/install/ros2_shared')])}
+[0.010924] (gscam2) JobStarted: {'identifier': 'gscam2'}
+[0.092748] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'cmake'}
+[0.097551] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'build'}
+[0.101616] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/gscam2', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('GSCAM_CONFIG', "nvarguscamerasrc sensor_mode=0 ! 'video/x-raw(memory:NVMM),width=3820, height=2464, framerate=21/1, format=NV12' ! nvvidconv flip-method=0 ! 'video/x-raw,width=960, height=616' ! nvvidconv ! nvegltransform ! nveglglessink"), ('LD_LIBRARY_PATH', '/home/jetson/ros_ws/install/gscam2/lib:/home/jetson/ros_ws/install/nanosaur_msgs/lib:/home/jetson/ros_ws/install/jetson_stats_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/jetson/ros_ws/install'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/gscam2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages:/home/jetson/ros_ws/build/nanosaur_hardware:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:/home/jetson/ros_ws/install/jetson_stats_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent')]), 'shell': False}
+[0.107181] (-) TimerEvent: {}
+[0.208036] (-) TimerEvent: {}
+[0.309122] (-) TimerEvent: {}
+[0.391167] (gscam2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gscam_main\x1b[0m\n'}
+[0.409303] (-) TimerEvent: {}
+[0.510074] (-) TimerEvent: {}
+[0.581117] (gscam2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o\x1b[0m\n'}
+[0.610259] (-) TimerEvent: {}
+[0.711247] (-) TimerEvent: {}
+[0.825351] (-) TimerEvent: {}
+[0.926149] (-) TimerEvent: {}
+[1.027149] (-) TimerEvent: {}
+[1.127996] (-) TimerEvent: {}
+[1.228767] (-) TimerEvent: {}
+[1.329607] (-) TimerEvent: {}
+[1.430420] (-) TimerEvent: {}
+[1.531201] (-) TimerEvent: {}
+[1.632084] (-) TimerEvent: {}
+[1.732906] (-) TimerEvent: {}
+[1.833821] (-) TimerEvent: {}
+[1.934736] (-) TimerEvent: {}
+[2.035653] (-) TimerEvent: {}
+[2.136534] (-) TimerEvent: {}
+[2.237416] (-) TimerEvent: {}
+[2.338248] (-) TimerEvent: {}
+[2.439034] (-) TimerEvent: {}
+[2.539891] (-) TimerEvent: {}
+[2.640759] (-) TimerEvent: {}
+[2.741619] (-) TimerEvent: {}
+[2.842505] (-) TimerEvent: {}
+[2.943495] (-) TimerEvent: {}
+[3.044313] (-) TimerEvent: {}
+[3.145171] (-) TimerEvent: {}
+[3.246068] (-) TimerEvent: {}
+[3.346910] (-) TimerEvent: {}
+[3.447761] (-) TimerEvent: {}
+[3.548601] (-) TimerEvent: {}
+[3.649489] (-) TimerEvent: {}
+[3.750324] (-) TimerEvent: {}
+[3.851159] (-) TimerEvent: {}
+[3.952021] (-) TimerEvent: {}
+[4.052951] (-) TimerEvent: {}
+[4.153822] (-) TimerEvent: {}
+[4.254662] (-) TimerEvent: {}
+[4.355550] (-) TimerEvent: {}
+[4.456454] (-) TimerEvent: {}
+[4.557312] (-) TimerEvent: {}
+[4.658104] (-) TimerEvent: {}
+[4.759110] (-) TimerEvent: {}
+[4.859942] (-) TimerEvent: {}
+[4.960836] (-) TimerEvent: {}
+[5.061670] (-) TimerEvent: {}
+[5.162489] (-) TimerEvent: {}
+[5.263360] (-) TimerEvent: {}
+[5.364116] (-) TimerEvent: {}
+[5.463913] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.466370] (-) TimerEvent: {}
+[5.466863] (gscam2) StderrLine: {'line': b'   rclcpp::Publisher<sensor_msgs::msg::\x1b[01;31m\x1b[KImage\x1b[m\x1b[K>::SharedPtr camera_pub_;\n'}
+[5.467939] (gscam2) StderrLine: {'line': b'                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.468669] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.469283] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.469879] (gscam2) StderrLine: {'line': b'   rclcpp::Publisher<sensor_msgs::msg::Image\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr camera_pub_;\n'}
+[5.470430] (gscam2) StderrLine: {'line': b'                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.471002] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.471598] (gscam2) StderrLine: {'line': b'   rclcpp::Publisher<sensor_msgs::msg::Image>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K camera_pub_;\n'}
+[5.472182] (gscam2) StderrLine: {'line': b'                                               \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.485537] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.486392] (gscam2) StderrLine: {'line': b'   rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr \x1b[01;31m\x1b[Kcamera_pub_\x1b[m\x1b[K;\n'}
+[5.487085] (gscam2) StderrLine: {'line': b'                                                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.564733] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool gscam2::GSCamNode::impl::create_pipeline()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.565486] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYUV422_YUY2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::image_encodings\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.566036] (gscam2) StderrLine: {'line': b'   } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::\x1b[01;31m\x1b[KYUV422_YUY2\x1b[m\x1b[K) {\n'}
+[5.566527] (-) TimerEvent: {}
+[5.566970] (gscam2) StderrLine: {'line': b'                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.567561] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[KYUV422\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.568066] (gscam2) StderrLine: {'line': b'   } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::\x1b[01;36m\x1b[KYUV422_YUY2\x1b[m\x1b[K) {\n'}
+[5.568535] (gscam2) StderrLine: {'line': b'                                                                    \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.569124] (gscam2) StderrLine: {'line': b'                                                                    \x1b[32m\x1b[KYUV422\x1b[m\x1b[K\n'}
+[5.591722] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.592576] (gscam2) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kcamera_pub_\x1b[m\x1b[K = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1);\n'}
+[5.593328] (gscam2) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.606258] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kjpeg_pub_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.609008] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kcamera_pub_\x1b[m\x1b[K = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1);\n'}
+[5.610596] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.611724] (gscam2) StderrLine: {'line': b'     \x1b[32m\x1b[Kjpeg_pub_\x1b[m\x1b[K\n'}
+[5.612995] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.613894] (gscam2) StderrLine: {'line': b'     camera_pub_ = node_->create_publisher<sensor_msgs::msg::\x1b[01;31m\x1b[KImage\x1b[m\x1b[K>("image_raw", 1);\n'}
+[5.614707] (gscam2) StderrLine: {'line': b'                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.615415] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.616036] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::create_publisher<<expression error> >(const char [10], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.616629] (gscam2) StderrLine: {'line': b'     camera_pub_ = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.617279] (gscam2) StderrLine: {'line': b'                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.618016] (gscam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node.hpp:1114:0\x1b[m\x1b[K,\n'}
+[5.618644] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.619293] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.619854] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145\x1b[m\x1b[K,\n'}
+[5.620401] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4\x1b[m\x1b[K,\n'}
+[5.621065] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.621598] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\n'}
+[5.622195] (gscam2) StderrLine: {'line': b' \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[5.622818] (gscam2) StderrLine: {'line': b' \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.623495] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.624163] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.625069] (gscam2) StderrLine: {'line': b'     camera_pub_ = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.625739] (gscam2) StderrLine: {'line': b'                                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.666811] (-) TimerEvent: {}
+[5.694554] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gscam2::GSCamNode::impl::process_frame()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.695438] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.696141] (gscam2) StderrLine: {'line': b'     auto img = std::make_unique<sensor_msgs::msg::\x1b[01;31m\x1b[KImage\x1b[m\x1b[K>();\n'}
+[5.696874] (gscam2) StderrLine: {'line': b'                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.705767] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.706519] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_unique<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.707305] (gscam2) StderrLine: {'line': b'     auto img = std::make_unique<sensor_msgs::msg::Image>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.707990] (gscam2) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.708683] (gscam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.709528] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.710323] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4\x1b[m\x1b[K,\n'}
+[5.711023] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.711680] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:820:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)\n'}
+[5.712746] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&... __args)\n'}
+[5.713674] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.714343] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:820:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.714980] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.715584] (gscam2) StderrLine: {'line': b'     auto img = std::make_unique<sensor_msgs::msg::Image>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.716232] (gscam2) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.716905] (gscam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.717534] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.718120] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4\x1b[m\x1b[K,\n'}
+[5.718720] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.719811] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:826:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)\n'}
+[5.720413] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(size_t __num)\n'}
+[5.721168] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.721859] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:826:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.722602] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.723229] (gscam2) StderrLine: {'line': b'     auto img = std::make_unique<sensor_msgs::msg::Image>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.723820] (gscam2) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.724378] (gscam2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/7/memory:80:0\x1b[m\x1b[K,\n'}
+[5.725011] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143\x1b[m\x1b[K,\n'}
+[5.725625] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4\x1b[m\x1b[K,\n'}
+[5.726504] (gscam2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1\x1b[m\x1b[K:\n'}
+[5.727184] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:832:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...) <deleted>\n'}
+[5.727789] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&...) = delete;\n'}
+[5.728400] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.729074] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/7/bits/unique_ptr.h:832:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.729703] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.730326] (gscam2) StderrLine: {'line': b'     auto img = std::make_unique<sensor_msgs::msg::Image>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[5.730975] (gscam2) StderrLine: {'line': b'                                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.731626] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:403:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.732252] (gscam2) StderrLine: {'line': b'     \x1b[01;31m\x1b[Kcamera_pub_\x1b[m\x1b[K->publish(std::move(img));\n'}
+[5.732914] (gscam2) StderrLine: {'line': b'     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.733553] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:403:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[Kjpeg_pub_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.734224] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[Kcamera_pub_\x1b[m\x1b[K->publish(std::move(img));\n'}
+[5.734840] (gscam2) StderrLine: {'line': b'     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.735439] (gscam2) StderrLine: {'line': b'     \x1b[32m\x1b[Kjpeg_pub_\x1b[m\x1b[K\n'}
+[5.736016] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gscam2::GSCamNode::impl::restart()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.736572] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KYUV422_YUY2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::image_encodings\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.737218] (gscam2) StderrLine: {'line': b'     cxt_.image_encoding_ != sensor_msgs::image_encodings::\x1b[01;31m\x1b[KYUV422_YUY2\x1b[m\x1b[K &&\n'}
+[5.737867] (gscam2) StderrLine: {'line': b'                                                           \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.738482] (gscam2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternative: \xe2\x80\x98\x1b[01m\x1b[KYUV422\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.739073] (gscam2) StderrLine: {'line': b'     cxt_.image_encoding_ != sensor_msgs::image_encodings::\x1b[01;36m\x1b[KYUV422_YUY2\x1b[m\x1b[K &&\n'}
+[5.739670] (gscam2) StderrLine: {'line': b'                                                           \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.740244] (gscam2) StderrLine: {'line': b'                                                           \x1b[32m\x1b[KYUV422\x1b[m\x1b[K\n'}
+[5.767079] (-) TimerEvent: {}
+[5.867995] (-) TimerEvent: {}
+[5.968828] (-) TimerEvent: {}
+[6.069949] (-) TimerEvent: {}
+[6.174271] (-) TimerEvent: {}
+[6.278030] (-) TimerEvent: {}
+[6.378819] (-) TimerEvent: {}
+[6.480332] (-) TimerEvent: {}
+[6.581243] (-) TimerEvent: {}
+[6.682070] (-) TimerEvent: {}
+[6.782911] (-) TimerEvent: {}
+[6.883791] (-) TimerEvent: {}
+[6.984704] (-) TimerEvent: {}
+[7.085572] (-) TimerEvent: {}
+[7.186395] (-) TimerEvent: {}
+[7.287275] (-) TimerEvent: {}
+[7.388136] (-) TimerEvent: {}
+[7.489090] (-) TimerEvent: {}
+[7.589942] (-) TimerEvent: {}
+[7.690715] (-) TimerEvent: {}
+[7.792212] (-) TimerEvent: {}
+[7.893155] (-) TimerEvent: {}
+[7.994076] (-) TimerEvent: {}
+[8.094966] (-) TimerEvent: {}
+[8.195861] (-) TimerEvent: {}
+[8.296680] (-) TimerEvent: {}
+[8.397537] (-) TimerEvent: {}
+[8.498311] (-) TimerEvent: {}
+[8.599185] (-) TimerEvent: {}
+[8.699995] (-) TimerEvent: {}
+[8.800835] (-) TimerEvent: {}
+[8.901673] (-) TimerEvent: {}
+[9.002545] (-) TimerEvent: {}
+[9.031522] (gscam2) StdoutLine: {'line': b"CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed\n"}
+[9.033723] (gscam2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1\n'}
+[9.034935] (gscam2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2\n'}
+[9.035832] (gscam2) StdoutLine: {'line': b"CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed\n"}
+[9.036443] (gscam2) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[9.037075] (gscam2) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[9.102720] (-) TimerEvent: {}
+[9.157284] (gscam2) CommandEnded: {'returncode': 2}
+[9.203093] (-) TimerEvent: {}
+[9.304075] (-) TimerEvent: {}
+[9.405185] (-) TimerEvent: {}
+[9.506918] (-) TimerEvent: {}
+[9.610249] (-) TimerEvent: {}
+[9.666400] (gscam2) JobEnded: {'identifier': 'gscam2', 'rc': 2}
+[9.672207] (-) EventReactorShutdown: {}

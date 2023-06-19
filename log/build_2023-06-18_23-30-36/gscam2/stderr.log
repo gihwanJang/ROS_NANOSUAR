@@ -1,0 +1,38 @@
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kbool gscam2::GSCamNode::impl::create_pipeline()[m[K’:
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+   } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K) {
+                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kbool gscam2::GSCamNode::impl::create_pipeline()[m[K’:
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+   } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K) {
+                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+   } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K) {
+                                                                    [01;36m[K^~~~~~~~~~~[m[K
+                                                                    [32m[KYUV422[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+   } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K) {
+                                                                    [01;36m[K^~~~~~~~~~~[m[K
+                                                                    [32m[KYUV422[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::restart()[m[K’:
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+     cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K &&
+                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+     cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K &&
+                                                           [01;36m[K^~~~~~~~~~~[m[K
+                                                           [32m[KYUV422[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::restart()[m[K’:
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+     cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K &&
+                                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+     cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K &&
+                                                           [01;36m[K^~~~~~~~~~~[m[K
+                                                           [32m[KYUV422[m[K
+make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2
+make: *** [all] Error 2

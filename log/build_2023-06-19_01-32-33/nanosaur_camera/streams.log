@@ -1,0 +1,33 @@
+[0.081s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4
+[0.776s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.909s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.349s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.397s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[2.458s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[2.614s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[2.622s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.761s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[2.859s] -- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+[2.912s] CMake Error at CMakeLists.txt:24 (find_package):
+[2.913s]   By not providing "Findjetson-utils.cmake" in CMAKE_MODULE_PATH this project
+[2.913s]   has asked CMake to find a package configuration file provided by
+[2.914s]   "jetson-utils", but CMake did not find one.
+[2.915s] 
+[2.915s]   Could not find a package configuration file provided by "jetson-utils" with
+[2.916s]   any of the following names:
+[2.916s] 
+[2.917s]     jetson-utilsConfig.cmake
+[2.917s]     jetson-utils-config.cmake
+[2.918s] 
+[2.919s]   Add the installation prefix of "jetson-utils" to CMAKE_PREFIX_PATH or set
+[2.920s]   "jetson-utils_DIR" to a directory containing one of the above files.  If
+[2.920s]   "jetson-utils" provides a separate development package or SDK, be sure it
+[2.921s]   has been installed.
+[2.922s] 
+[2.922s] 
+[2.923s] -- Configuring incomplete, errors occurred!
+[2.923s] See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeOutput.log".
+[2.924s] See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeError.log".
+[2.929s] make: *** [cmake_check_build_system] Error 1
+[2.930s] Makefile:296: recipe for target 'cmake_check_build_system' failed
+[2.943s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4

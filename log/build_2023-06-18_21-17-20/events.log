@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.002860] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.003080] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.003278] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.005678] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.005998] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.006484] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.006666] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.006851] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.008141] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.008379] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.008551] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.008705] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.008877] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.009044] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.009205] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.009369] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.009549] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.009777] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.015157] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.015499] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.015902] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.016128] (nanosaur_hardware) JobQueued: {'identifier': 'nanosaur_hardware', 'dependencies': OrderedDict()}
+[0.016411] (nanosaur_hardware) JobStarted: {'identifier': 'nanosaur_hardware'}
+[0.094097] (-) TimerEvent: {}
+[0.195962] (-) TimerEvent: {}
+[0.296672] (-) TimerEvent: {}
+[0.397523] (-) TimerEvent: {}
+[0.498332] (-) TimerEvent: {}
+[0.599137] (-) TimerEvent: {}
+[0.699931] (-) TimerEvent: {}
+[0.800673] (-) TimerEvent: {}
+[0.901463] (-) TimerEvent: {}
+[1.002198] (-) TimerEvent: {}
+[1.102977] (-) TimerEvent: {}
+[1.203882] (-) TimerEvent: {}
+[1.304649] (-) TimerEvent: {}
+[1.406150] (-) TimerEvent: {}
+[1.507982] (-) TimerEvent: {}
+[1.608811] (-) TimerEvent: {}
+[1.711310] (-) TimerEvent: {}
+[1.812367] (-) TimerEvent: {}
+[1.913130] (-) TimerEvent: {}
+[2.013820] (-) TimerEvent: {}
+[2.114577] (-) TimerEvent: {}
+[2.215326] (-) TimerEvent: {}
+[2.316101] (-) TimerEvent: {}
+[2.416837] (-) TimerEvent: {}
+[2.517594] (-) TimerEvent: {}
+[2.618325] (-) TimerEvent: {}
+[2.719095] (-) TimerEvent: {}
+[2.820736] (-) TimerEvent: {}
+[2.922531] (-) TimerEvent: {}
+[3.023271] (-) TimerEvent: {}
+[3.124064] (-) TimerEvent: {}
+[3.224776] (-) TimerEvent: {}
+[3.325460] (-) TimerEvent: {}
+[3.427508] (-) TimerEvent: {}
+[3.528437] (-) TimerEvent: {}
+[3.545821] (nanosaur_hardware) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetson/ros_ws/build/nanosaur_hardware/build', '--no-deps', 'install_data'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_hardware', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'jetson', 'LANGUAGE': 'en_US', 'LC_TIME': 'ko_KR.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '6436', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'CHROME_DESKTOP': 'code-oss-url-handler.desktop', 'HOME': '/home/jetson', 'DESKTOP_SESSION': 'LXDE', 'TERM_PROGRAM_VERSION': '1.32.3', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MANDATORY_PATH': '/usr/share/gconf/ux-LXDE.mandatory.path', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ux-LXDE.default.path', 'ROS_VERSION': '2', 'XDG_SESSION_ID': 'c2', 'TERM': 'xterm-256color', 'SAL_USE_VCLPLUGIN': 'gtk', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'XDG_MENU_PREFIX': 'lxde-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXDE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CONFIG_HOME': '/home/jetson/.config', 'TERM_PROGRAM': 'vscode', 'XDG_SESSION_DESKTOP': 'ux-LXDE', 'XAUTHORITY': '/home/jetson/.Xauthority', 'XDG_DATA_HOME': '/home/jetson/.local/share', 'AMENT_PREFIX_PATH': '/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/tmp/ssh-vFiJebtPBsuy/agent.6343', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jetson', 'LC_NAME': 'ko_KR.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ux-LXDE', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', '_LXSESSION_PID': '6343', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'XDG_VTNR': '7', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/jetson/ros_ws/build/nanosaur_hardware', 'XDG_DATA_DIRS': '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/jetson/ros_ws/build/nanosaur_hardware/prefix_override:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[3.628708] (-) TimerEvent: {}
+[3.729689] (-) TimerEvent: {}
+[3.830383] (-) TimerEvent: {}
+[3.931121] (-) TimerEvent: {}
+[4.031902] (-) TimerEvent: {}
+[4.132667] (-) TimerEvent: {}
+[4.234787] (-) TimerEvent: {}
+[4.335549] (-) TimerEvent: {}
+[4.436371] (-) TimerEvent: {}
+[4.537061] (-) TimerEvent: {}
+[4.637804] (-) TimerEvent: {}
+[4.738558] (-) TimerEvent: {}
+[4.839298] (-) TimerEvent: {}
+[4.940145] (-) TimerEvent: {}
+[5.040892] (-) TimerEvent: {}
+[5.071479] (nanosaur_hardware) StdoutLine: {'line': b'running develop\n'}
+[5.076398] (nanosaur_hardware) StderrLine: {'line': b'/home/jetson/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.077220] (nanosaur_hardware) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[5.082809] (nanosaur_hardware) StderrLine: {'line': b'/home/jetson/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[5.083616] (nanosaur_hardware) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[5.141111] (-) TimerEvent: {}
+[5.241887] (-) TimerEvent: {}
+[5.321687] (nanosaur_hardware) StderrLine: {'line': b'/home/jetson/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release\n'}
+[5.322404] (nanosaur_hardware) StderrLine: {'line': b'  PkgResourcesDeprecationWarning,\n'}
+[5.342056] (-) TimerEvent: {}
+[5.442817] (-) TimerEvent: {}
+[5.543552] (-) TimerEvent: {}
+[5.644446] (-) TimerEvent: {}
+[5.745164] (-) TimerEvent: {}
+[5.749910] (nanosaur_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[5.750907] (nanosaur_hardware) StdoutLine: {'line': b'writing nanosaur_hardware.egg-info/PKG-INFO\n'}
+[5.752210] (nanosaur_hardware) StdoutLine: {'line': b'writing dependency_links to nanosaur_hardware.egg-info/dependency_links.txt\n'}
+[5.753775] (nanosaur_hardware) StdoutLine: {'line': b'writing entry points to nanosaur_hardware.egg-info/entry_points.txt\n'}
+[5.754545] (nanosaur_hardware) StdoutLine: {'line': b'writing requirements to nanosaur_hardware.egg-info/requires.txt\n'}
+[5.756866] (nanosaur_hardware) StdoutLine: {'line': b'writing top-level names to nanosaur_hardware.egg-info/top_level.txt\n'}
+[5.762884] (nanosaur_hardware) StdoutLine: {'line': b"reading manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[5.769190] (nanosaur_hardware) StdoutLine: {'line': b"writing manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[5.775749] (nanosaur_hardware) StdoutLine: {'line': b'running build_ext\n'}
+[5.777002] (nanosaur_hardware) StdoutLine: {'line': b'Creating /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur-hardware.egg-link (link to .)\n'}
+[5.781015] (nanosaur_hardware) StdoutLine: {'line': b'Installing nanosaur script to /home/jetson/ros_ws/install/nanosaur_hardware/lib/nanosaur_hardware\n'}
+[5.782328] (nanosaur_hardware) StdoutLine: {'line': b'\n'}
+[5.783184] (nanosaur_hardware) StdoutLine: {'line': b'Installed /home/jetson/ros_ws/build/nanosaur_hardware\n'}
+[5.784297] (nanosaur_hardware) StdoutLine: {'line': b'running install_data\n'}
+[5.845437] (-) TimerEvent: {}
+[5.910243] (nanosaur_hardware) CommandEnded: {'returncode': 0}
+[5.947121] (-) TimerEvent: {}
+[6.023629] (nanosaur_hardware) JobEnded: {'identifier': 'nanosaur_hardware', 'rc': 0}
+[6.027778] (-) EventReactorShutdown: {}

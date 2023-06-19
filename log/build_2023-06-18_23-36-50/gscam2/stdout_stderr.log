@@ -1,0 +1,58 @@
+[35m[1mScanning dependencies of target gscam_node[0m
+[35m[1mScanning dependencies of target gscam_main[0m
+[ 22%] Built target subscriber_node
+[ 44%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable gscam_main[0m
+[ 66%] [32m[1mLinking CXX shared library libgscam_node.so[0m
+[ 66%] Built target gscam_node
+[ 77%] Built target gscam_main
+[35m[1mScanning dependencies of target ipc_test_main[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/ipc_test_main.dir/src/ipc_test_main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ipc_test_main[0m
+[100%] Built target ipc_test_main
+[ 33%] Built target gscam_main
+[ 55%] Built target gscam_node
+[ 77%] Built target subscriber_node
+[100%] Built target ipc_test_main
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/library_path.sh
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/library_path.dsv
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/package_run_dependencies/gscam2
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/parent_prefix_path/gscam2
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.sh
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/path.sh
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/path.dsv
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.bash
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.sh
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.zsh
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.dsv
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/package.dsv
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/packages/gscam2
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/rclcpp_components/gscam2
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config.cmake
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config-version.cmake
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/package.xml
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/include/gscam2/gscam_node.hpp
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/include/gscam2/subscriber_node.hpp
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/lib/gscam2/gscam_main
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/lib/gscam2/ipc_test_main
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/composition_launch.py
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/container_param_launch.py
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/node_param_launch.py
+-- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/republish_launch.py
+-- Installing: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_gscam_nodeExport.cmake
+-- Installing: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_gscam_nodeExport-noconfig.cmake
+-- Installing: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_subscriber_nodeExport.cmake
+-- Installing: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_subscriber_nodeExport-noconfig.cmake
+-- Installing: /home/jetson/ros_ws/install/gscam2/lib/libgscam_node.so
+-- Set runtime path of "/home/jetson/ros_ws/install/gscam2/lib/libgscam_node.so" to ""
+-- Installing: /home/jetson/ros_ws/install/gscam2/lib/libsubscriber_node.so
+-- Set runtime path of "/home/jetson/ros_ws/install/gscam2/lib/libsubscriber_node.so" to ""

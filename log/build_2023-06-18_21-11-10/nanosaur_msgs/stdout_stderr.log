@@ -1,0 +1,140 @@
+[  2%] Built target nanosaur_msgs__cpp
+[ 13%] Built target nanosaur_msgs__rosidl_generator_c
+[ 24%] Built target nanosaur_msgs__rosidl_typesupport_introspection_cpp
+[ 35%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_cpp
+[ 45%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c
+[ 56%] Built target nanosaur_msgs__rosidl_typesupport_cpp
+[ 67%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Built target nanosaur_msgs__rosidl_typesupport_c
+[ 78%] Built target nanosaur_msgs
+[ 81%] Built target nanosaur_msgs__py
+[ 89%] Built target nanosaur_msgs__python
+[ 94%] Built target nanosaur_msgs__rosidl_typesupport_c__pyext
+[100%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext
+[  2%] Built target nanosaur_msgs__cpp
+[ 13%] Built target nanosaur_msgs__rosidl_generator_c
+[ 24%] Built target nanosaur_msgs__rosidl_typesupport_introspection_cpp
+[ 35%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c
+[ 45%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_cpp
+[ 56%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c
+[ 67%] Built target nanosaur_msgs__rosidl_typesupport_cpp
+[ 78%] Built target nanosaur_msgs__rosidl_typesupport_c
+[ 78%] Built target nanosaur_msgs
+[ 81%] Built target nanosaur_msgs__py
+[ 89%] Built target nanosaur_msgs__python
+[ 94%] Built target nanosaur_msgs__rosidl_typesupport_c__pyext
+[100%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/ament_index/resource_index/rosidl_interfaces/nanosaur_msgs
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/library_path.sh
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/library_path.dsv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__functions.c
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__functions.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__struct.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__type_support.h
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__struct.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__functions.c
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__functions.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__type_support.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/dds_fastrtps
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/dds_fastrtps
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__traits.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__struct.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message.hpp
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__traits.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__struct.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes.hpp
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__type_support.c
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__type_support.c
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__type_support.cpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/srv/eye_message__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__type_support.cpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/include/nanosaur_msgs/msg/eyes__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/pythonpath.sh
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/pythonpath.dsv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/__init__.py
+Compiling '/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/__init__.py'...
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/msg/_eyes_s.c
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/msg/__init__.py
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/msg/_eyes.py
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/srv/_eye_message_s.c
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/srv/_eye_message.py
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/srv/__init__.py
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/python3.6/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__python.so
+-- Set runtime path of "/home/jetson/ros_ws/install/nanosaur_msgs/lib/libnanosaur_msgs__python.so" to ""
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/msg/Eyes.idl
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage.idl
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/msg/Eyes.msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage.srv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage_Request.msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage_Response.msg
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/ament_index/resource_index/package_run_dependencies/nanosaur_msgs
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/ament_index/resource_index/parent_prefix_path/nanosaur_msgs
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/path.sh
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/path.dsv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.bash
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.sh
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.zsh
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.dsv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/package.dsv
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/ament_index/resource_index/packages/nanosaur_msgs
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgsConfig.cmake
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgsConfig-version.cmake
+-- Installing: /home/jetson/ros_ws/install/nanosaur_msgs/share/nanosaur_msgs/package.xml

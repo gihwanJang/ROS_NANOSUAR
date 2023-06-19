@@ -1,0 +1,23 @@
+[3.532s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_hardware': PYTHONPATH=/home/jetson/ros_ws/build/nanosaur_hardware/prefix_override:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros_ws/build/nanosaur_hardware/build --no-deps install_data
+[5.056s] running develop
+[5.060s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.061s]   EasyInstallDeprecationWarning,
+[5.067s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.068s]   setuptools.SetuptoolsDeprecationWarning,
+[5.306s] /home/jetson/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[5.306s]   PkgResourcesDeprecationWarning,
+[5.734s] running egg_info
+[5.735s] writing nanosaur_hardware.egg-info/PKG-INFO
+[5.736s] writing dependency_links to nanosaur_hardware.egg-info/dependency_links.txt
+[5.738s] writing entry points to nanosaur_hardware.egg-info/entry_points.txt
+[5.739s] writing requirements to nanosaur_hardware.egg-info/requires.txt
+[5.741s] writing top-level names to nanosaur_hardware.egg-info/top_level.txt
+[5.747s] reading manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'
+[5.753s] writing manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'
+[5.760s] running build_ext
+[5.761s] Creating /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur-hardware.egg-link (link to .)
+[5.765s] Installing nanosaur script to /home/jetson/ros_ws/install/nanosaur_hardware/lib/nanosaur_hardware
+[5.766s] 
+[5.767s] Installed /home/jetson/ros_ws/build/nanosaur_hardware
+[5.768s] running install_data
+[5.905s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_hardware' returned '0': PYTHONPATH=/home/jetson/ros_ws/build/nanosaur_hardware/prefix_override:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros_ws/build/nanosaur_hardware/build --no-deps install_data

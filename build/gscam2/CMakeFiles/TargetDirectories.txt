@@ -1,0 +1,13 @@
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/install/strip.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/list_install_components.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/rebuild_cache.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/edit_cache.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/install/local.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/test.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/gscam_main.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/gscam2_uninstall.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/uninstall.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/install.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/ipc_test_main.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/gscam_node.dir
+/home/jetson/ros_ws/build/gscam2/CMakeFiles/subscriber_node.dir

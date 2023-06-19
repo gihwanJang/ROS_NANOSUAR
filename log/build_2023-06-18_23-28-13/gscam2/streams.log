@@ -1,0 +1,24 @@
+[0.089s] Invoking command in '/home/jetson/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4
+[0.488s] [ 11%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[0.491s] [ 22%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[0.508s] [ 44%] Built target subscriber_node
+[1.821s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+[1.829s]  #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+[1.829s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.830s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+[1.831s]  #include [01;31m[K"camera_info_manager/camera_info_manager.hpp"[m[K
+[1.831s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.833s] compilation terminated.
+[1.836s] compilation terminated.
+[1.837s] make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1
+[1.858s] CMakeFiles/gscam_node.dir/build.make:62: recipe for target 'CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o' failed
+[1.861s] CMakeFiles/Makefile2:206: recipe for target 'CMakeFiles/gscam_node.dir/all' failed
+[1.866s] make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2
+[1.867s] make[1]: *** Waiting for unfinished jobs....
+[1.867s] make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+[1.868s] CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed
+[1.869s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed
+[1.874s] Makefile:140: recipe for target 'all' failed
+[1.874s] make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+[1.876s] make: *** [all] Error 2
+[1.878s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4

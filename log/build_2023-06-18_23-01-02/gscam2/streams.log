@@ -1,0 +1,7 @@
+[0.070s] Invoking command in '/home/jetson/ros_ws/build/gscam2': AMENT_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/gscam2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/gscam2
+[0.118s] CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+[0.119s]   CMake 3.12 or higher is required.  You are running version 3.10.2
+[0.119s] 
+[0.120s] 
+[0.124s] -- Configuring incomplete, errors occurred!
+[0.126s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '1': AMENT_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/gscam2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/gscam2

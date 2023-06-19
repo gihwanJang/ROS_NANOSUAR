@@ -1,0 +1,6 @@
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_description -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description
+Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_description -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description -- -j4 -l4
+Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description -- -j4 -l4
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description --target install -- -j4 -l4
+Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description --target install -- -j4 -l4

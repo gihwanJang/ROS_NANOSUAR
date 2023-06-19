@@ -1,0 +1,41 @@
+[0.076s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera
+[0.442s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.604s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.034s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.089s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[2.152s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[2.315s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[2.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.468s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[2.576s] -- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+[2.700s] -- Found CUDA: /usr/local/cuda (found version "10.2") 
+[2.731s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[2.734s] -- Checking for module 'gstreamer-1.0'
+[2.795s] --   Found gstreamer-1.0, version 1.14.5
+[3.359s] -- Configuring done
+[3.505s] -- Generating done
+[3.511s] -- Build files have been written to: /home/jetson/ros_ws/build/nanosaur_camera
+[3.527s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera
+[3.540s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4
+[3.708s] [35m[1mScanning dependencies of target nanosaur_camera[0m
+[3.967s] [ 66%] [32mBuilding CXX object CMakeFiles/nanosaur_camera.dir/src/image_converter.cpp.o[0m
+[3.968s] [ 66%] [32mBuilding CXX object CMakeFiles/nanosaur_camera.dir/src/camera_publisher.cpp.o[0m
+[4.421s] In file included from [01m[K/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera/src/image_converter.cpp:2:0[m[K:
+[4.421s] [01m[K/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera/include/nanosaur_camera/image_converter.h:5:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+[4.422s]  #include [01;31m[K<jetson-utils/cudaUtility.h>[m[K
+[4.423s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.423s] compilation terminated.
+[4.427s] make[2]: *** [CMakeFiles/nanosaur_camera.dir/src/image_converter.cpp.o] Error 1
+[4.428s] make[2]: *** Waiting for unfinished jobs....
+[4.429s] CMakeFiles/nanosaur_camera.dir/build.make:86: recipe for target 'CMakeFiles/nanosaur_camera.dir/src/image_converter.cpp.o' failed
+[4.893s] [01m[K/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera/src/camera_publisher.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+[4.894s]  #include [01;31m[K<camera_info_manager/camera_info_manager.hpp>[m[K
+[4.894s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.895s] compilation terminated.
+[4.904s] CMakeFiles/nanosaur_camera.dir/build.make:62: recipe for target 'CMakeFiles/nanosaur_camera.dir/src/camera_publisher.cpp.o' failed
+[4.905s] make[2]: *** [CMakeFiles/nanosaur_camera.dir/src/camera_publisher.cpp.o] Error 1
+[4.906s] make[1]: *** [CMakeFiles/nanosaur_camera.dir/all] Error 2
+[4.906s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/nanosaur_camera.dir/all' failed
+[4.907s] Makefile:140: recipe for target 'all' failed
+[4.908s] make: *** [all] Error 2
+[4.913s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4

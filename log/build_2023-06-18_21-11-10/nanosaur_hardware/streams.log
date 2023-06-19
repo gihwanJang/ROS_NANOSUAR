@@ -1,0 +1,45 @@
+[6.821s] Invoking command in '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_hardware': PYTHONPATH=/home/jetson/ros_ws/build/nanosaur_hardware/prefix_override:/home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/nanosaur_hardware build --build-base /home/jetson/ros_ws/build/nanosaur_hardware/build install --record /home/jetson/ros_ws/build/nanosaur_hardware/install.log --single-version-externally-managed
+[8.451s] running egg_info
+[8.454s] creating ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info
+[8.457s] writing ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/PKG-INFO
+[8.458s] writing dependency_links to ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/dependency_links.txt
+[8.460s] writing entry points to ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/entry_points.txt
+[8.461s] writing requirements to ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/requires.txt
+[8.462s] writing top-level names to ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/top_level.txt
+[8.462s] writing manifest file '../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/SOURCES.txt'
+[8.470s] reading manifest file '../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/SOURCES.txt'
+[8.478s] writing manifest file '../../../build/nanosaur_hardware/nanosaur_hardware.egg-info/SOURCES.txt'
+[8.479s] running build
+[8.480s] running build_py
+[8.481s] creating /home/jetson/ros_ws/build/nanosaur_hardware/build
+[8.482s] creating /home/jetson/ros_ws/build/nanosaur_hardware/build/lib
+[8.483s] creating /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware
+[8.484s] copying nanosaur_hardware/display.py -> /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware
+[8.486s] copying nanosaur_hardware/motor.py -> /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware
+[8.489s] copying nanosaur_hardware/__init__.py -> /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware
+[8.491s] copying nanosaur_hardware/nanosaur.py -> /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware
+[8.494s] running install
+[8.497s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.498s]   setuptools.SetuptoolsDeprecationWarning,
+[8.502s] running install_lib
+[8.506s] creating /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware
+[8.508s] copying /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware/display.py -> /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware
+[8.509s] copying /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware/motor.py -> /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware
+[8.511s] copying /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware/__init__.py -> /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware
+[8.513s] copying /home/jetson/ros_ws/build/nanosaur_hardware/build/lib/nanosaur_hardware/nanosaur.py -> /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware
+[8.517s] byte-compiling /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware/display.py to display.cpython-36.pyc
+[8.523s] byte-compiling /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware/motor.py to motor.cpython-36.pyc
+[8.526s] byte-compiling /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware/__init__.py to __init__.cpython-36.pyc
+[8.528s] byte-compiling /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware/nanosaur.py to nanosaur.cpython-36.pyc
+[8.533s] running install_data
+[8.538s] creating /home/jetson/ros_ws/install/nanosaur_hardware/share/ament_index
+[8.539s] creating /home/jetson/ros_ws/install/nanosaur_hardware/share/ament_index/resource_index
+[8.540s] creating /home/jetson/ros_ws/install/nanosaur_hardware/share/ament_index/resource_index/packages
+[8.544s] copying resource/nanosaur_hardware -> /home/jetson/ros_ws/install/nanosaur_hardware/share/ament_index/resource_index/packages
+[8.546s] copying package.xml -> /home/jetson/ros_ws/install/nanosaur_hardware/share/nanosaur_hardware
+[8.549s] copying requirements.txt -> /home/jetson/ros_ws/install/nanosaur_hardware/share/nanosaur_hardware
+[8.551s] running install_egg_info
+[8.560s] Copying ../../../build/nanosaur_hardware/nanosaur_hardware.egg-info to /home/jetson/ros_ws/install/nanosaur_hardware/lib/python3.6/site-packages/nanosaur_hardware-0.1.0-py3.6.egg-info
+[8.566s] running install_scripts
+[8.663s] Installing nanosaur script to /home/jetson/ros_ws/install/nanosaur_hardware/lib/nanosaur_hardware
+[8.665s] writing list of installed files to '/home/jetson/ros_ws/build/nanosaur_hardware/install.log'

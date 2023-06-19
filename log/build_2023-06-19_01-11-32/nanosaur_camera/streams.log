@@ -1,0 +1,23 @@
+[0.091s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4
+[0.858s] [35m[1mScanning dependencies of target nanosaur_camera[0m
+[1.021s] [ 66%] [32mBuilding CXX object CMakeFiles/nanosaur_camera.dir/src/image_converter.cpp.o[0m
+[1.021s] [ 66%] [32mBuilding CXX object CMakeFiles/nanosaur_camera.dir/src/camera_publisher.cpp.o[0m
+[1.452s] In file included from [01m[K/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera/src/image_converter.cpp:2:0[m[K:
+[1.453s] [01m[K/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera/include/nanosaur_camera/image_converter.h:5:10:[m[K [01;31m[Kfatal error: [m[Kjetson-utils/cudaUtility.h: No such file or directory
+[1.454s]  #include [01;31m[K"jetson-utils/cudaUtility.h"[m[K
+[1.455s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.456s] compilation terminated.
+[1.461s] CMakeFiles/nanosaur_camera.dir/build.make:86: recipe for target 'CMakeFiles/nanosaur_camera.dir/src/image_converter.cpp.o' failed
+[1.461s] make[2]: *** [CMakeFiles/nanosaur_camera.dir/src/image_converter.cpp.o] Error 1
+[1.462s] make[2]: *** Waiting for unfinished jobs....
+[1.999s] [01m[K/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera/src/camera_publisher.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Kcamera_info_manager/camera_info_manager.hpp: No such file or directory
+[2.000s]  #include [01;31m[K<camera_info_manager/camera_info_manager.hpp>[m[K
+[2.001s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.005s] compilation terminated.
+[2.012s] CMakeFiles/nanosaur_camera.dir/build.make:62: recipe for target 'CMakeFiles/nanosaur_camera.dir/src/camera_publisher.cpp.o' failed
+[2.013s] make[2]: *** [CMakeFiles/nanosaur_camera.dir/src/camera_publisher.cpp.o] Error 1
+[2.014s] CMakeFiles/Makefile2:131: recipe for target 'CMakeFiles/nanosaur_camera.dir/all' failed
+[2.015s] make[1]: *** [CMakeFiles/nanosaur_camera.dir/all] Error 2
+[2.015s] Makefile:140: recipe for target 'all' failed
+[2.016s] make: *** [all] Error 2
+[2.021s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4

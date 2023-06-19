@@ -1,0 +1,43 @@
+[0.231s] Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg -- -j4 -l4
+[0.669s] [ 20%] Built target simple_node
+[0.825s] [ 40%] Built target simple_oop_node
+[0.948s] [ 60%] Built target simple_without_oop_node
+[1.084s] [ 80%] Built target simple_loop_node
+[1.227s] [100%] Built target lifecycle_node
+[1.302s] Invoked command in '/home/jetson/ros_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg -- -j4 -l4
+[1.519s] Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg --target install -- -j4 -l4
+[1.827s] [ 20%] Built target simple_node
+[1.997s] [ 40%] Built target simple_oop_node
+[2.166s] [ 60%] Built target simple_without_oop_node
+[2.317s] [ 80%] Built target simple_loop_node
+[2.467s] [100%] Built target lifecycle_node
+[2.581s] [36mInstall the project...[0m
+[2.624s] -- Install configuration: ""
+[2.625s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/lifecycle_node
+[2.626s] -- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/lifecycle_node" to ""
+[2.627s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_loop_node
+[2.628s] -- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_loop_node" to ""
+[2.629s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_oop_node
+[2.631s] -- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_oop_node" to ""
+[2.632s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_without_oop_node
+[2.634s] -- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_without_oop_node" to ""
+[2.639s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_node
+[2.641s] -- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_node" to ""
+[2.641s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_first_pkg
+[2.642s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_first_pkg
+[2.644s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/ament_prefix_path.sh
+[2.647s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/ament_prefix_path.dsv
+[2.649s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/path.sh
+[2.650s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/path.dsv
+[2.653s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.bash
+[2.655s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.sh
+[2.657s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.zsh
+[2.660s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.dsv
+[2.662s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv
+[2.664s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/ament_index/resource_index/packages/cpp_first_pkg
+[2.666s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/cmake/cpp_first_pkgConfig.cmake
+[2.668s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/cmake/cpp_first_pkgConfig-version.cmake
+[2.670s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.xml
+[2.670s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg//launch
+[2.671s] -- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg//launch/simple_node.launch.py
+[2.690s] Invoked command in '/home/jetson/ros_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg --target install -- -j4 -l4

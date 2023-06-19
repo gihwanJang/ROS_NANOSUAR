@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000766] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.000986] (-) JobUnselected: {'identifier': 'gscam2'}
+[0.002247] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.002418] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.006394] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.006723] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.007339] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.007597] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.007809] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.007961] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.008131] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.008299] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.008452] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.008598] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.008772] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.008932] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.009098] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.009240] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.009373] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.009545] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.009717] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.009910] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.010092] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.010265] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.010428] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.012832] (rover_line_follower) JobQueued: {'identifier': 'rover_line_follower', 'dependencies': OrderedDict()}
+[0.013195] (rover_line_follower) JobStarted: {'identifier': 'rover_line_follower'}
+[0.100345] (-) TimerEvent: {}
+[0.201255] (-) TimerEvent: {}
+[0.302496] (-) TimerEvent: {}
+[0.403930] (-) TimerEvent: {}
+[0.507716] (-) TimerEvent: {}
+[0.608488] (-) TimerEvent: {}
+[0.709235] (-) TimerEvent: {}
+[0.810000] (-) TimerEvent: {}
+[0.911555] (-) TimerEvent: {}
+[1.013114] (-) TimerEvent: {}
+[1.113877] (-) TimerEvent: {}
+[1.215474] (-) TimerEvent: {}
+[1.317169] (-) TimerEvent: {}
+[1.417956] (-) TimerEvent: {}
+[1.518796] (-) TimerEvent: {}
+[1.620385] (-) TimerEvent: {}
+[1.721968] (-) TimerEvent: {}
+[1.823668] (-) TimerEvent: {}
+[1.924416] (-) TimerEvent: {}
+[2.025129] (-) TimerEvent: {}
+[2.126948] (-) TimerEvent: {}
+[2.227798] (-) TimerEvent: {}
+[2.328774] (-) TimerEvent: {}
+[2.429696] (-) TimerEvent: {}
+[2.530483] (-) TimerEvent: {}
+[2.632164] (-) TimerEvent: {}
+[2.732873] (-) TimerEvent: {}
+[2.833641] (-) TimerEvent: {}
+[2.934382] (-) TimerEvent: {}
+[3.035153] (-) TimerEvent: {}
+[3.135914] (-) TimerEvent: {}
+[3.236621] (-) TimerEvent: {}
+[3.338078] (-) TimerEvent: {}
+[3.438761] (-) TimerEvent: {}
+[3.540336] (-) TimerEvent: {}
+[3.641036] (-) TimerEvent: {}
+[3.742990] (-) TimerEvent: {}
+[3.844031] (-) TimerEvent: {}
+[3.944860] (-) TimerEvent: {}
+[4.050108] (-) TimerEvent: {}
+[4.151387] (-) TimerEvent: {}
+[4.253062] (-) TimerEvent: {}
+[4.354610] (-) TimerEvent: {}
+[4.455443] (-) TimerEvent: {}
+[4.493429] (rover_line_follower) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetson/ros_ws/build/rover_line_follower/build', '--no-deps', 'install_data'], 'cwd': '/home/jetson/ros_ws/build/rover_line_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'GTK_CSD': '0', 'USER': 'jetson', 'LANGUAGE': 'en_US', 'LC_TIME': 'ko_KR.UTF-8', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '6507', 'XDG_SESSION_TYPE': 'x11', 'LD_LIBRARY_PATH': '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'CHROME_DESKTOP': 'code-oss-url-handler.desktop', 'HOME': '/home/jetson', 'DESKTOP_SESSION': 'LXDE', 'TERM_PROGRAM_VERSION': '1.32.3', 'JETSON_L4T': '32.6.1', 'JETSON_MODEL': 'NVIDIA Jetson Nano 2GB Developer Kit', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'LC_MONETARY': 'ko_KR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MANDATORY_PATH': '/usr/share/gconf/ux-LXDE.mandatory.path', 'COLCON_PREFIX_PATH': '/home/jetson/ros_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'jetson', 'JETSON_SERIAL_NUMBER': '1424520030048', 'JETSON_MODULE': 'NVIDIA Jetson Nano (2 GB ram)', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/ux-LXDE.default.path', 'JETSON_CODENAME': 'Batuu', 'ROS_VERSION': '2', 'XDG_SESSION_ID': 'c2', 'TERM': 'xterm-256color', 'SAL_USE_VCLPLUGIN': 'gtk', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'GDM_LANG': 'en_US', 'XDG_MENU_PREFIX': 'lxde-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXDE', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CONFIG_HOME': '/home/jetson/.config', 'TERM_PROGRAM': 'vscode', 'JETSON_SOC': 'tegra210', 'XDG_SESSION_DESKTOP': 'ux-LXDE', 'XAUTHORITY': '/home/jetson/.Xauthority', 'XDG_DATA_HOME': '/home/jetson/.local/share', 'AMENT_PREFIX_PATH': '/home/jetson/ros_ws/install/rover_line_follower:/home/jetson/ros_ws/install/image_pub:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/tmp/ssh-gYSiR6nZZN0V/agent.6394', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/jetson', 'LC_NAME': 'ko_KR.UTF-8', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ux-LXDE', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'ko_KR.UTF-8', '_LXSESSION_PID': '6394', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'XDG_VTNR': '7', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros_ws/build/rover_line_follower', 'XDG_DATA_DIRS': '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg', 'LC_NUMERIC': 'ko_KR.UTF-8', 'PYTHONPATH': '/home/jetson/ros_ws/build/rover_line_follower/prefix_override:/home/jetson/ros_ws/install/rover_line_follower/lib/python3.6/site-packages:/home/jetson/ros_ws/build/rover_line_follower:/home/jetson/ros_ws/install/rover_line_follower/lib/python3.6/site-packages:/home/jetson/ros_ws/build/image_pub:/home/jetson/ros_ws/install/image_pub/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'JETSON_P_NUMBER': 'p3448-0003'}, 'shell': False}
+[4.555697] (-) TimerEvent: {}
+[4.658718] (-) TimerEvent: {}
+[4.762758] (-) TimerEvent: {}
+[4.864240] (-) TimerEvent: {}
+[4.964979] (-) TimerEvent: {}
+[5.065792] (-) TimerEvent: {}
+[5.166543] (-) TimerEvent: {}
+[5.268630] (-) TimerEvent: {}
+[5.370315] (-) TimerEvent: {}
+[5.472104] (-) TimerEvent: {}
+[5.573839] (-) TimerEvent: {}
+[5.674525] (-) TimerEvent: {}
+[5.776235] (-) TimerEvent: {}
+[5.876970] (-) TimerEvent: {}
+[5.978404] (-) TimerEvent: {}
+[6.081876] (-) TimerEvent: {}
+[6.182664] (-) TimerEvent: {}
+[6.213039] (rover_line_follower) StdoutLine: {'line': b'running develop\n'}
+[6.219632] (rover_line_follower) StderrLine: {'line': b'/home/jetson/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.220657] (rover_line_follower) StderrLine: {'line': b'  EasyInstallDeprecationWarning,\n'}
+[6.227030] (rover_line_follower) StderrLine: {'line': b'/home/jetson/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.228091] (rover_line_follower) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.282829] (-) TimerEvent: {}
+[6.383679] (-) TimerEvent: {}
+[6.484659] (-) TimerEvent: {}
+[6.513025] (rover_line_follower) StderrLine: {'line': b'/home/jetson/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release\n'}
+[6.514687] (rover_line_follower) StderrLine: {'line': b'  PkgResourcesDeprecationWarning,\n'}
+[6.584819] (-) TimerEvent: {}
+[6.685527] (-) TimerEvent: {}
+[6.786276] (-) TimerEvent: {}
+[6.886975] (-) TimerEvent: {}
+[6.987668] (-) TimerEvent: {}
+[6.997459] (rover_line_follower) StdoutLine: {'line': b'running egg_info\n'}
+[6.999878] (rover_line_follower) StdoutLine: {'line': b'writing rover_line_follower.egg-info/PKG-INFO\n'}
+[7.000622] (rover_line_follower) StdoutLine: {'line': b'writing dependency_links to rover_line_follower.egg-info/dependency_links.txt\n'}
+[7.001221] (rover_line_follower) StdoutLine: {'line': b'writing entry points to rover_line_follower.egg-info/entry_points.txt\n'}
+[7.002008] (rover_line_follower) StdoutLine: {'line': b'writing requirements to rover_line_follower.egg-info/requires.txt\n'}
+[7.002590] (rover_line_follower) StdoutLine: {'line': b'writing top-level names to rover_line_follower.egg-info/top_level.txt\n'}
+[7.009627] (rover_line_follower) StdoutLine: {'line': b"reading manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[7.017226] (rover_line_follower) StdoutLine: {'line': b"writing manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[7.024139] (rover_line_follower) StdoutLine: {'line': b'running build_ext\n'}
+[7.025272] (rover_line_follower) StdoutLine: {'line': b'Creating /home/jetson/ros_ws/install/rover_line_follower/lib/python3.6/site-packages/rover-line-follower.egg-link (link to .)\n'}
+[7.030132] (rover_line_follower) StdoutLine: {'line': b'Installing rover_line_follower script to /home/jetson/ros_ws/install/rover_line_follower/lib/rover_line_follower\n'}
+[7.031574] (rover_line_follower) StdoutLine: {'line': b'\n'}
+[7.033339] (rover_line_follower) StdoutLine: {'line': b'Installed /home/jetson/ros_ws/build/rover_line_follower\n'}
+[7.034627] (rover_line_follower) StdoutLine: {'line': b'running install_data\n'}
+[7.087889] (-) TimerEvent: {}
+[7.171300] (rover_line_follower) CommandEnded: {'returncode': 0}
+[7.188050] (-) TimerEvent: {}
+[7.288987] (-) TimerEvent: {}
+[7.363548] (rover_line_follower) JobEnded: {'identifier': 'rover_line_follower', 'rc': 0}
+[7.368188] (-) EventReactorShutdown: {}

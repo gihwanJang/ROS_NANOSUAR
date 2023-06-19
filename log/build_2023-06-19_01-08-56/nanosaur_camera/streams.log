@@ -1,0 +1,31 @@
+[0.069s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera
+[0.271s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.432s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.719s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.769s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.828s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.989s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.997s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.143s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[2.238s] -- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+[2.282s] CMake Error at CMakeLists.txt:24 (find_package):
+[2.282s]   By not providing "Findjetson-utils.cmake" in CMAKE_MODULE_PATH this project
+[2.283s]   has asked CMake to find a package configuration file provided by
+[2.283s]   "jetson-utils", but CMake did not find one.
+[2.284s] 
+[2.284s]   Could not find a package configuration file provided by "jetson-utils" with
+[2.285s]   any of the following names:
+[2.285s] 
+[2.286s]     jetson-utilsConfig.cmake
+[2.287s]     jetson-utils-config.cmake
+[2.289s] 
+[2.289s]   Add the installation prefix of "jetson-utils" to CMAKE_PREFIX_PATH or set
+[2.290s]   "jetson-utils_DIR" to a directory containing one of the above files.  If
+[2.291s]   "jetson-utils" provides a separate development package or SDK, be sure it
+[2.291s]   has been installed.
+[2.292s] 
+[2.293s] 
+[2.293s] -- Configuring incomplete, errors occurred!
+[2.294s] See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeOutput.log".
+[2.295s] See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeError.log".
+[2.299s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera

@@ -1,0 +1,1269 @@
+[0.000000] (-) TimerEvent: {}
+[0.000916] (cpp_first_pkg) JobQueued: {'identifier': 'cpp_first_pkg', 'dependencies': OrderedDict()}
+[0.001149] (jetson_stats_msgs) JobQueued: {'identifier': 'jetson_stats_msgs', 'dependencies': OrderedDict()}
+[0.001369] (nanosaur_camera) JobQueued: {'identifier': 'nanosaur_camera', 'dependencies': OrderedDict()}
+[0.001554] (nanosaur_control) JobQueued: {'identifier': 'nanosaur_control', 'dependencies': OrderedDict()}
+[0.004009] (nanosaur_description) JobQueued: {'identifier': 'nanosaur_description', 'dependencies': OrderedDict()}
+[0.004313] (nanosaur_emotion) JobQueued: {'identifier': 'nanosaur_emotion', 'dependencies': OrderedDict()}
+[0.004708] (nanosaur_hardware) JobQueued: {'identifier': 'nanosaur_hardware', 'dependencies': OrderedDict()}
+[0.004928] (nanosaur_msgs) JobQueued: {'identifier': 'nanosaur_msgs', 'dependencies': OrderedDict()}
+[0.005135] (nanosaur_simulations) JobQueued: {'identifier': 'nanosaur_simulations', 'dependencies': OrderedDict()}
+[0.005346] (nanosaur_worlds) JobQueued: {'identifier': 'nanosaur_worlds', 'dependencies': OrderedDict()}
+[0.009295] (ros2_system_manager) JobQueued: {'identifier': 'ros2_system_manager', 'dependencies': OrderedDict()}
+[0.009708] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.009951] (webrtc_pkg) JobQueued: {'identifier': 'webrtc_pkg', 'dependencies': OrderedDict()}
+[0.010146] (jetson_stats_wrapper) JobQueued: {'identifier': 'jetson_stats_wrapper', 'dependencies': OrderedDict([('jetson_stats_msgs', '/home/jetson/ros_ws/install/jetson_stats_msgs')])}
+[0.010352] (nanosaur) JobQueued: {'identifier': 'nanosaur', 'dependencies': OrderedDict([('nanosaur_control', '/home/jetson/ros_ws/install/nanosaur_control'), ('nanosaur_description', '/home/jetson/ros_ws/install/nanosaur_description'), ('nanosaur_msgs', '/home/jetson/ros_ws/install/nanosaur_msgs')])}
+[0.010544] (nanosaur_base) JobQueued: {'identifier': 'nanosaur_base', 'dependencies': OrderedDict([('nanosaur_msgs', '/home/jetson/ros_ws/install/nanosaur_msgs')])}
+[0.010808] (nanosaur_gazebo) JobQueued: {'identifier': 'nanosaur_gazebo', 'dependencies': OrderedDict([('nanosaur_control', '/home/jetson/ros_ws/install/nanosaur_control'), ('nanosaur_description', '/home/jetson/ros_ws/install/nanosaur_description')])}
+[0.016158] (nanosaur_ignition) JobQueued: {'identifier': 'nanosaur_ignition', 'dependencies': OrderedDict([('nanosaur_control', '/home/jetson/ros_ws/install/nanosaur_control'), ('nanosaur_description', '/home/jetson/ros_ws/install/nanosaur_description')])}
+[0.016500] (nanosaur_isaac_sim) JobQueued: {'identifier': 'nanosaur_isaac_sim', 'dependencies': OrderedDict([('nanosaur_control', '/home/jetson/ros_ws/install/nanosaur_control'), ('nanosaur_description', '/home/jetson/ros_ws/install/nanosaur_description')])}
+[0.016792] (ros2_jetson_stats) JobQueued: {'identifier': 'ros2_jetson_stats', 'dependencies': OrderedDict([('jetson_stats_msgs', '/home/jetson/ros_ws/install/jetson_stats_msgs'), ('jetson_stats_wrapper', '/home/jetson/ros_ws/install/jetson_stats_wrapper')])}
+[0.017038] (nanosaur_bringup) JobQueued: {'identifier': 'nanosaur_bringup', 'dependencies': OrderedDict([('jetson_stats_msgs', '/home/jetson/ros_ws/install/jetson_stats_msgs'), ('nanosaur_control', '/home/jetson/ros_ws/install/nanosaur_control'), ('nanosaur_description', '/home/jetson/ros_ws/install/nanosaur_description'), ('nanosaur_msgs', '/home/jetson/ros_ws/install/nanosaur_msgs'), ('jetson_stats_wrapper', '/home/jetson/ros_ws/install/jetson_stats_wrapper'), ('nanosaur_base', '/home/jetson/ros_ws/install/nanosaur_base'), ('ros2_jetson_stats', '/home/jetson/ros_ws/install/ros2_jetson_stats')])}
+[0.017330] (nanosaur_robot) JobQueued: {'identifier': 'nanosaur_robot', 'dependencies': OrderedDict([('jetson_stats_msgs', '/home/jetson/ros_ws/install/jetson_stats_msgs'), ('nanosaur_control', '/home/jetson/ros_ws/install/nanosaur_control'), ('nanosaur_description', '/home/jetson/ros_ws/install/nanosaur_description'), ('nanosaur_msgs', '/home/jetson/ros_ws/install/nanosaur_msgs'), ('jetson_stats_wrapper', '/home/jetson/ros_ws/install/jetson_stats_wrapper'), ('nanosaur_base', '/home/jetson/ros_ws/install/nanosaur_base'), ('ros2_jetson_stats', '/home/jetson/ros_ws/install/ros2_jetson_stats'), ('nanosaur_bringup', '/home/jetson/ros_ws/install/nanosaur_bringup')])}
+[0.017611] (nanosaur_control) JobStarted: {'identifier': 'nanosaur_control'}
+[0.055078] (nanosaur_description) JobStarted: {'identifier': 'nanosaur_description'}
+[0.089001] (jetson_stats_msgs) JobStarted: {'identifier': 'jetson_stats_msgs'}
+[0.097699] (-) TimerEvent: {}
+[0.129334] (nanosaur_msgs) JobStarted: {'identifier': 'nanosaur_msgs'}
+[0.175516] (nanosaur_control) JobProgress: {'identifier': 'nanosaur_control', 'progress': 'cmake'}
+[0.177228] (nanosaur_control) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/nanosaur/nanosaur_control', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_control'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_control'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.206580] (nanosaur_description) JobProgress: {'identifier': 'nanosaur_description', 'progress': 'cmake'}
+[0.207277] (-) TimerEvent: {}
+[0.209163] (nanosaur_description) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/nanosaur/nanosaur_description', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_description'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.233886] (jetson_stats_msgs) JobProgress: {'identifier': 'jetson_stats_msgs', 'progress': 'cmake'}
+[0.234167] (jetson_stats_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs'], 'cwd': '/home/jetson/ros_ws/build/jetson_stats_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/jetson_stats_msgs'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.238776] (nanosaur_msgs) JobProgress: {'identifier': 'nanosaur_msgs', 'progress': 'cmake'}
+[0.244079] (nanosaur_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/nanosaur/nanosaur_msgs', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_msgs'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_msgs'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.310846] (-) TimerEvent: {}
+[0.367535] (nanosaur_description) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.411051] (-) TimerEvent: {}
+[0.515277] (-) TimerEvent: {}
+[0.586308] (nanosaur_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.587147] (nanosaur_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.615495] (-) TimerEvent: {}
+[0.716464] (-) TimerEvent: {}
+[0.818858] (-) TimerEvent: {}
+[0.904198] (nanosaur_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.912259] (nanosaur_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.914833] (jetson_stats_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.919036] (-) TimerEvent: {}
+[1.020148] (-) TimerEvent: {}
+[1.121241] (-) TimerEvent: {}
+[1.222102] (-) TimerEvent: {}
+[1.323042] (-) TimerEvent: {}
+[1.416249] (nanosaur_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.423232] (-) TimerEvent: {}
+[1.444676] (nanosaur_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.452396] (jetson_stats_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.470534] (nanosaur_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.474528] (jetson_stats_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.480323] (nanosaur_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.523416] (-) TimerEvent: {}
+[1.628337] (-) TimerEvent: {}
+[1.730834] (-) TimerEvent: {}
+[1.778458] (nanosaur_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.787768] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.817879] (nanosaur_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.819922] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.831014] (-) TimerEvent: {}
+[1.930691] (jetson_stats_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.931501] (-) TimerEvent: {}
+[1.947054] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.031720] (-) TimerEvent: {}
+[2.134903] (-) TimerEvent: {}
+[2.187435] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.214422] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.220735] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.235095] (-) TimerEvent: {}
+[2.247609] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.303188] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.324707] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.335266] (-) TimerEvent: {}
+[2.439171] (-) TimerEvent: {}
+[2.540270] (-) TimerEvent: {}
+[2.641371] (-) TimerEvent: {}
+[2.671780] (nanosaur_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.683754] (nanosaur_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.689172] (nanosaur_description) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/nanosaur_description\n'}
+[2.708866] (nanosaur_description) CommandEnded: {'returncode': 0}
+[2.713029] (nanosaur_description) JobProgress: {'identifier': 'nanosaur_description', 'progress': 'build'}
+[2.713292] (nanosaur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/nanosaur_description', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_description'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[2.741600] (-) TimerEvent: {}
+[2.842739] (-) TimerEvent: {}
+[2.928284] (nanosaur_description) CommandEnded: {'returncode': 0}
+[2.943458] (-) TimerEvent: {}
+[3.047678] (-) TimerEvent: {}
+[3.110352] (nanosaur_description) JobProgress: {'identifier': 'nanosaur_description', 'progress': 'install'}
+[3.148104] (-) TimerEvent: {}
+[3.166193] (nanosaur_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/nanosaur_description', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_description'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[3.248325] (-) TimerEvent: {}
+[3.349531] (-) TimerEvent: {}
+[3.418459] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.437012] (nanosaur_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.443152] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.449726] (-) TimerEvent: {}
+[3.454349] (jetson_stats_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.457329] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.463119] (nanosaur_description) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[3.470623] (nanosaur_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.522223] (nanosaur_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.523929] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes\n'}
+[3.525651] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/datasheet\n'}
+[3.527129] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/datasheet/nanosaur-powerbank.pdf\n'}
+[3.531704] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/datasheet/nanosaur-datasheet.pdf\n'}
+[3.543321] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/flap_bottom.stl\n'}
+[3.549911] (-) TimerEvent: {}
+[3.551803] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover-zedmini.stl\n'}
+[3.566625] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/LICENSE\n'}
+[3.568901] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials\n'}
+[3.573388] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures\n'}
+[3.574241] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Roughness.png\n'}
+[3.590996] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Metalness.png\n'}
+[3.595495] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Normal.png\n'}
+[3.604866] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Albedo.png\n'}
+[3.612484] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in\n'}
+[3.613936] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in/slider.stl\n'}
+[3.630587] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in/wheel.stl\n'}
+[3.649126] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in/sprocket.stl\n'}
+[3.649912] (-) TimerEvent: {}
+[3.660210] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/base_front.stl\n'}
+[3.667472] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/slider.stl\n'}
+[3.676551] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/track.stl\n'}
+[3.680805] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/base_rear.stl\n'}
+[3.691188] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/wheel.stl\n'}
+[3.698696] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/track_print.stl\n'}
+[3.703509] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/pb_holder.stl\n'}
+[3.708284] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/README.md\n'}
+[3.711264] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover.stl\n'}
+[3.724364] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover-fe.stl\n'}
+[3.738765] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/sprocket.stl\n'}
+[3.743720] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover-rs.stl\n'}
+[3.750130] (-) TimerEvent: {}
+[3.756106] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/flap_top.stl\n'}
+[3.759864] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts\n'}
+[3.761004] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/zedm.stl\n'}
+[3.764234] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/nanosaur-exp-board.stl\n'}
+[3.780094] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/Pololu-Micro-Metal-Gearmotor.stl\n'}
+[3.784774] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/motor_board.stl\n'}
+[3.814548] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/fisheye_camera.dae\n'}
+[3.831668] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/NVIDIA_jetson_nano_4gb.stl\n'}
+[3.850333] (-) TimerEvent: {}
+[3.859335] (nanosaur_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.860511] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.925400] (jetson_stats_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.929313] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.935164] (nanosaur_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.936341] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/OLED_Module.stl\n'}
+[3.937565] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.950539] (-) TimerEvent: {}
+[3.954687] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/rasp_camera.stl\n'}
+[3.996359] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/d435.dae\n'}
+[3.999407] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/power_bank.stl\n'}
+[4.001891] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/rviz\n'}
+[4.003014] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/rviz/urdf.rviz\n'}
+[4.004105] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf\n'}
+[4.004998] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/track.urdf.xacro\n'}
+[4.005786] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/materials.gazebo.xacro\n'}
+[4.006584] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/flap.urdf.xacro\n'}
+[4.007249] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/materials.urdf\n'}
+[4.008302] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head\n'}
+[4.008977] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/d435.urdf.xacro\n'}
+[4.009911] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_pi.urdf.xacro\n'}
+[4.010661] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/d435i_imu_modules.urdf.xacro\n'}
+[4.011501] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_realsense.urdf.xacro\n'}
+[4.016691] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_fisheye.urdf.xacro\n'}
+[4.017711] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_zedmini.urdf.xacro\n'}
+[4.018874] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/zedmini.urdf.xacro\n'}
+[4.020107] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/nanosaur.urdf.xml\n'}
+[4.021265] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/robot.urdf.xacro\n'}
+[4.022775] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/launch\n'}
+[4.023658] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/launch/description.launch.py\n'}
+[4.032612] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/launch/display.launch.py\n'}
+[4.036374] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/ament_index/resource_index/package_run_dependencies/nanosaur_description\n'}
+[4.038500] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/ament_index/resource_index/parent_prefix_path/nanosaur_description\n'}
+[4.040594] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/ament_prefix_path.sh\n'}
+[4.042517] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/ament_prefix_path.dsv\n'}
+[4.044527] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/path.sh\n'}
+[4.046407] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/path.dsv\n'}
+[4.048369] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.bash\n'}
+[4.050170] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.sh\n'}
+[4.051063] (-) TimerEvent: {}
+[4.052187] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.zsh\n'}
+[4.053116] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.dsv\n'}
+[4.085252] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.dsv\n'}
+[4.086084] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/ament_index/resource_index/packages/nanosaur_description\n'}
+[4.086774] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/cmake/nanosaur_descriptionConfig.cmake\n'}
+[4.087434] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/cmake/nanosaur_descriptionConfig-version.cmake\n'}
+[4.088189] (nanosaur_description) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.xml\n'}
+[4.089044] (nanosaur_description) CommandEnded: {'returncode': 0}
+[4.152141] (-) TimerEvent: {}
+[4.253255] (-) TimerEvent: {}
+[4.358398] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.379385] (-) TimerEvent: {}
+[4.410235] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.415329] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.432890] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.444547] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.453095] (nanosaur_description) JobEnded: {'identifier': 'nanosaur_description', 'rc': 0}
+[4.455115] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.461087] (cpp_first_pkg) JobStarted: {'identifier': 'cpp_first_pkg'}
+[4.488035] (-) TimerEvent: {}
+[4.547907] (cpp_first_pkg) JobProgress: {'identifier': 'cpp_first_pkg', 'progress': 'cmake'}
+[4.549979] (cpp_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/rb_nanosaur/cpp_first_pkg', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/cpp_first_pkg'], 'cwd': '/home/jetson/ros_ws/build/cpp_first_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/cpp_first_pkg'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[4.588385] (-) TimerEvent: {}
+[4.690197] (-) TimerEvent: {}
+[4.792533] (-) TimerEvent: {}
+[4.882753] (cpp_first_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[4.892727] (-) TimerEvent: {}
+[4.996928] (-) TimerEvent: {}
+[5.097856] (-) TimerEvent: {}
+[5.176609] (cpp_first_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[5.198065] (-) TimerEvent: {}
+[5.202117] (cpp_first_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[5.298264] (-) TimerEvent: {}
+[5.399262] (-) TimerEvent: {}
+[5.500444] (-) TimerEvent: {}
+[5.597550] (cpp_first_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.600010] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.600820] (-) TimerEvent: {}
+[5.705109] (-) TimerEvent: {}
+[5.806108] (-) TimerEvent: {}
+[5.907984] (-) TimerEvent: {}
+[5.959079] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.006303] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.008114] (-) TimerEvent: {}
+[6.109094] (-) TimerEvent: {}
+[6.211101] (-) TimerEvent: {}
+[6.314871] (-) TimerEvent: {}
+[6.404049] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.413102] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.415107] (-) TimerEvent: {}
+[6.435282] (nanosaur_control) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[6.436120] (jetson_stats_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.436696] (nanosaur_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[6.471114] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[6.515302] (-) TimerEvent: {}
+[6.588941] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[6.590087] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.591551] (nanosaur_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[6.592335] (nanosaur_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.615481] (-) TimerEvent: {}
+[6.673684] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[6.674826] (jetson_stats_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.715677] (-) TimerEvent: {}
+[6.816784] (-) TimerEvent: {}
+[6.919177] (-) TimerEvent: {}
+[7.021608] (-) TimerEvent: {}
+[7.124075] (-) TimerEvent: {}
+[7.225031] (-) TimerEvent: {}
+[7.289478] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[7.306573] (cpp_first_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[7.325218] (-) TimerEvent: {}
+[7.426147] (-) TimerEvent: {}
+[7.529031] (-) TimerEvent: {}
+[7.631403] (-) TimerEvent: {}
+[7.735970] (cpp_first_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[7.736674] (-) TimerEvent: {}
+[7.737230] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[7.836877] (-) TimerEvent: {}
+[7.937771] (-) TimerEvent: {}
+[8.040301] (-) TimerEvent: {}
+[8.143503] (-) TimerEvent: {}
+[8.156297] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.193187] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.207277] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[8.235570] (nanosaur_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[8.243689] (-) TimerEvent: {}
+[8.344993] (-) TimerEvent: {}
+[8.445897] (-) TimerEvent: {}
+[8.546870] (-) TimerEvent: {}
+[8.650860] (-) TimerEvent: {}
+[8.668342] (nanosaur_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.679768] (nanosaur_control) StdoutLine: {'line': b'-- Generating done\n'}
+[8.687410] (nanosaur_control) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/nanosaur_control\n'}
+[8.708835] (nanosaur_control) CommandEnded: {'returncode': 0}
+[8.717299] (nanosaur_control) JobProgress: {'identifier': 'nanosaur_control', 'progress': 'build'}
+[8.718164] (nanosaur_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/nanosaur_control', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_control'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[8.730230] (nanosaur_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[8.751087] (-) TimerEvent: {}
+[8.776610] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[8.851284] (-) TimerEvent: {}
+[8.883506] (nanosaur_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[8.893352] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[8.947544] (nanosaur_control) CommandEnded: {'returncode': 0}
+[8.954753] (-) TimerEvent: {}
+[8.999100] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[9.001058] (nanosaur_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[9.054965] (-) TimerEvent: {}
+[9.129554] (nanosaur_control) JobProgress: {'identifier': 'nanosaur_control', 'progress': 'install'}
+[9.130443] (nanosaur_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/nanosaur_control', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_control'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[9.155184] (-) TimerEvent: {}
+[9.256291] (-) TimerEvent: {}
+[9.357222] (-) TimerEvent: {}
+[9.366057] (nanosaur_control) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[9.404269] (nanosaur_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.405446] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/launch\n'}
+[9.406311] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/launch/teleop.launch.py\n'}
+[9.432194] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/launch/twist_control.launch.py\n'}
+[9.457412] (-) TimerEvent: {}
+[9.549107] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config\n'}
+[9.549954] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/twist_mux_topics.yaml\n'}
+[9.557596] (-) TimerEvent: {}
+[9.579482] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/joystick.yaml\n'}
+[9.657234] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/ps3.nanosaur.yml\n'}
+[9.658065] (-) TimerEvent: {}
+[9.749380] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/config/twist_mux_locks.yaml\n'}
+[9.758265] (-) TimerEvent: {}
+[9.805352] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/ament_index/resource_index/package_run_dependencies/nanosaur_control\n'}
+[9.806486] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/ament_index/resource_index/parent_prefix_path/nanosaur_control\n'}
+[9.807413] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/ament_prefix_path.sh\n'}
+[9.808289] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/ament_prefix_path.dsv\n'}
+[9.809256] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/path.sh\n'}
+[9.810229] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/environment/path.dsv\n'}
+[9.811211] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.bash\n'}
+[9.812265] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.sh\n'}
+[9.813350] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.zsh\n'}
+[9.814494] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/local_setup.dsv\n'}
+[9.815894] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.dsv\n'}
+[9.816723] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/ament_index/resource_index/packages/nanosaur_control\n'}
+[9.817428] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/cmake/nanosaur_controlConfig.cmake\n'}
+[9.818210] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/cmake/nanosaur_controlConfig-version.cmake\n'}
+[9.818928] (nanosaur_control) StdoutLine: {'line': b'-- Installing: /home/jetson/ros_ws/install/nanosaur_control/share/nanosaur_control/package.xml\n'}
+[9.826358] (nanosaur_control) CommandEnded: {'returncode': 0}
+[9.865785] (-) TimerEvent: {}
+[9.966766] (-) TimerEvent: {}
+[10.069202] (-) TimerEvent: {}
+[10.126182] (nanosaur_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 0.8.1 (/opt/ros/eloquent/share/geometry_msgs/cmake)\n'}
+[10.169372] (-) TimerEvent: {}
+[10.242013] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[10.269538] (-) TimerEvent: {}
+[10.370428] (-) TimerEvent: {}
+[10.474340] (nanosaur_control) JobEnded: {'identifier': 'nanosaur_control', 'rc': 0}
+[10.477554] (-) TimerEvent: {}
+[10.478358] (nanosaur_camera) JobStarted: {'identifier': 'nanosaur_camera'}
+[10.586506] (-) TimerEvent: {}
+[10.597161] (nanosaur_camera) JobProgress: {'identifier': 'nanosaur_camera', 'progress': 'cmake'}
+[10.602836] (nanosaur_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_camera'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[10.686759] (-) TimerEvent: {}
+[10.702149] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[10.728350] (cpp_first_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.752752] (cpp_first_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[10.786897] (-) TimerEvent: {}
+[10.888012] (-) TimerEvent: {}
+[10.963605] (cpp_first_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[10.965317] (cpp_first_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.988233] (-) TimerEvent: {}
+[11.044900] (nanosaur_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[11.088398] (-) TimerEvent: {}
+[11.189339] (-) TimerEvent: {}
+[11.295979] (-) TimerEvent: {}
+[11.297876] (nanosaur_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[11.312299] (nanosaur_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[11.396175] (-) TimerEvent: {}
+[11.397943] (jetson_stats_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[11.438499] (jetson_stats_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[11.496353] (-) TimerEvent: {}
+[11.598744] (-) TimerEvent: {}
+[11.699682] (-) TimerEvent: {}
+[11.742503] (nanosaur_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[11.754380] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[11.800038] (-) TimerEvent: {}
+[11.900975] (-) TimerEvent: {}
+[11.964061] (nanosaur_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[11.969947] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[12.001163] (-) TimerEvent: {}
+[12.102178] (-) TimerEvent: {}
+[12.112422] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.143171] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[12.156273] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[12.165480] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.202363] (-) TimerEvent: {}
+[12.204319] (nanosaur_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[12.302555] (-) TimerEvent: {}
+[12.368621] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[12.375047] (jetson_stats_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.382668] (jetson_stats_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[12.383497] (jetson_stats_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[12.402731] (-) TimerEvent: {}
+[12.503953] (-) TimerEvent: {}
+[12.528332] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.604146] (-) TimerEvent: {}
+[12.630028] (cpp_first_pkg) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[12.704341] (-) TimerEvent: {}
+[12.747042] (cpp_first_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[12.804878] (-) TimerEvent: {}
+[12.905950] (-) TimerEvent: {}
+[12.985409] (cpp_first_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[12.993681] (cpp_first_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.004423] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[13.012048] (-) TimerEvent: {}
+[13.113242] (-) TimerEvent: {}
+[13.164142] (jetson_stats_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[13.213765] (-) TimerEvent: {}
+[13.312626] (jetson_stats_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.313919] (-) TimerEvent: {}
+[13.320627] (jetson_stats_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.323188] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.331713] (nanosaur_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[13.355806] (jetson_stats_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.414130] (-) TimerEvent: {}
+[13.496462] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[13.498532] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[13.514325] (-) TimerEvent: {}
+[13.615176] (jetson_stats_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[13.616028] (-) TimerEvent: {}
+[13.657720] (jetson_stats_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/jetson_stats_msgs\n'}
+[13.680586] (jetson_stats_msgs) CommandEnded: {'returncode': 0}
+[13.683652] (jetson_stats_msgs) JobProgress: {'identifier': 'jetson_stats_msgs', 'progress': 'build'}
+[13.684109] (jetson_stats_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/jetson_stats_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/jetson_stats_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/jetson_stats_msgs'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[13.716397] (-) TimerEvent: {}
+[13.817735] (-) TimerEvent: {}
+[13.914238] (nanosaur_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[13.916529] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.917836] (-) TimerEvent: {}
+[13.972781] (nanosaur_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[13.988692] (jetson_stats_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[14.018036] (-) TimerEvent: {}
+[14.027345] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__cpp\x1b[0m\n'}
+[14.069436] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[14.071025] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[14.118216] (-) TimerEvent: {}
+[14.121611] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[14.131318] (nanosaur_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[14.184519] (jetson_stats_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[14.218395] (-) TimerEvent: {}
+[14.290024] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[14.302340] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[14.303131] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[14.303808] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so\n'}
+[14.318593] (-) TimerEvent: {}
+[14.419736] (-) TimerEvent: {}
+[14.463642] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[14.520033] (-) TimerEvent: {}
+[14.543110] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[14.545200] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[14.584177] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.613660] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.620203] (-) TimerEvent: {}
+[14.721062] (-) TimerEvent: {}
+[14.823711] (-) TimerEvent: {}
+[14.924799] (-) TimerEvent: {}
+[15.026803] (-) TimerEvent: {}
+[15.044377] (cpp_first_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[15.056075] (cpp_first_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[15.126990] (-) TimerEvent: {}
+[15.229212] (-) TimerEvent: {}
+[15.309783] (cpp_first_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[15.329404] (-) TimerEvent: {}
+[15.431691] (-) TimerEvent: {}
+[15.534125] (-) TimerEvent: {}
+[15.636291] (-) TimerEvent: {}
+[15.681653] (nanosaur_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[15.736467] (-) TimerEvent: {}
+[15.799286] (nanosaur_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.803878] (nanosaur_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.823089] (nanosaur_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.836646] (-) TimerEvent: {}
+[15.938841] (-) TimerEvent: {}
+[16.040789] (-) TimerEvent: {}
+[16.142683] (-) TimerEvent: {}
+[16.245186] (-) TimerEvent: {}
+[16.295236] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[16.301294] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.303577] (cpp_first_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[16.308790] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[16.312005] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.315373] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.318617] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[16.324068] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.327608] (cpp_first_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.339737] (cpp_first_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[16.345366] (-) TimerEvent: {}
+[16.447759] (-) TimerEvent: {}
+[16.548813] (-) TimerEvent: {}
+[16.651122] (-) TimerEvent: {}
+[16.702772] (cpp_first_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[16.704451] (nanosaur_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[16.719178] (cpp_first_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/cpp_first_pkg\n'}
+[16.728892] (nanosaur_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/nanosaur_msgs\n'}
+[16.751348] (-) TimerEvent: {}
+[16.776439] (cpp_first_pkg) CommandEnded: {'returncode': 0}
+[16.779414] (cpp_first_pkg) JobProgress: {'identifier': 'cpp_first_pkg', 'progress': 'build'}
+[16.779659] (cpp_first_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/cpp_first_pkg', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/cpp_first_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/cpp_first_pkg'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[16.815650] (nanosaur_msgs) CommandEnded: {'returncode': 0}
+[16.826428] (nanosaur_msgs) JobProgress: {'identifier': 'nanosaur_msgs', 'progress': 'build'}
+[16.827251] (nanosaur_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/nanosaur_msgs', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6436'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('CHROME_DESKTOP', 'code-oss-url-handler.desktop'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('TERM_PROGRAM_VERSION', '1.32.3'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('TERM_PROGRAM', 'vscode'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-vFiJebtPBsuy/agent.6343'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('NO_AT_BRIDGE', '1'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6343'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_msgs'), ('XDG_DATA_DIRS', '/usr/share/LXDE:/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-LXDE:/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[16.855986] (-) TimerEvent: {}
+[16.957324] (-) TimerEvent: {}
+[17.058237] (-) TimerEvent: {}
+[17.160116] (-) TimerEvent: {}
+[17.176582] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_loop_node\x1b[0m\n'}
+[17.185490] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lifecycle_node\x1b[0m\n'}
+[17.192221] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_oop_node\x1b[0m\n'}
+[17.241230] (nanosaur_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.247473] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__cpp\x1b[0m\n'}
+[17.260293] (-) TimerEvent: {}
+[17.315367] (nanosaur_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[17.340200] (nanosaur_camera) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[17.342448] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_node\x1b[0m\n'}
+[17.360466] (-) TimerEvent: {}
+[17.457031] (nanosaur_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.460640] (-) TimerEvent: {}
+[17.562934] (-) TimerEvent: {}
+[17.647597] (nanosaur_camera) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[17.648637] (nanosaur_camera) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[17.663124] (-) TimerEvent: {}
+[17.750708] (cpp_first_pkg) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/simple_oop_node.dir/src/simple_oop.cpp.o\x1b[0m\n'}
+[17.751797] (cpp_first_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/simple_loop_node.dir/src/simple_loop.cpp.o\x1b[0m\n'}
+[17.754914] (cpp_first_pkg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/lifecycle_node.dir/src/lifecycle.cpp.o\x1b[0m\n'}
+[17.762558] (cpp_first_pkg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/simple_node.dir/src/simple.cpp.o\x1b[0m\n'}
+[17.763382] (-) TimerEvent: {}
+[17.867034] (-) TimerEvent: {}
+[17.969318] (-) TimerEvent: {}
+[18.071935] (-) TimerEvent: {}
+[18.174378] (-) TimerEvent: {}
+[18.276727] (-) TimerEvent: {}
+[18.377606] (-) TimerEvent: {}
+[18.478488] (-) TimerEvent: {}
+[18.579378] (-) TimerEvent: {}
+[18.681069] (-) TimerEvent: {}
+[18.783027] (-) TimerEvent: {}
+[18.884229] (-) TimerEvent: {}
+[18.986118] (-) TimerEvent: {}
+[19.003298] (jetson_stats_msgs) StdoutLine: {'line': b'[  4%] Built target jetson_stats_msgs__cpp\n'}
+[19.093424] (-) TimerEvent: {}
+[19.206076] (-) TimerEvent: {}
+[19.246014] (jetson_stats_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[19.253036] (jetson_stats_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[19.306269] (-) TimerEvent: {}
+[19.407225] (-) TimerEvent: {}
+[19.509049] (-) TimerEvent: {}
+[19.611611] (-) TimerEvent: {}
+[19.714571] (-) TimerEvent: {}
+[19.816676] (-) TimerEvent: {}
+[19.919230] (-) TimerEvent: {}
+[20.023039] (-) TimerEvent: {}
+[20.125452] (-) TimerEvent: {}
+[20.226401] (-) TimerEvent: {}
+[20.327427] (-) TimerEvent: {}
+[20.440012] (-) TimerEvent: {}
+[20.541006] (-) TimerEvent: {}
+[20.644105] (-) TimerEvent: {}
+[20.745186] (-) TimerEvent: {}
+[20.846302] (-) TimerEvent: {}
+[20.948989] (-) TimerEvent: {}
+[21.049969] (-) TimerEvent: {}
+[21.152944] (-) TimerEvent: {}
+[21.218834] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_generator_c\x1b[0m\n'}
+[21.253153] (-) TimerEvent: {}
+[21.357021] (-) TimerEvent: {}
+[21.458272] (-) TimerEvent: {}
+[21.481808] (jetson_stats_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetson_stats_msgs/srv/jetson_clocks__functions.c.o\x1b[0m\n'}
+[21.512197] (jetson_stats_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetson_stats_msgs/srv/fan__functions.c.o\x1b[0m\n'}
+[21.558450] (-) TimerEvent: {}
+[21.659478] (-) TimerEvent: {}
+[21.761848] (-) TimerEvent: {}
+[21.874449] (-) TimerEvent: {}
+[21.975552] (-) TimerEvent: {}
+[22.076537] (-) TimerEvent: {}
+[22.191408] (-) TimerEvent: {}
+[22.292693] (-) TimerEvent: {}
+[22.325603] (nanosaur_camera) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[22.393310] (-) TimerEvent: {}
+[22.404190] (jetson_stats_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetson_stats_msgs/srv/nvp_model__functions.c.o\x1b[0m\n'}
+[22.493487] (-) TimerEvent: {}
+[22.594448] (-) TimerEvent: {}
+[22.664523] (nanosaur_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[22.694657] (-) TimerEvent: {}
+[22.796329] (-) TimerEvent: {}
+[22.898301] (-) TimerEvent: {}
+[22.953807] (jetson_stats_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libjetson_stats_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[22.998504] (-) TimerEvent: {}
+[23.100215] (-) TimerEvent: {}
+[23.205159] (-) TimerEvent: {}
+[23.281816] (nanosaur_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[23.297375] (nanosaur_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[23.304758] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[23.305549] (-) TimerEvent: {}
+[23.406420] (-) TimerEvent: {}
+[23.507474] (-) TimerEvent: {}
+[23.610003] (-) TimerEvent: {}
+[23.633628] (jetson_stats_msgs) StdoutLine: {'line': b'[ 17%] Built target jetson_stats_msgs__rosidl_generator_c\n'}
+[23.710202] (-) TimerEvent: {}
+[23.811272] (-) TimerEvent: {}
+[23.859625] (jetson_stats_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[23.911442] (-) TimerEvent: {}
+[24.012369] (-) TimerEvent: {}
+[24.118592] (-) TimerEvent: {}
+[24.219527] (-) TimerEvent: {}
+[24.323892] (-) TimerEvent: {}
+[24.427329] (-) TimerEvent: {}
+[24.517738] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[24.532172] (-) TimerEvent: {}
+[24.591397] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[24.632381] (-) TimerEvent: {}
+[24.733385] (-) TimerEvent: {}
+[24.835352] (-) TimerEvent: {}
+[24.936445] (-) TimerEvent: {}
+[25.037482] (-) TimerEvent: {}
+[25.138488] (-) TimerEvent: {}
+[25.241751] (-) TimerEvent: {}
+[25.342657] (-) TimerEvent: {}
+[25.446441] (-) TimerEvent: {}
+[25.548474] (-) TimerEvent: {}
+[25.652520] (-) TimerEvent: {}
+[25.760039] (-) TimerEvent: {}
+[25.868253] (-) TimerEvent: {}
+[25.926111] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[25.928679] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[25.968441] (-) TimerEvent: {}
+[26.069791] (-) TimerEvent: {}
+[26.170952] (-) TimerEvent: {}
+[26.275659] (-) TimerEvent: {}
+[26.377033] (-) TimerEvent: {}
+[26.478037] (-) TimerEvent: {}
+[26.580665] (-) TimerEvent: {}
+[26.682251] (-) TimerEvent: {}
+[26.783228] (-) TimerEvent: {}
+[26.884195] (-) TimerEvent: {}
+[26.985062] (-) TimerEvent: {}
+[27.089028] (-) TimerEvent: {}
+[27.191148] (-) TimerEvent: {}
+[27.292196] (-) TimerEvent: {}
+[27.393269] (-) TimerEvent: {}
+[27.494367] (-) TimerEvent: {}
+[27.595269] (-) TimerEvent: {}
+[27.696199] (-) TimerEvent: {}
+[27.797131] (-) TimerEvent: {}
+[27.898099] (-) TimerEvent: {}
+[28.003987] (-) TimerEvent: {}
+[28.104912] (-) TimerEvent: {}
+[28.205845] (-) TimerEvent: {}
+[28.306696] (-) TimerEvent: {}
+[28.407734] (-) TimerEvent: {}
+[28.513886] (-) TimerEvent: {}
+[28.614780] (-) TimerEvent: {}
+[28.715754] (-) TimerEvent: {}
+[28.817917] (-) TimerEvent: {}
+[28.918832] (-) TimerEvent: {}
+[29.019684] (-) TimerEvent: {}
+[29.122711] (-) TimerEvent: {}
+[29.223610] (-) TimerEvent: {}
+[29.324605] (-) TimerEvent: {}
+[29.425522] (-) TimerEvent: {}
+[29.526457] (-) TimerEvent: {}
+[29.627567] (-) TimerEvent: {}
+[29.728888] (-) TimerEvent: {}
+[29.829854] (-) TimerEvent: {}
+[29.930923] (-) TimerEvent: {}
+[30.031942] (-) TimerEvent: {}
+[30.132812] (-) TimerEvent: {}
+[30.233709] (-) TimerEvent: {}
+[30.334585] (-) TimerEvent: {}
+[30.435540] (-) TimerEvent: {}
+[30.536475] (-) TimerEvent: {}
+[30.637586] (-) TimerEvent: {}
+[30.738768] (-) TimerEvent: {}
+[30.839630] (-) TimerEvent: {}
+[30.940583] (-) TimerEvent: {}
+[92.642600] (-) TimerEvent: {}
+[93.047962] (-) TimerEvent: {}
+[93.149552] (-) TimerEvent: {}
+[93.251984] (-) TimerEvent: {}
+[93.352959] (-) TimerEvent: {}
+[93.453775] (-) TimerEvent: {}
+[93.554668] (-) TimerEvent: {}
+[93.655739] (-) TimerEvent: {}
+[93.756666] (-) TimerEvent: {}
+[93.857509] (-) TimerEvent: {}
+[93.958445] (-) TimerEvent: {}
+[94.059318] (-) TimerEvent: {}
+[102.233667] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[102.576051] (-) TimerEvent: {}
+[102.576869] (nanosaur_msgs) StdoutLine: {'line': b'[  5%] Built target nanosaur_msgs__cpp\n'}
+[102.589469] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[102.590101] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[102.590579] (jetson_stats_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetson_stats_msgs/srv/fan__type_support.cpp.o\x1b[0m\n'}
+[102.599658] (jetson_stats_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/fan__type_support.c.o\x1b[0m\n'}
+[102.603519] (jetson_stats_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetson_stats_msgs/srv/dds_fastrtps/fan__type_support.cpp.o\x1b[0m\n'}
+[102.606711] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_generator_c\x1b[0m\n'}
+[102.607149] (jetson_stats_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetson_stats_msgs/srv/jetson_clocks__type_support.cpp.o\x1b[0m\n'}
+[102.613063] (nanosaur_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanosaur_msgs/msg/eyes__functions.c.o\x1b[0m\n'}
+[102.613755] (cpp_first_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable simple_node\x1b[0m\n'}
+[102.676360] (-) TimerEvent: {}
+[102.777442] (-) TimerEvent: {}
+[102.878426] (-) TimerEvent: {}
+[102.979233] (-) TimerEvent: {}
+[103.080117] (-) TimerEvent: {}
+[103.180965] (-) TimerEvent: {}
+[103.281828] (-) TimerEvent: {}
+[103.315218] (cpp_first_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable simple_loop_node\x1b[0m\n'}
+[103.382114] (-) TimerEvent: {}
+[103.483747] (-) TimerEvent: {}
+[103.585116] (-) TimerEvent: {}
+[103.685984] (-) TimerEvent: {}
+[103.786968] (-) TimerEvent: {}
+[103.887948] (-) TimerEvent: {}
+[103.940869] (cpp_first_pkg) StdoutLine: {'line': b'[ 60%] Built target simple_loop_node\n'}
+[103.952314] (jetson_stats_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetson_stats_msgs/srv/dds_fastrtps/jetson_clocks__type_support.cpp.o\x1b[0m\n'}
+[103.953821] (jetson_stats_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/jetson_clocks__type_support.c.o\x1b[0m\n'}
+[103.964579] (cpp_first_pkg) StdoutLine: {'line': b'[ 60%] Built target simple_node\n'}
+[103.986633] (cpp_first_pkg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable simple_oop_node\x1b[0m\n'}
+[103.988098] (-) TimerEvent: {}
+[104.052022] (cpp_first_pkg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable lifecycle_node\x1b[0m\n'}
+[104.088297] (-) TimerEvent: {}
+[104.093572] (jetson_stats_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetson_stats_msgs/srv/nvp_model__type_support.cpp.o\x1b[0m\n'}
+[104.138258] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[104.165877] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[104.186038] (nanosaur_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanosaur_msgs/srv/eye_message__functions.c.o\x1b[0m\n'}
+[104.188467] (-) TimerEvent: {}
+[104.289498] (-) TimerEvent: {}
+[104.390956] (-) TimerEvent: {}
+[104.418160] (jetson_stats_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/nvp_model__type_support.c.o\x1b[0m\n'}
+[104.491448] (-) TimerEvent: {}
+[104.592565] (-) TimerEvent: {}
+[104.653400] (nanosaur_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking C shared library libnanosaur_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[104.692766] (-) TimerEvent: {}
+[104.793922] (-) TimerEvent: {}
+[104.894910] (-) TimerEvent: {}
+[104.995951] (-) TimerEvent: {}
+[105.060919] (jetson_stats_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library libjetson_stats_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[105.096141] (-) TimerEvent: {}
+[105.197126] (-) TimerEvent: {}
+[105.254694] (cpp_first_pkg) StdoutLine: {'line': b'[ 80%] Built target lifecycle_node\n'}
+[105.263137] (nanosaur_camera) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[105.297334] (-) TimerEvent: {}
+[105.300082] (nanosaur_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[105.332633] (nanosaur_msgs) StdoutLine: {'line': b'[ 13%] Built target nanosaur_msgs__rosidl_generator_c\n'}
+[105.385223] (jetson_stats_msgs) StdoutLine: {'line': b'[ 40%] Built target jetson_stats_msgs__rosidl_typesupport_introspection_c\n'}
+[105.396298] (cpp_first_pkg) StdoutLine: {'line': b'[ 80%] Built target simple_oop_node\n'}
+[105.397494] (-) TimerEvent: {}
+[105.429657] (nanosaur_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[105.497703] (-) TimerEvent: {}
+[105.593351] (cpp_first_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target simple_without_oop_node\x1b[0m\n'}
+[105.597901] (-) TimerEvent: {}
+[105.698931] (-) TimerEvent: {}
+[105.704781] (jetson_stats_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[105.799130] (-) TimerEvent: {}
+[105.898942] (nanosaur_camera) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[105.899933] (-) TimerEvent: {}
+[105.956855] (jetson_stats_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetson_stats_msgs/srv/dds_fastrtps/nvp_model__type_support.cpp.o\x1b[0m\n'}
+[106.000181] (-) TimerEvent: {}
+[106.069024] (cpp_first_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/simple_without_oop_node.dir/src/simple_without_oop.cpp.o\x1b[0m\n'}
+[106.100381] (-) TimerEvent: {}
+[106.109173] (jetson_stats_msgs) StdoutLine: {'line': b'[ 44%] Built target jetson_stats_msgs__rosidl_typesupport_introspection_cpp\n'}
+[106.178560] (nanosaur_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)\n'}
+[106.200565] (-) TimerEvent: {}
+[106.283917] (nanosaur_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (find_package):\n'}
+[106.291049] (nanosaur_camera) StderrLine: {'line': b'  By not providing "Findjetson-utils.cmake" in CMAKE_MODULE_PATH this project\n'}
+[106.291909] (nanosaur_camera) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[106.292544] (nanosaur_camera) StderrLine: {'line': b'  "jetson-utils", but CMake did not find one.\n'}
+[106.293131] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[106.293732] (nanosaur_camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "jetson-utils" with\n'}
+[106.294573] (nanosaur_camera) StderrLine: {'line': b'  any of the following names:\n'}
+[106.295167] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[106.296454] (nanosaur_camera) StderrLine: {'line': b'    jetson-utilsConfig.cmake\n'}
+[106.297298] (nanosaur_camera) StderrLine: {'line': b'    jetson-utils-config.cmake\n'}
+[106.298088] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[106.298856] (nanosaur_camera) StderrLine: {'line': b'  Add the installation prefix of "jetson-utils" to CMAKE_PREFIX_PATH or set\n'}
+[106.299663] (nanosaur_camera) StderrLine: {'line': b'  "jetson-utils_DIR" to a directory containing one of the above files.  If\n'}
+[106.301020] (-) TimerEvent: {}
+[106.303635] (nanosaur_camera) StderrLine: {'line': b'  "jetson-utils" provides a separate development package or SDK, be sure it\n'}
+[106.304530] (nanosaur_camera) StderrLine: {'line': b'  has been installed.\n'}
+[106.306209] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[106.307296] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[106.378915] (nanosaur_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[106.380140] (nanosaur_camera) StdoutLine: {'line': b'See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeOutput.log".\n'}
+[106.382388] (nanosaur_camera) StdoutLine: {'line': b'See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeError.log".\n'}
+[106.401323] (-) TimerEvent: {}
+[106.504383] (-) TimerEvent: {}
+[106.609149] (-) TimerEvent: {}
+[106.699720] (nanosaur_camera) CommandEnded: {'returncode': 1}
+[106.926369] (-) TimerEvent: {}
+[107.030246] (-) TimerEvent: {}
+[107.139748] (-) TimerEvent: {}
+[107.249669] (-) TimerEvent: {}
+[107.358688] (-) TimerEvent: {}
+[107.481409] (-) TimerEvent: {}
+[107.592710] (-) TimerEvent: {}
+[107.695115] (-) TimerEvent: {}
+[107.753829] (nanosaur_camera) JobEnded: {'identifier': 'nanosaur_camera', 'rc': 1}
+[107.787600] (jetson_stats_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[107.795301] (-) TimerEvent: {}
+[107.896638] (-) TimerEvent: {}
+[107.998573] (-) TimerEvent: {}
+[108.099525] (-) TimerEvent: {}
+[108.200788] (-) TimerEvent: {}
+[108.288515] (jetson_stats_msgs) StdoutLine: {'line': b'[ 46%] Built target jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[108.300974] (-) TimerEvent: {}
+[108.402026] (-) TimerEvent: {}
+[108.424785] (jetson_stats_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[108.502203] (-) TimerEvent: {}
+[108.603329] (-) TimerEvent: {}
+[108.708613] (-) TimerEvent: {}
+[108.810624] (-) TimerEvent: {}
+[108.912349] (-) TimerEvent: {}
+[109.013386] (-) TimerEvent: {}
+[109.116254] (-) TimerEvent: {}
+[109.217358] (-) TimerEvent: {}
+[109.319322] (-) TimerEvent: {}
+[109.321854] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[109.410476] (nanosaur_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanosaur_msgs/msg/eyes__type_support.cpp.o\x1b[0m\n'}
+[109.419498] (-) TimerEvent: {}
+[109.520570] (-) TimerEvent: {}
+[109.621573] (-) TimerEvent: {}
+[109.722917] (-) TimerEvent: {}
+[109.824453] (-) TimerEvent: {}
+[109.926471] (-) TimerEvent: {}
+[110.027587] (-) TimerEvent: {}
+[110.129948] (-) TimerEvent: {}
+[110.231039] (-) TimerEvent: {}
+[110.332156] (-) TimerEvent: {}
+[110.414823] (nanosaur_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanosaur_msgs/srv/eye_message__type_support.cpp.o\x1b[0m\n'}
+[110.432340] (-) TimerEvent: {}
+[110.536543] (-) TimerEvent: {}
+[110.637561] (-) TimerEvent: {}
+[110.738664] (-) TimerEvent: {}
+[110.839764] (-) TimerEvent: {}
+[110.889712] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[110.940029] (-) TimerEvent: {}
+[110.996276] (jetson_stats_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetson_stats_msgs/srv/fan__type_support.cpp.o\x1b[0m\n'}
+[111.040277] (-) TimerEvent: {}
+[111.144207] (-) TimerEvent: {}
+[111.254946] (-) TimerEvent: {}
+[111.357298] (-) TimerEvent: {}
+[111.459497] (-) TimerEvent: {}
+[111.562073] (-) TimerEvent: {}
+[111.572088] (nanosaur_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[111.662318] (-) TimerEvent: {}
+[111.763276] (-) TimerEvent: {}
+[111.867815] (-) TimerEvent: {}
+[111.909687] (nanosaur_msgs) StdoutLine: {'line': b'[ 24%] Built target nanosaur_msgs__rosidl_typesupport_introspection_cpp\n'}
+[111.967956] (nanosaur_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[111.970273] (-) TimerEvent: {}
+[112.071275] (-) TimerEvent: {}
+[112.173155] (-) TimerEvent: {}
+[112.275480] (-) TimerEvent: {}
+[112.378302] (-) TimerEvent: {}
+[112.481361] (-) TimerEvent: {}
+[112.582240] (-) TimerEvent: {}
+[112.664308] (jetson_stats_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetson_stats_msgs/srv/nvp_model__type_support.cpp.o\x1b[0m\n'}
+[112.671112] (cpp_first_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simple_without_oop_node\x1b[0m\n'}
+[112.682430] (-) TimerEvent: {}
+[112.784325] (-) TimerEvent: {}
+[112.886832] (-) TimerEvent: {}
+[112.987970] (-) TimerEvent: {}
+[113.089328] (-) TimerEvent: {}
+[113.155074] (cpp_first_pkg) StdoutLine: {'line': b'[100%] Built target simple_without_oop_node\n'}
+[113.189555] (-) TimerEvent: {}
+[113.294573] (-) TimerEvent: {}
+[113.303926] (cpp_first_pkg) JobEnded: {'identifier': 'cpp_first_pkg', 'rc': 'SIGINT'}
+[113.395415] (-) TimerEvent: {}
+[113.496333] (-) TimerEvent: {}
+[113.597354] (-) TimerEvent: {}
+[113.698217] (-) TimerEvent: {}
+[113.799085] (-) TimerEvent: {}
+[113.899970] (-) TimerEvent: {}
+[114.000952] (-) TimerEvent: {}
+[114.101979] (-) TimerEvent: {}
+[114.141883] (jetson_stats_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetson_stats_msgs/srv/jetson_clocks__type_support.cpp.o\x1b[0m\n'}
+[114.202148] (-) TimerEvent: {}
+[114.303003] (-) TimerEvent: {}
+[114.403791] (-) TimerEvent: {}
+[114.504828] (-) TimerEvent: {}
+[114.605625] (-) TimerEvent: {}
+[114.706428] (-) TimerEvent: {}
+[114.807394] (-) TimerEvent: {}
+[114.873776] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[114.907642] (-) TimerEvent: {}
+[114.957013] (nanosaur_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanosaur_msgs/msg/eyes__type_support.c.o\x1b[0m\n'}
+[115.007988] (-) TimerEvent: {}
+[115.083943] (nanosaur_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanosaur_msgs/srv/eye_message__type_support.c.o\x1b[0m\n'}
+[115.108167] (-) TimerEvent: {}
+[115.208998] (-) TimerEvent: {}
+[115.215534] (nanosaur_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libnanosaur_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[115.309194] (-) TimerEvent: {}
+[115.369647] (nanosaur_msgs) StdoutLine: {'line': b'[ 35%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c\n'}
+[115.409394] (-) TimerEvent: {}
+[115.423007] (nanosaur_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[115.509566] (-) TimerEvent: {}
+[115.576984] (jetson_stats_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[115.609833] (-) TimerEvent: {}
+[115.710795] (-) TimerEvent: {}
+[115.811754] (-) TimerEvent: {}
+[115.905919] (jetson_stats_msgs) StdoutLine: {'line': b'[ 57%] Built target jetson_stats_msgs__rosidl_typesupport_cpp\n'}
+[115.912451] (-) TimerEvent: {}
+[115.959496] (jetson_stats_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[116.012616] (-) TimerEvent: {}
+[116.113377] (-) TimerEvent: {}
+[116.214187] (-) TimerEvent: {}
+[116.322532] (-) TimerEvent: {}
+[116.423372] (-) TimerEvent: {}
+[116.524421] (-) TimerEvent: {}
+[116.625296] (-) TimerEvent: {}
+[116.726153] (-) TimerEvent: {}
+[116.826929] (-) TimerEvent: {}
+[116.927709] (-) TimerEvent: {}
+[117.028547] (-) TimerEvent: {}
+[117.129312] (-) TimerEvent: {}
+[117.230135] (-) TimerEvent: {}
+[117.330960] (-) TimerEvent: {}
+[117.431784] (-) TimerEvent: {}
+[117.534686] (-) TimerEvent: {}
+[117.635459] (-) TimerEvent: {}
+[117.736294] (-) TimerEvent: {}
+[117.837098] (-) TimerEvent: {}
+[117.937866] (-) TimerEvent: {}
+[118.038744] (-) TimerEvent: {}
+[118.139764] (-) TimerEvent: {}
+[118.218114] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[118.240160] (-) TimerEvent: {}
+[118.300873] (nanosaur_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanosaur_msgs/msg/dds_fastrtps/eyes__type_support.cpp.o\x1b[0m\n'}
+[118.340287] (-) TimerEvent: {}
+[118.441129] (-) TimerEvent: {}
+[118.541918] (-) TimerEvent: {}
+[118.642746] (-) TimerEvent: {}
+[118.744067] (-) TimerEvent: {}
+[118.844912] (-) TimerEvent: {}
+[118.926771] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[118.945101] (-) TimerEvent: {}
+[119.020308] (jetson_stats_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetson_stats_msgs/srv/fan__type_support_c.cpp.o\x1b[0m\n'}
+[119.045293] (-) TimerEvent: {}
+[119.146400] (-) TimerEvent: {}
+[119.247338] (-) TimerEvent: {}
+[119.348303] (-) TimerEvent: {}
+[119.449216] (-) TimerEvent: {}
+[119.550142] (-) TimerEvent: {}
+[119.651072] (-) TimerEvent: {}
+[119.722466] (nanosaur_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanosaur_msgs/srv/dds_fastrtps/eye_message__type_support.cpp.o\x1b[0m\n'}
+[119.751376] (-) TimerEvent: {}
+[119.852363] (-) TimerEvent: {}
+[119.953239] (-) TimerEvent: {}
+[120.054096] (-) TimerEvent: {}
+[120.155028] (-) TimerEvent: {}
+[120.255917] (-) TimerEvent: {}
+[120.287934] (jetson_stats_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetson_stats_msgs/srv/nvp_model__type_support_c.cpp.o\x1b[0m\n'}
+[120.356157] (-) TimerEvent: {}
+[120.457186] (-) TimerEvent: {}
+[120.558214] (-) TimerEvent: {}
+[120.659069] (-) TimerEvent: {}
+[120.759962] (-) TimerEvent: {}
+[120.861029] (-) TimerEvent: {}
+[120.962030] (-) TimerEvent: {}
+[121.063026] (-) TimerEvent: {}
+[121.164020] (-) TimerEvent: {}
+[121.264950] (-) TimerEvent: {}
+[121.365881] (-) TimerEvent: {}
+[121.380390] (nanosaur_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[121.466081] (-) TimerEvent: {}
+[121.567225] (-) TimerEvent: {}
+[121.576133] (jetson_stats_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetson_stats_msgs/srv/jetson_clocks__type_support_c.cpp.o\x1b[0m\n'}
+[121.667543] (-) TimerEvent: {}
+[121.732681] (nanosaur_msgs) StdoutLine: {'line': b'[ 45%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[121.767801] (-) TimerEvent: {}
+[121.785757] (nanosaur_msgs) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[121.868064] (-) TimerEvent: {}
+[121.968932] (-) TimerEvent: {}
+[122.069854] (-) TimerEvent: {}
+[122.170761] (-) TimerEvent: {}
+[122.271736] (-) TimerEvent: {}
+[122.372637] (-) TimerEvent: {}
+[122.473519] (-) TimerEvent: {}
+[122.574379] (-) TimerEvent: {}
+[122.675244] (-) TimerEvent: {}
+[122.776104] (-) TimerEvent: {}
+[122.805470] (jetson_stats_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[122.876296] (-) TimerEvent: {}
+[122.978867] (-) TimerEvent: {}
+[123.079896] (-) TimerEvent: {}
+[123.100597] (jetson_stats_msgs) StdoutLine: {'line': b'[ 68%] Built target jetson_stats_msgs__rosidl_typesupport_fastrtps_c\n'}
+[123.148570] (jetson_stats_msgs) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[123.180027] (-) TimerEvent: {}
+[123.280888] (-) TimerEvent: {}
+[123.381774] (-) TimerEvent: {}
+[123.482613] (-) TimerEvent: {}
+[123.583423] (-) TimerEvent: {}
+[123.684328] (-) TimerEvent: {}
+[123.785097] (-) TimerEvent: {}
+[123.885913] (-) TimerEvent: {}
+[123.986739] (-) TimerEvent: {}
+[124.087564] (-) TimerEvent: {}
+[124.188381] (-) TimerEvent: {}
+[124.289156] (-) TimerEvent: {}
+[124.389964] (-) TimerEvent: {}
+[124.490785] (-) TimerEvent: {}
+[124.591641] (-) TimerEvent: {}
+[124.620119] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[124.691932] (-) TimerEvent: {}
+[124.709673] (nanosaur_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanosaur_msgs/msg/eyes__type_support_c.cpp.o\x1b[0m\n'}
+[124.792093] (-) TimerEvent: {}
+[124.892932] (-) TimerEvent: {}
+[124.993712] (-) TimerEvent: {}
+[125.094536] (-) TimerEvent: {}
+[125.195350] (-) TimerEvent: {}
+[125.296316] (-) TimerEvent: {}
+[125.299520] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[125.357509] (jetson_stats_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetson_stats_msgs/srv/fan__type_support.cpp.o\x1b[0m\n'}
+[125.396503] (-) TimerEvent: {}
+[125.468857] (jetson_stats_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetson_stats_msgs/srv/nvp_model__type_support.cpp.o\x1b[0m\n'}
+[125.496702] (-) TimerEvent: {}
+[125.582118] (jetson_stats_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetson_stats_msgs/srv/jetson_clocks__type_support.cpp.o\x1b[0m\n'}
+[125.596890] (-) TimerEvent: {}
+[125.691457] (jetson_stats_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[125.697080] (-) TimerEvent: {}
+[125.797977] (-) TimerEvent: {}
+[125.887278] (jetson_stats_msgs) StdoutLine: {'line': b'[ 80%] Built target jetson_stats_msgs__rosidl_typesupport_c\n'}
+[125.898241] (-) TimerEvent: {}
+[125.934532] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs\x1b[0m\n'}
+[125.967243] (nanosaur_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanosaur_msgs/srv/eye_message__type_support_c.cpp.o\x1b[0m\n'}
+[125.981332] (jetson_stats_msgs) StdoutLine: {'line': b'[ 80%] Built target jetson_stats_msgs\n'}
+[125.998441] (-) TimerEvent: {}
+[126.032538] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__py\x1b[0m\n'}
+[126.078927] (jetson_stats_msgs) StdoutLine: {'line': b'[ 82%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[126.098614] (-) TimerEvent: {}
+[126.200564] (-) TimerEvent: {}
+[126.301428] (-) TimerEvent: {}
+[126.402351] (-) TimerEvent: {}
+[126.503238] (-) TimerEvent: {}
+[126.604214] (-) TimerEvent: {}
+[126.705004] (-) TimerEvent: {}
+[126.805863] (-) TimerEvent: {}
+[126.906742] (-) TimerEvent: {}
+[127.008700] (-) TimerEvent: {}
+[127.109577] (-) TimerEvent: {}
+[127.210662] (-) TimerEvent: {}
+[127.245567] (nanosaur_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[127.310858] (-) TimerEvent: {}
+[127.411710] (-) TimerEvent: {}
+[127.512607] (-) TimerEvent: {}
+[127.603952] (nanosaur_msgs) StdoutLine: {'line': b'[ 56%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c\n'}
+[127.612767] (-) TimerEvent: {}
+[127.658259] (nanosaur_msgs) StdoutLine: {'line': b'[ 59%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[127.712990] (-) TimerEvent: {}
+[127.813815] (-) TimerEvent: {}
+[127.914600] (-) TimerEvent: {}
+[128.015381] (-) TimerEvent: {}
+[128.116222] (-) TimerEvent: {}
+[128.217029] (-) TimerEvent: {}
+[128.317854] (-) TimerEvent: {}
+[128.418662] (-) TimerEvent: {}
+[128.519478] (-) TimerEvent: {}
+[128.620386] (-) TimerEvent: {}
+[128.721150] (-) TimerEvent: {}
+[128.821922] (-) TimerEvent: {}
+[128.922793] (-) TimerEvent: {}
+[129.023639] (-) TimerEvent: {}
+[129.124446] (-) TimerEvent: {}
+[129.225198] (-) TimerEvent: {}
+[129.326139] (-) TimerEvent: {}
+[129.426950] (-) TimerEvent: {}
+[129.527776] (-) TimerEvent: {}
+[129.628592] (-) TimerEvent: {}
+[129.729354] (-) TimerEvent: {}
+[129.830160] (-) TimerEvent: {}
+[129.930967] (-) TimerEvent: {}
+[129.989361] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[130.031186] (-) TimerEvent: {}
+[130.069133] (nanosaur_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanosaur_msgs/msg/eyes__type_support.cpp.o\x1b[0m\n'}
+[130.131362] (-) TimerEvent: {}
+[130.233386] (-) TimerEvent: {}
+[130.334206] (-) TimerEvent: {}
+[130.435005] (-) TimerEvent: {}
+[130.535796] (-) TimerEvent: {}
+[130.636653] (-) TimerEvent: {}
+[130.737477] (-) TimerEvent: {}
+[130.838285] (-) TimerEvent: {}
+[130.939145] (-) TimerEvent: {}
+[131.040027] (-) TimerEvent: {}
+[131.140861] (-) TimerEvent: {}
+[131.241726] (-) TimerEvent: {}
+[131.342547] (-) TimerEvent: {}
+[131.412445] (nanosaur_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanosaur_msgs/srv/eye_message__type_support.cpp.o\x1b[0m\n'}
+[131.442780] (-) TimerEvent: {}
+[131.543617] (-) TimerEvent: {}
+[131.644530] (-) TimerEvent: {}
+[131.745411] (-) TimerEvent: {}
+[131.846377] (-) TimerEvent: {}
+[131.947217] (-) TimerEvent: {}
+[132.008092] (jetson_stats_msgs) StdoutLine: {'line': b'[ 82%] Built target jetson_stats_msgs__py\n'}
+[132.047479] (-) TimerEvent: {}
+[132.060936] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__python\x1b[0m\n'}
+[132.147744] (-) TimerEvent: {}
+[132.223063] (jetson_stats_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__python.dir/rosidl_generator_py/jetson_stats_msgs/srv/_fan_s.c.o\x1b[0m\n'}
+[132.247988] (-) TimerEvent: {}
+[132.348854] (-) TimerEvent: {}
+[132.449711] (-) TimerEvent: {}
+[132.551922] (-) TimerEvent: {}
+[132.629500] (jetson_stats_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__python.dir/rosidl_generator_py/jetson_stats_msgs/srv/_nvp_model_s.c.o\x1b[0m\n'}
+[132.652110] (-) TimerEvent: {}
+[132.753054] (-) TimerEvent: {}
+[132.850393] (nanosaur_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[132.853237] (-) TimerEvent: {}
+[132.954165] (-) TimerEvent: {}
+[133.002780] (jetson_stats_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__python.dir/rosidl_generator_py/jetson_stats_msgs/srv/_jetson_clocks_s.c.o\x1b[0m\n'}
+[133.054436] (-) TimerEvent: {}
+[133.157909] (-) TimerEvent: {}
+[133.242834] (nanosaur_msgs) StdoutLine: {'line': b'[ 67%] Built target nanosaur_msgs__rosidl_typesupport_cpp\n'}
+[133.258098] (-) TimerEvent: {}
+[133.295533] (nanosaur_msgs) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[133.358292] (-) TimerEvent: {}
+[133.374256] (jetson_stats_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/jetson_stats_msgs/libjetson_stats_msgs__python.so\x1b[0m\n'}
+[133.458461] (-) TimerEvent: {}
+[133.559400] (-) TimerEvent: {}
+[133.633442] (jetson_stats_msgs) StdoutLine: {'line': b'[ 91%] Built target jetson_stats_msgs__python\n'}
+[133.659649] (-) TimerEvent: {}
+[133.682411] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[133.759898] (-) TimerEvent: {}
+[133.762382] (jetson_stats_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/jetson_stats_msgs/_jetson_stats_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[133.860080] (-) TimerEvent: {}
+[133.960939] (-) TimerEvent: {}
+[134.061803] (-) TimerEvent: {}
+[134.154635] (jetson_stats_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/jetson_stats_msgs/jetson_stats_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[134.161978] (-) TimerEvent: {}
+[134.262824] (-) TimerEvent: {}
+[134.363736] (-) TimerEvent: {}
+[134.378274] (jetson_stats_msgs) StdoutLine: {'line': b'[ 95%] Built target jetson_stats_msgs__rosidl_typesupport_c__pyext\n'}
+[134.427361] (jetson_stats_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[134.463961] (-) TimerEvent: {}
+[134.507114] (jetson_stats_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/jetson_stats_msgs/_jetson_stats_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[134.564141] (-) TimerEvent: {}
+[134.665079] (-) TimerEvent: {}
+[134.765891] (-) TimerEvent: {}
+[134.866723] (-) TimerEvent: {}
+[134.895924] (jetson_stats_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/jetson_stats_msgs/jetson_stats_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[134.966986] (-) TimerEvent: {}
+[135.067916] (-) TimerEvent: {}
+[135.113778] (jetson_stats_msgs) StdoutLine: {'line': b'[100%] Built target jetson_stats_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[135.168085] (-) TimerEvent: {}
+[135.241086] (jetson_stats_msgs) JobEnded: {'identifier': 'jetson_stats_msgs', 'rc': 'SIGINT'}
+[135.268247] (-) TimerEvent: {}
+[135.369016] (-) TimerEvent: {}
+[135.469854] (-) TimerEvent: {}
+[135.570646] (-) TimerEvent: {}
+[135.671530] (-) TimerEvent: {}
+[135.709453] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[135.769579] (nanosaur_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanosaur_msgs/msg/eyes__type_support.cpp.o\x1b[0m\n'}
+[135.771697] (-) TimerEvent: {}
+[135.872567] (-) TimerEvent: {}
+[135.877724] (nanosaur_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanosaur_msgs/srv/eye_message__type_support.cpp.o\x1b[0m\n'}
+[135.972750] (-) TimerEvent: {}
+[135.988729] (nanosaur_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[136.072945] (-) TimerEvent: {}
+[136.173742] (-) TimerEvent: {}
+[136.221124] (nanosaur_msgs) StdoutLine: {'line': b'[ 78%] Built target nanosaur_msgs__rosidl_typesupport_c\n'}
+[136.262478] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs\x1b[0m\n'}
+[136.273971] (-) TimerEvent: {}
+[136.309037] (nanosaur_msgs) StdoutLine: {'line': b'[ 78%] Built target nanosaur_msgs\n'}
+[136.356447] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__py\x1b[0m\n'}
+[136.374159] (-) TimerEvent: {}
+[136.404976] (nanosaur_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[136.474327] (-) TimerEvent: {}
+[136.575119] (-) TimerEvent: {}
+[136.675917] (-) TimerEvent: {}
+[136.776641] (-) TimerEvent: {}
+[136.877414] (-) TimerEvent: {}
+[136.978204] (-) TimerEvent: {}
+[137.079053] (-) TimerEvent: {}
+[137.180108] (-) TimerEvent: {}
+[137.280882] (-) TimerEvent: {}
+[137.381684] (-) TimerEvent: {}
+[137.482411] (-) TimerEvent: {}
+[137.583256] (-) TimerEvent: {}
+[137.684047] (-) TimerEvent: {}
+[137.784833] (-) TimerEvent: {}
+[137.885651] (-) TimerEvent: {}
+[137.986428] (-) TimerEvent: {}
+[138.087234] (-) TimerEvent: {}
+[138.188009] (-) TimerEvent: {}
+[138.288793] (-) TimerEvent: {}
+[138.389770] (-) TimerEvent: {}
+[138.490479] (-) TimerEvent: {}
+[138.591263] (-) TimerEvent: {}
+[138.691996] (-) TimerEvent: {}
+[138.792729] (-) TimerEvent: {}
+[138.893464] (-) TimerEvent: {}
+[138.994194] (-) TimerEvent: {}
+[139.094969] (-) TimerEvent: {}
+[139.195746] (-) TimerEvent: {}
+[139.296544] (-) TimerEvent: {}
+[139.397266] (-) TimerEvent: {}
+[139.498029] (-) TimerEvent: {}
+[139.598748] (-) TimerEvent: {}
+[139.699529] (-) TimerEvent: {}
+[139.800393] (-) TimerEvent: {}
+[139.901218] (-) TimerEvent: {}
+[140.001952] (-) TimerEvent: {}
+[140.102733] (-) TimerEvent: {}
+[140.203540] (-) TimerEvent: {}
+[140.304433] (-) TimerEvent: {}
+[140.405217] (-) TimerEvent: {}
+[140.506024] (-) TimerEvent: {}
+[140.606808] (-) TimerEvent: {}
+[140.707584] (-) TimerEvent: {}
+[140.808385] (-) TimerEvent: {}
+[140.909177] (-) TimerEvent: {}
+[141.009971] (-) TimerEvent: {}
+[141.110818] (-) TimerEvent: {}
+[141.211599] (-) TimerEvent: {}
+[141.247922] (nanosaur_msgs) StdoutLine: {'line': b'[ 81%] Built target nanosaur_msgs__py\n'}
+[141.293549] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__python\x1b[0m\n'}
+[141.311863] (-) TimerEvent: {}
+[141.406804] (nanosaur_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__python.dir/rosidl_generator_py/nanosaur_msgs/msg/_eyes_s.c.o\x1b[0m\n'}
+[141.412029] (-) TimerEvent: {}
+[141.513132] (-) TimerEvent: {}
+[141.614303] (-) TimerEvent: {}
+[141.715152] (-) TimerEvent: {}
+[141.729514] (nanosaur_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__python.dir/rosidl_generator_py/nanosaur_msgs/srv/_eye_message_s.c.o\x1b[0m\n'}
+[141.815362] (-) TimerEvent: {}
+[141.916325] (-) TimerEvent: {}
+[142.017169] (-) TimerEvent: {}
+[142.103225] (nanosaur_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/nanosaur_msgs/libnanosaur_msgs__python.so\x1b[0m\n'}
+[142.117358] (-) TimerEvent: {}
+[142.218183] (-) TimerEvent: {}
+[142.319052] (-) TimerEvent: {}
+[142.408056] (nanosaur_msgs) StdoutLine: {'line': b'[ 89%] Built target nanosaur_msgs__python\n'}
+[142.419230] (-) TimerEvent: {}
+[142.455491] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[142.519435] (-) TimerEvent: {}
+[142.547066] (nanosaur_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[142.619696] (-) TimerEvent: {}
+[142.720526] (-) TimerEvent: {}
+[142.821313] (-) TimerEvent: {}
+[142.861072] (nanosaur_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[142.921514] (-) TimerEvent: {}
+[143.022437] (-) TimerEvent: {}
+[143.123295] (-) TimerEvent: {}
+[143.205884] (nanosaur_msgs) StdoutLine: {'line': b'[ 94%] Built target nanosaur_msgs__rosidl_typesupport_c__pyext\n'}
+[143.223538] (-) TimerEvent: {}
+[143.254521] (nanosaur_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[143.323791] (-) TimerEvent: {}
+[143.346415] (nanosaur_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[143.423985] (-) TimerEvent: {}
+[143.524801] (-) TimerEvent: {}
+[143.625570] (-) TimerEvent: {}
+[143.663519] (nanosaur_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\x1b[0m\n'}
+[143.725816] (-) TimerEvent: {}
+[143.826789] (-) TimerEvent: {}
+[143.927737] (-) TimerEvent: {}
+[144.005922] (nanosaur_msgs) StdoutLine: {'line': b'[100%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[144.027970] (-) TimerEvent: {}
+[144.129953] (-) TimerEvent: {}
+[144.137503] (nanosaur_msgs) JobEnded: {'identifier': 'nanosaur_msgs', 'rc': 'SIGINT'}
+[144.188190] (nanosaur_emotion) JobSkipped: {'identifier': 'nanosaur_emotion'}
+[144.188534] (nanosaur_hardware) JobSkipped: {'identifier': 'nanosaur_hardware'}
+[144.188716] (nanosaur_simulations) JobSkipped: {'identifier': 'nanosaur_simulations'}
+[144.188876] (nanosaur_worlds) JobSkipped: {'identifier': 'nanosaur_worlds'}
+[144.189033] (ros2_system_manager) JobSkipped: {'identifier': 'ros2_system_manager'}
+[144.189202] (teleop_twist_keyboard) JobSkipped: {'identifier': 'teleop_twist_keyboard'}
+[144.189386] (webrtc_pkg) JobSkipped: {'identifier': 'webrtc_pkg'}
+[144.189571] (jetson_stats_wrapper) JobSkipped: {'identifier': 'jetson_stats_wrapper'}
+[144.189747] (nanosaur) JobSkipped: {'identifier': 'nanosaur'}
+[144.191287] (nanosaur_base) JobSkipped: {'identifier': 'nanosaur_base'}
+[144.191559] (nanosaur_gazebo) JobSkipped: {'identifier': 'nanosaur_gazebo'}
+[144.191734] (nanosaur_ignition) JobSkipped: {'identifier': 'nanosaur_ignition'}
+[144.191922] (nanosaur_isaac_sim) JobSkipped: {'identifier': 'nanosaur_isaac_sim'}
+[144.192067] (ros2_jetson_stats) JobSkipped: {'identifier': 'ros2_jetson_stats'}
+[144.192211] (nanosaur_bringup) JobSkipped: {'identifier': 'nanosaur_bringup'}
+[144.192353] (nanosaur_robot) JobSkipped: {'identifier': 'nanosaur_robot'}
+[144.192488] (-) EventReactorShutdown: {}

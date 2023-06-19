@@ -1,0 +1,23 @@
+{
+  "package_name": "jetson_stats_msgs",
+  "output_dir": "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_typesupport_introspection_c/jetson_stats_msgs",
+  "template_dir": "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs:srv/Fan.idl",
+    "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs:srv/JetsonClocks.idl",
+    "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs:srv/NVPModel.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/eloquent/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs/srv/Fan.idl",
+    "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs/srv/JetsonClocks.idl",
+    "/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs/srv/NVPModel.idl"
+  ]
+}

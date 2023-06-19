@@ -1,0 +1,32 @@
+[3.980s] Invoking command in '/home/jetson/ros_ws/build/image_pub': PYTHONPATH=/home/jetson/ros_ws/build/image_pub/prefix_override:/home/jetson/ros_ws/install/image_pub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros_ws/build/image_pub/build --no-deps install_data
+[5.309s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.309s]   % (opt, underscore_opt)
+[5.569s] running develop
+[5.574s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/easy_install.py:159: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.575s]   EasyInstallDeprecationWarning,
+[5.582s] /home/jetson/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.583s]   setuptools.SetuptoolsDeprecationWarning,
+[5.835s] /home/jetson/.local/lib/python3.6/site-packages/pkg_resources/__init__.py:119: PkgResourcesDeprecationWarning: 0.18ubuntu0.18.04.1 is an invalid version and will not be supported in a future release
+[5.836s]   PkgResourcesDeprecationWarning,
+[6.293s] running egg_info
+[6.293s] creating image_pub.egg-info
+[6.294s] writing image_pub.egg-info/PKG-INFO
+[6.295s] writing dependency_links to image_pub.egg-info/dependency_links.txt
+[6.295s] writing entry points to image_pub.egg-info/entry_points.txt
+[6.296s] writing requirements to image_pub.egg-info/requires.txt
+[6.297s] writing top-level names to image_pub.egg-info/top_level.txt
+[6.297s] writing manifest file 'image_pub.egg-info/SOURCES.txt'
+[6.304s] reading manifest file 'image_pub.egg-info/SOURCES.txt'
+[6.309s] writing manifest file 'image_pub.egg-info/SOURCES.txt'
+[6.315s] running build_ext
+[6.316s] Creating /home/jetson/ros_ws/install/image_pub/lib/python3.6/site-packages/image-pub.egg-link (link to .)
+[6.320s] Installing image_pub script to /home/jetson/ros_ws/install/image_pub/lib/image_pub
+[6.322s] 
+[6.322s] Installed /home/jetson/ros_ws/build/image_pub
+[6.323s] running install_data
+[6.324s] creating /home/jetson/ros_ws/install/image_pub/share/ament_index
+[6.324s] creating /home/jetson/ros_ws/install/image_pub/share/ament_index/resource_index
+[6.325s] creating /home/jetson/ros_ws/install/image_pub/share/ament_index/resource_index/packages
+[6.326s] copying resource/image_pub -> /home/jetson/ros_ws/install/image_pub/share/ament_index/resource_index/packages
+[6.326s] copying package.xml -> /home/jetson/ros_ws/install/image_pub/share/image_pub
+[6.468s] Invoked command in '/home/jetson/ros_ws/build/image_pub' returned '0': PYTHONPATH=/home/jetson/ros_ws/build/image_pub/prefix_override:/home/jetson/ros_ws/install/image_pub/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros_ws/build/image_pub/build --no-deps install_data

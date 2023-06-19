@@ -1,0 +1,3 @@
+/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs:srv/Fan.idl
+/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs:srv/JetsonClocks.idl
+/home/jetson/ros_ws/build/jetson_stats_msgs/rosidl_adapter/jetson_stats_msgs:srv/NVPModel.idl

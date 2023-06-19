@@ -1,0 +1,408 @@
+[0.077s] Invoking command in '/home/jetson/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4
+[0.278s] [35m[1mScanning dependencies of target gscam_node[0m
+[0.279s] [35m[1mScanning dependencies of target gscam_main[0m
+[0.360s] [ 22%] Built target subscriber_node
+[0.468s] [ 44%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[0.470s] [ 44%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[7.775s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:39:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[7.777s]    rclcpp::Publisher<sensor_msgs::msg::[01;31m[KImage[m[K>::SharedPtr camera_pub_;
+[7.777s]                                        [01;31m[K^~~~~[m[K
+[7.778s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:39:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[7.779s]    rclcpp::Publisher<sensor_msgs::msg::[01;31m[KImage[m[K>::SharedPtr camera_pub_;
+[7.779s]                                        [01;31m[K^~~~~[m[K
+[9.189s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:39:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[9.197s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:39:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[9.498s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.498s]    rclcpp::Publisher<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr camera_pub_;
+[9.499s]                                             [01;31m[K^[m[K
+[9.499s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[9.500s]    rclcpp::Publisher<sensor_msgs::msg::Image[01;31m[K>[m[K::SharedPtr camera_pub_;
+[9.500s]                                             [01;31m[K^[m[K
+[9.514s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.515s]    rclcpp::Publisher<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K camera_pub_;
+[9.515s]                                                [01;31m[K^~~~~~~~~[m[K
+[9.517s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[9.518s]    rclcpp::Publisher<sensor_msgs::msg::Image>::[01;31m[KSharedPtr[m[K camera_pub_;
+[9.518s]                                                [01;31m[K^~~~~~~~~[m[K
+[10.446s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pub_[m[K’ does not name a type
+[10.446s]    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr [01;31m[Kcamera_pub_[m[K;
+[10.447s]                                                          [01;31m[K^~~~~~~~~~~[m[K
+[10.449s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pub_[m[K’ does not name a type
+[10.449s]    rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr [01;31m[Kcamera_pub_[m[K;
+[10.450s]                                                          [01;31m[K^~~~~~~~~~~[m[K
+[10.519s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[10.520s]    rclcpp::Publisher<sensor_msgs::msg::[01;31m[KCompressedImage[m[K>::SharedPtr jpeg_pub_;
+[10.521s]                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.521s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[10.522s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.522s]    rclcpp::Publisher<sensor_msgs::msg::CompressedImage[01;31m[K>[m[K::SharedPtr jpeg_pub_;
+[10.523s]                                                       [01;31m[K^[m[K
+[10.524s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.524s]    rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::[01;31m[KSharedPtr[m[K jpeg_pub_;
+[10.525s]                                                          [01;31m[K^~~~~~~~~[m[K
+[10.526s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint gscam2::GSCamNode::impl::SharedPtr[m[K’
+[10.526s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint gscam2::GSCamNode::impl::SharedPtr[m[K’
+[10.527s]    rclcpp::Publisher<sensor_msgs::msg::Image>::[01;36m[KSharedPtr[m[K camera_pub_;
+[10.527s]                                                [01;36m[K^~~~~~~~~[m[K
+[10.528s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[10.529s]    rclcpp::Publisher<sensor_msgs::msg::[01;31m[KCompressedImage[m[K>::SharedPtr jpeg_pub_;
+[10.529s]                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[10.530s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:39:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[10.531s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.531s]    rclcpp::Publisher<sensor_msgs::msg::CompressedImage[01;31m[K>[m[K::SharedPtr jpeg_pub_;
+[10.532s]                                                       [01;31m[K^[m[K
+[10.533s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[10.533s]    rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::[01;31m[KSharedPtr[m[K jpeg_pub_;
+[10.534s]                                                          [01;31m[K^~~~~~~~~[m[K
+[10.535s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:57:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint gscam2::GSCamNode::impl::SharedPtr[m[K’
+[10.535s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:71:47:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint gscam2::GSCamNode::impl::SharedPtr[m[K’
+[10.536s]    rclcpp::Publisher<sensor_msgs::msg::Image>::[01;36m[KSharedPtr[m[K camera_pub_;
+[10.536s]                                                [01;36m[K^~~~~~~~~[m[K
+[10.546s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kjpeg_pub_[m[K’ does not name a type
+[10.546s]    rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::SharedPtr [01;31m[Kjpeg_pub_[m[K;
+[10.547s]                                                                    [01;31m[K^~~~~~~~~[m[K
+[10.548s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:74:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kjpeg_pub_[m[K’ does not name a type
+[10.548s]    rclcpp::Publisher<sensor_msgs::msg::CompressedImage>::SharedPtr [01;31m[Kjpeg_pub_[m[K;
+[10.549s]                                                                    [01;31m[K^~~~~~~~~[m[K
+[17.829s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kbool gscam2::GSCamNode::impl::create_pipeline()[m[K’:
+[17.830s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[17.831s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K) {
+[17.831s]                                                                     [01;31m[K^~~~~~~~~~~[m[K
+[17.832s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kbool gscam2::GSCamNode::impl::create_pipeline()[m[K’:
+[17.832s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[17.833s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K) {
+[17.833s]                                                                     [01;31m[K^~~~~~~~~~~[m[K
+[17.834s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[17.835s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K) {
+[17.835s]                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[17.836s]                                                                     [32m[KYUV422[m[K
+[17.836s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[17.837s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K) {
+[17.837s]                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[17.837s]                                                                     [32m[KYUV422[m[K
+[17.838s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:245:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjpeg_pub_[m[K’ was not declared in this scope
+[17.838s]      [01;31m[Kjpeg_pub_[m[K =
+[17.839s]      [01;31m[K^~~~~~~~~[m[K
+[17.839s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:245:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjpeg_pub_[m[K’ was not declared in this scope
+[17.839s]      [01;31m[Kjpeg_pub_[m[K =
+[17.840s]      [01;31m[K^~~~~~~~~[m[K
+[17.840s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:245:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[17.841s]      [01;36m[Kjpeg_pub_[m[K =
+[17.841s]      [01;36m[K^~~~~~~~~[m[K
+[17.842s]      [32m[Kcinfo_pub_[m[K
+[17.842s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:245:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[17.842s]      [01;36m[Kjpeg_pub_[m[K =
+[17.843s]      [01;36m[K^~~~~~~~~[m[K
+[17.843s]      [32m[Kcinfo_pub_[m[K
+[17.844s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.844s]        node_->create_publisher<sensor_msgs::msg::[01;31m[KCompressedImage[m[K>("image_raw/compressed", 1);
+[17.845s]                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[17.845s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.846s]        node_->create_publisher<sensor_msgs::msg::[01;31m[KCompressedImage[m[K>("image_raw/compressed", 1);
+[17.846s]                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[17.846s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.847s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:49:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.847s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [21], int)[m[K’
+[17.848s]  create_publisher<sensor_msgs::msg::CompressedImage>("image_raw/compressed", 1[01;31m[K)[m[K;
+[17.848s]                                                                               [01;31m[K^[m[K
+[17.849s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [21], int)[m[K’
+[17.849s]        node_->create_publisher<sensor_msgs::msg::CompressedImage>("image_raw/compressed", 1[01;31m[K)[m[K;
+[17.849s]                                                                                            [01;31m[K^[m[K
+[17.850s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1114:0[m[K,
+[17.850s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.851s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[17.851s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[17.851s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.852s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.852s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)
+[17.853s]  [01;36m[KNode[m[K::create_publisher(
+[17.853s]  [01;36m[K^~~~[m[K
+[17.854s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.854s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.855s]        node_->create_publisher<sensor_msgs::msg::CompressedImage>("image_raw/compressed", 1[01;31m[K)[m[K;
+[17.855s]                                                                                            [01;31m[K^[m[K
+[17.855s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pub_[m[K’ was not declared in this scope
+[17.856s]      [01;31m[Kcamera_pub_[m[K = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1);
+[17.856s]      [01;31m[K^~~~~~~~~~~[m[K
+[17.857s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1114:0[m[K,
+[17.857s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.857s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[17.858s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[17.858s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.859s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.859s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)
+[17.860s]  [01;36m[KNode[m[K::create_publisher(
+[17.860s]  [01;36m[K^~~~[m[K
+[17.860s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.861s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:246:91:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.861s]  create_publisher<sensor_msgs::msg::CompressedImage>("image_raw/compressed", 1[01;31m[K)[m[K;
+[17.862s]                                                                               [01;31m[K^[m[K
+[17.862s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pub_[m[K’ was not declared in this scope
+[17.863s]      [01;31m[Kcamera_pub_[m[K = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1);
+[17.863s]      [01;31m[K^~~~~~~~~~~[m[K
+[17.863s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[17.864s]      [01;36m[Kcamera_pub_[m[K = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1);
+[17.864s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.865s]      [32m[Kcinfo_pub_[m[K
+[17.865s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:61:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.866s]      camera_pub_ = node_->create_publisher<sensor_msgs::msg::[01;31m[KImage[m[K>("image_raw", 1);
+[17.866s]                                                              [01;31m[K^~~~~[m[K
+[17.866s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:61:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.867s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [10], int)[m[K’
+[17.867s]  camera_pub_ = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1[01;31m[K)[m[K;
+[17.868s]                                                                               [01;31m[K^[m[K
+[17.868s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1114:0[m[K,
+[17.869s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.869s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[17.869s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[17.870s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.870s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.871s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)
+[17.871s]  [01;36m[KNode[m[K::create_publisher(
+[17.872s]  [01;36m[K^~~~[m[K
+[17.872s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.872s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.873s]  camera_pub_ = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1[01;31m[K)[m[K;
+[17.873s]                                                                               [01;31m[K^[m[K
+[17.874s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[17.874s]      [01;36m[Kcamera_pub_[m[K = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1);
+[17.874s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.875s]      [32m[Kcinfo_pub_[m[K
+[17.875s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:61:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.876s]      camera_pub_ = node_->create_publisher<sensor_msgs::msg::[01;31m[KImage[m[K>("image_raw", 1);
+[17.876s]                                                              [01;31m[K^~~~~[m[K
+[17.877s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:61:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.877s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [10], int)[m[K’
+[17.877s]      camera_pub_ = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1[01;31m[K)[m[K;
+[17.878s]                                                                                   [01;31m[K^[m[K
+[17.878s] In file included from [01m[K/opt/ros/eloquent/include/rclcpp/node.hpp:1114:0[m[K,
+[17.879s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[17.879s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/executors.hpp:22[m[K,
+[17.880s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:145[m[K,
+[17.880s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.881s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.881s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[Kcandidate: template<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)
+[17.882s]  [01;36m[KNode[m[K::create_publisher(
+[17.882s]  [01;36m[K^~~~[m[K
+[17.883s] [01m[K/opt/ros/eloquent/include/rclcpp/node_impl.hpp:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.883s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:248:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.884s]      camera_pub_ = node_->create_publisher<sensor_msgs::msg::Image>("image_raw", 1[01;31m[K)[m[K;
+[17.884s]                                                                                   [01;31m[K^[m[K
+[17.885s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::process_frame()[m[K’:
+[17.886s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:51:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.886s]      auto img = std::make_unique<sensor_msgs::msg::[01;31m[KCompressedImage[m[K>();
+[17.887s]                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[17.887s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:51:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.888s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[17.888s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.889s]                                                                     [01;31m[K^[m[K
+[17.890s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::process_frame()[m[K’:
+[17.890s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:51:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.891s]      auto img = std::make_unique<sensor_msgs::msg::[01;31m[KCompressedImage[m[K>();
+[17.891s]                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[17.892s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:51:[m[K [01;31m[Kerror: [m[K‘[01m[KCompressedImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.892s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[17.893s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.893s]                                                                     [01;31m[K^[m[K
+[17.894s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.894s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.894s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.895s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.895s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)
+[17.896s]      [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[17.897s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.897s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.898s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.898s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.899s]                                                                     [01;31m[K^[m[K
+[17.899s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.900s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.900s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.901s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.901s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)
+[17.902s]      [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[17.902s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.903s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.903s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.904s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.904s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.905s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.905s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)
+[17.906s]      [01;36m[Kmake_unique[m[K(size_t __num)
+[17.906s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.907s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.907s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.908s]                                                                     [01;31m[K^[m[K
+[17.908s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.909s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.909s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.910s]                                                                     [01;31m[K^[m[K
+[17.910s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.911s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.911s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.912s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.912s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...) <deleted>
+[17.913s]      [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[17.913s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.914s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.914s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.915s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.915s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.916s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)
+[17.916s]      [01;36m[Kmake_unique[m[K(size_t __num)
+[17.917s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.917s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.918s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.918s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.919s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.919s]                                                                     [01;31m[K^[m[K
+[17.920s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.920s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.921s]                                                                     [01;31m[K^[m[K
+[17.921s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.922s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.922s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.923s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.923s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...) <deleted>
+[17.924s]      [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[17.925s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.925s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.926s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:356:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.926s]      auto img = std::make_unique<sensor_msgs::msg::CompressedImage>([01;31m[K)[m[K;
+[17.927s]                                                                     [01;31m[K^[m[K
+[17.927s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:361:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjpeg_pub_[m[K’ was not declared in this scope
+[17.928s]      [01;31m[Kjpeg_pub_[m[K->publish(std::move(img));
+[17.928s]      [01;31m[K^~~~~~~~~[m[K
+[17.929s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:361:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjpeg_pub_[m[K’ was not declared in this scope
+[17.929s]      [01;31m[Kjpeg_pub_[m[K->publish(std::move(img));
+[17.930s]      [01;31m[K^~~~~~~~~[m[K
+[17.931s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:361:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[17.931s]      [01;36m[Kjpeg_pub_[m[K->publish(std::move(img));
+[17.932s]      [01;36m[K^~~~~~~~~[m[K
+[17.932s]      [32m[Kcinfo_pub_[m[K
+[17.933s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:361:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[17.933s]      [01;36m[Kjpeg_pub_[m[K->publish(std::move(img));
+[17.934s]      [01;36m[K^~~~~~~~~[m[K
+[17.934s]      [32m[Kcinfo_pub_[m[K
+[17.935s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:51:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.935s]      auto img = std::make_unique<sensor_msgs::msg::[01;31m[KImage[m[K>();
+[17.936s]                                                    [01;31m[K^~~~~[m[K
+[17.936s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:51:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[17.937s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[17.937s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[17.938s]                                                           [01;31m[K^[m[K
+[17.938s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.939s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.939s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[17.940s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[17.940s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)
+[17.941s]      [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[17.942s]      [01;36m[K^~~~~~~~~~~[m[K
+[17.942s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[17.943s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[17.943s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[17.944s]                                                           [01;31m[K^[m[K
+[17.945s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[17.945s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[17.946s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[18.315s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[18.315s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)
+[18.316s]      [01;36m[Kmake_unique[m[K(size_t __num)
+[18.316s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.317s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.317s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.318s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[18.318s]                                                           [01;31m[K^[m[K
+[18.319s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[18.319s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[18.320s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[18.320s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[18.321s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...) <deleted>
+[18.321s]      [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[18.321s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.322s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.322s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.323s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[18.323s]                                                           [01;31m[K^[m[K
+[18.324s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:403:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pub_[m[K’ was not declared in this scope
+[18.324s]      [01;31m[Kcamera_pub_[m[K->publish(std::move(img));
+[18.324s]      [01;31m[K^~~~~~~~~~~[m[K
+[18.325s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:51:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[18.325s]      auto img = std::make_unique<sensor_msgs::msg::[01;31m[KImage[m[K>();
+[18.326s]                                                    [01;31m[K^~~~~[m[K
+[18.326s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:51:[m[K [01;31m[Kerror: [m[K‘[01m[KImage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’
+[18.327s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[18.327s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[18.327s]                                                           [01;31m[K^[m[K
+[18.328s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[18.328s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[18.329s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[18.329s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[18.330s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)
+[18.330s]      [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[18.330s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.331s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:820:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.331s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.332s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[18.332s]                                                           [01;31m[K^[m[K
+[18.333s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[18.333s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[18.333s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[18.334s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[18.334s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)
+[18.335s]      [01;36m[Kmake_unique[m[K(size_t __num)
+[18.335s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.335s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:826:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.336s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.336s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[18.337s]                                                           [01;31m[K^[m[K
+[18.337s] In file included from [01m[K/usr/include/c++/7/memory:80:0[m[K,
+[18.338s]                  from [01m[K/opt/ros/eloquent/include/rclcpp/rclcpp.hpp:143[m[K,
+[18.338s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/include/gscam2/gscam_node.hpp:4[m[K,
+[18.339s]                  from [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:1[m[K:
+[18.339s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...) <deleted>
+[18.339s]      [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[18.340s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.340s] [01m[K/usr/include/c++/7/bits/unique_ptr.h:832:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[18.341s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:376:58:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[18.341s]      auto img = std::make_unique<sensor_msgs::msg::Image>([01;31m[K)[m[K;
+[18.341s]                                                           [01;31m[K^[m[K
+[18.342s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:403:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_pub_[m[K’ was not declared in this scope
+[18.342s]      [01;31m[Kcamera_pub_[m[K->publish(std::move(img));
+[18.343s]      [01;31m[K^~~~~~~~~~~[m[K
+[18.343s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:403:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[18.344s]      [01;36m[Kcamera_pub_[m[K->publish(std::move(img));
+[18.344s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.344s]      [32m[Kcinfo_pub_[m[K
+[18.345s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::restart()[m[K’:
+[18.345s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[18.346s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K &&
+[18.346s]                                                            [01;31m[K^~~~~~~~~~~[m[K
+[18.347s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[18.347s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K &&
+[18.347s]                                                            [01;36m[K^~~~~~~~~~~[m[K
+[18.348s]                                                            [32m[KYUV422[m[K
+[18.348s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:403:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kcinfo_pub_[m[K’
+[18.349s]      [01;36m[Kcamera_pub_[m[K->publish(std::move(img));
+[18.349s]      [01;36m[K^~~~~~~~~~~[m[K
+[18.349s]      [32m[Kcinfo_pub_[m[K
+[18.350s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::restart()[m[K’:
+[18.350s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[18.351s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K &&
+[18.351s]                                                            [01;31m[K^~~~~~~~~~~[m[K
+[18.352s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[18.352s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K &&
+[18.352s]                                                            [01;36m[K^~~~~~~~~~~[m[K
+[18.353s]                                                            [32m[KYUV422[m[K
+[35.911s] CMakeFiles/gscam_node.dir/build.make:62: recipe for target 'CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o' failed
+[36.081s] make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1
+[36.082s] CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed
+[36.083s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed
+[36.084s] make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+[36.085s] make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+[36.085s] make[1]: *** Waiting for unfinished jobs....
+[36.086s] make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2
+[36.086s] make: *** [all] Error 2
+[36.087s] CMakeFiles/Makefile2:206: recipe for target 'CMakeFiles/gscam_node.dir/all' failed
+[36.087s] Makefile:140: recipe for target 'all' failed
+[37.064s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4

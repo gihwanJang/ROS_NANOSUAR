@@ -1,0 +1,18 @@
+file(REMOVE_RECURSE
+  "rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/fan__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/jetson_clocks__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/nvp_model__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/fan__type_support.c"
+  "rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/jetson_clocks__type_support.c"
+  "rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/nvp_model__type_support.c"
+  "CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/fan__type_support.c.o"
+  "CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/jetson_clocks__type_support.c.o"
+  "CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/nvp_model__type_support.c.o"
+  "libjetson_stats_msgs__rosidl_typesupport_introspection_c.pdb"
+  "libjetson_stats_msgs__rosidl_typesupport_introspection_c.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

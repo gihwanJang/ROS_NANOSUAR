@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_emotion': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_emotion -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_emotion
+Invoked command in '/home/jetson/ros_ws/build/nanosaur_emotion' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_emotion -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_emotion

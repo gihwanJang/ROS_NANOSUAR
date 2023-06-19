@@ -1,0 +1,90 @@
+[0.176s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_description -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description
+[0.312s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[0.531s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.531s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.616s] -- Configuring done
+[2.628s] -- Generating done
+[2.633s] -- Build files have been written to: /home/jetson/ros_ws/build/nanosaur_description
+[2.655s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_description -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_description
+[2.658s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description -- -j4 -l4
+[2.873s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description -- -j4 -l4
+[3.112s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description --target install -- -j4 -l4
+[3.407s] [36mInstall the project...[0m
+[3.466s] -- Install configuration: ""
+[3.468s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes
+[3.470s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/datasheet
+[3.471s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/datasheet/nanosaur-powerbank.pdf
+[3.476s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/datasheet/nanosaur-datasheet.pdf
+[3.488s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/flap_bottom.stl
+[3.496s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover-zedmini.stl
+[3.511s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/LICENSE
+[3.513s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials
+[3.518s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures
+[3.518s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Roughness.png
+[3.535s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Metalness.png
+[3.540s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Normal.png
+[3.549s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/materials/textures/RealSense_Albedo.png
+[3.557s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in
+[3.558s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in/slider.stl
+[3.575s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in/wheel.stl
+[3.593s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/025in/sprocket.stl
+[3.604s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/base_front.stl
+[3.612s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/slider.stl
+[3.621s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/track.stl
+[3.625s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/base_rear.stl
+[3.635s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/wheel.stl
+[3.643s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/track_print.stl
+[3.648s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/pb_holder.stl
+[3.652s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/README.md
+[3.655s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover.stl
+[3.669s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover-fe.stl
+[3.683s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/sprocket.stl
+[3.688s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/cover-rs.stl
+[3.700s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/flap_top.stl
+[3.704s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts
+[3.705s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/zedm.stl
+[3.708s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/nanosaur-exp-board.stl
+[3.724s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/Pololu-Micro-Metal-Gearmotor.stl
+[3.729s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/motor_board.stl
+[3.759s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/fisheye_camera.dae
+[3.776s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/NVIDIA_jetson_nano_4gb.stl
+[3.881s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/OLED_Module.stl
+[3.899s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/rasp_camera.stl
+[3.941s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/d435.dae
+[3.944s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/meshes/parts/power_bank.stl
+[3.946s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/rviz
+[3.947s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/rviz/urdf.rviz
+[3.948s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf
+[3.949s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/track.urdf.xacro
+[3.950s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/materials.gazebo.xacro
+[3.951s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/flap.urdf.xacro
+[3.952s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/materials.urdf
+[3.952s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head
+[3.953s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/d435.urdf.xacro
+[3.954s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_pi.urdf.xacro
+[3.955s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/d435i_imu_modules.urdf.xacro
+[3.956s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_realsense.urdf.xacro
+[3.961s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_fisheye.urdf.xacro
+[3.962s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/head_zedmini.urdf.xacro
+[3.963s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/head/zedmini.urdf.xacro
+[3.964s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/nanosaur.urdf.xml
+[3.966s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/urdf/robot.urdf.xacro
+[3.967s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/launch
+[3.968s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/launch/description.launch.py
+[3.977s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/launch/display.launch.py
+[3.981s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/ament_index/resource_index/package_run_dependencies/nanosaur_description
+[3.983s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/ament_index/resource_index/parent_prefix_path/nanosaur_description
+[3.985s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/ament_prefix_path.sh
+[3.987s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/ament_prefix_path.dsv
+[3.989s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/path.sh
+[3.991s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/environment/path.dsv
+[3.993s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.bash
+[3.994s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.sh
+[3.996s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.zsh
+[3.998s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/local_setup.dsv
+[4.029s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.dsv
+[4.030s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/ament_index/resource_index/packages/nanosaur_description
+[4.031s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/cmake/nanosaur_descriptionConfig.cmake
+[4.032s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/cmake/nanosaur_descriptionConfig-version.cmake
+[4.032s] -- Installing: /home/jetson/ros_ws/install/nanosaur_description/share/nanosaur_description/package.xml
+[4.034s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_description --target install -- -j4 -l4

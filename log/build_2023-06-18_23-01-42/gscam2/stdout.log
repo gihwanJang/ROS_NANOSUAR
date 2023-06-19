@@ -1,0 +1,46 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'gstreamer-1.0'
+--   Found gstreamer-1.0, version 1.14.5
+-- Checking for module 'gstreamer-app-1.0'
+--   Found gstreamer-app-1.0, version 1.14.5
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found camera_calibration_parsers: 2.2.1 (/opt/ros/eloquent/share/camera_calibration_parsers/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+-- Found class_loader: 1.4.1 (/opt/ros/eloquent/share/class_loader/cmake)
+-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+-- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+-- Found rclpy: 0.8.5 (/opt/ros/eloquent/share/rclpy/cmake)
+-- Found ros2_shared: 0.1.0 (/home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/jetson/ros_ws/build/gscam2/CMakeFiles/CMakeOutput.log".
+See also "/home/jetson/ros_ws/build/gscam2/CMakeFiles/CMakeError.log".

@@ -1,0 +1,14 @@
+[0.080s] Invoking command in '/home/jetson/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4
+[0.273s] [35m[1mScanning dependencies of target gscam_main[0m
+[0.446s] [ 11%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[1.759s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encodings.h: No such file or directory
+[1.760s]  #include [01;31m[K"sensor_msgs/image_encodings.h"[m[K
+[1.761s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.761s] compilation terminated.
+[1.772s] CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed
+[1.773s] make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+[1.774s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed
+[1.774s] make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+[1.775s] Makefile:140: recipe for target 'all' failed
+[1.775s] make: *** [all] Error 2
+[1.780s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4

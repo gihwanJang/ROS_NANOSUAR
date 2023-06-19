@@ -1,0 +1,4 @@
+Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg -- -j4 -l4
+Invoked command in '/home/jetson/ros_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg -- -j4 -l4
+Invoking command in '/home/jetson/ros_ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg --target install -- -j4 -l4
+Invoked command in '/home/jetson/ros_ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/cpp_first_pkg --target install -- -j4 -l4

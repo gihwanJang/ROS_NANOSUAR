@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000647] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.000846] (-) JobUnselected: {'identifier': 'gscam2'}
+[0.000998] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.001375] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.001547] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.001704] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.004075] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.004334] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.004697] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.004866] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.005023] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.005181] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.007184] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.007415] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.007876] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.008054] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.008233] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.008414] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.009361] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.009645] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.009841] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.010022] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.012787] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.015193] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.015478] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.062785] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.064714] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/ros2_shared', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/ros2_shared'], 'cwd': '/home/jetson/ros_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/ros2_shared'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.093941] (-) TimerEvent: {}
+[0.194913] (-) TimerEvent: {}
+[0.295671] (-) TimerEvent: {}
+[0.396512] (-) TimerEvent: {}
+[0.497350] (-) TimerEvent: {}
+[0.598216] (-) TimerEvent: {}
+[0.699116] (-) TimerEvent: {}
+[0.747679] (ros2_shared) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.799300] (-) TimerEvent: {}
+[0.900059] (-) TimerEvent: {}
+[1.000863] (-) TimerEvent: {}
+[1.101720] (-) TimerEvent: {}
+[1.188272] (ros2_shared) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[1.201896] (-) TimerEvent: {}
+[1.214706] (ros2_shared) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.302149] (-) TimerEvent: {}
+[1.403039] (-) TimerEvent: {}
+[1.503862] (-) TimerEvent: {}
+[1.604707] (-) TimerEvent: {}
+[1.636557] (ros2_shared) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.696910] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.704862] (-) TimerEvent: {}
+[1.805600] (-) TimerEvent: {}
+[1.906393] (-) TimerEvent: {}
+[2.007178] (-) TimerEvent: {}
+[2.130542] (-) TimerEvent: {}
+[2.231448] (-) TimerEvent: {}
+[2.252039] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.273597] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.331691] (-) TimerEvent: {}
+[2.432447] (-) TimerEvent: {}
+[2.533203] (-) TimerEvent: {}
+[2.634069] (-) TimerEvent: {}
+[2.735112] (-) TimerEvent: {}
+[2.835889] (-) TimerEvent: {}
+[2.936657] (-) TimerEvent: {}
+[3.001269] (ros2_shared) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.013268] (ros2_shared) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.036849] (-) TimerEvent: {}
+[3.137661] (-) TimerEvent: {}
+[3.238535] (-) TimerEvent: {}
+[3.285573] (ros2_shared) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.287836] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.338717] (-) TimerEvent: {}
+[3.439692] (-) TimerEvent: {}
+[3.540456] (-) TimerEvent: {}
+[3.561954] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.580789] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.640709] (-) TimerEvent: {}
+[3.742496] (-) TimerEvent: {}
+[3.843246] (-) TimerEvent: {}
+[3.944063] (-) TimerEvent: {}
+[4.045663] (-) TimerEvent: {}
+[4.146466] (-) TimerEvent: {}
+[4.247229] (-) TimerEvent: {}
+[4.348087] (-) TimerEvent: {}
+[4.448878] (-) TimerEvent: {}
+[4.549653] (-) TimerEvent: {}
+[4.651374] (-) TimerEvent: {}
+[4.752480] (-) TimerEvent: {}
+[4.767083] (ros2_shared) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.793637] (ros2_shared) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[4.852643] (-) TimerEvent: {}
+[4.943782] (ros2_shared) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[4.945010] (ros2_shared) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.952809] (-) TimerEvent: {}
+[5.053564] (-) TimerEvent: {}
+[5.154293] (-) TimerEvent: {}
+[5.255064] (-) TimerEvent: {}
+[5.355759] (-) TimerEvent: {}
+[5.456465] (-) TimerEvent: {}
+[5.557490] (-) TimerEvent: {}
+[5.658241] (-) TimerEvent: {}
+[5.759096] (-) TimerEvent: {}
+[5.859870] (-) TimerEvent: {}
+[5.960642] (-) TimerEvent: {}
+[6.061461] (-) TimerEvent: {}
+[6.162282] (-) TimerEvent: {}
+[6.233071] (ros2_shared) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[6.262460] (-) TimerEvent: {}
+[6.363320] (-) TimerEvent: {}
+[6.464126] (-) TimerEvent: {}
+[6.564832] (-) TimerEvent: {}
+[6.665544] (-) TimerEvent: {}
+[6.676990] (ros2_shared) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.687731] (ros2_shared) StdoutLine: {'line': b'-- Generating done\n'}
+[6.691576] (ros2_shared) StdoutLine: {'line': b'-- Build files have been written to: /home/jetson/ros_ws/build/ros2_shared\n'}
+[6.702582] (ros2_shared) CommandEnded: {'returncode': 0}
+[6.706594] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[6.710191] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/ros2_shared', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/ros2_shared'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[6.765791] (-) TimerEvent: {}
+[6.867000] (ros2_shared) CommandEnded: {'returncode': 0}
+[6.870518] (-) TimerEvent: {}
+[6.949953] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[6.970940] (-) TimerEvent: {}
+[6.992784] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros_ws/build/ros2_shared', '--target', 'install', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros_ws/build/ros2_shared', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/ros2_shared'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[7.071158] (-) TimerEvent: {}
+[7.172050] (-) TimerEvent: {}
+[7.178302] (ros2_shared) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[7.216427] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.218770] (ros2_shared) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.222119] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[7.255861] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp\n'}
+[7.272279] (-) TimerEvent: {}
+[7.289885] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[7.324635] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[7.359443] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[7.372468] (-) TimerEvent: {}
+[7.395616] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[7.433185] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[7.468528] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[7.472646] (-) TimerEvent: {}
+[7.502920] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[7.537042] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[7.572154] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[7.573133] (-) TimerEvent: {}
+[7.613697] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[7.654943] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[7.673352] (-) TimerEvent: {}
+[7.689217] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[7.724650] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[7.759794] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.773535] (-) TimerEvent: {}
+[7.794491] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[7.829335] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[7.863594] (ros2_shared) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[7.873679] (-) TimerEvent: {}
+[7.907591] (ros2_shared) CommandEnded: {'returncode': 0}
+[7.974068] (-) TimerEvent: {}
+[8.075015] (-) TimerEvent: {}
+[8.174792] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[8.179311] (-) TimerEvent: {}
+[8.179844] (-) EventReactorShutdown: {}

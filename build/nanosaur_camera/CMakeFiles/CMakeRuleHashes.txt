@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+3f04a1ae889d033ee33b9dd0e23b26f5 CMakeFiles/nanosaur_camera_uninstall

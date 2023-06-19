@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.000932] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.001138] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.001290] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.001431] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.001565] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.001763] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.001944] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.002106] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.002241] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.002370] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.002497] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.002621] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.002746] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.002869] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.002992] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.003128] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.003258] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.003389] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.003577] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.003716] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.003839] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.003980] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.004106] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.004244] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/jetson/ros_ws/install/ros2_shared')])}
+[0.004440] (gscam2) JobStarted: {'identifier': 'gscam2'}
+[0.071292] (gscam2) JobProgress: {'identifier': 'gscam2', 'progress': 'cmake'}
+[0.072469] (gscam2) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/gscam2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/gscam2'], 'cwd': '/home/jetson/ros_ws/build/gscam2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/jetson/ros_ws/src'), ('HOME', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/gscam2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/jetson/ros_ws/install/ros2_shared:/opt/ros/eloquent')]), 'shell': False}
+[0.093826] (-) TimerEvent: {}
+[0.124017] (gscam2) StderrLine: {'line': b'CMake Error at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.125037] (gscam2) StderrLine: {'line': b'  CMake 3.12 or higher is required.  You are running version 3.10.2\n'}
+[0.125659] (gscam2) StderrLine: {'line': b'\n'}
+[0.126256] (gscam2) StderrLine: {'line': b'\n'}
+[0.129737] (gscam2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.131571] (gscam2) CommandEnded: {'returncode': 1}
+[0.194209] (-) TimerEvent: {}
+[0.254171] (gscam2) JobEnded: {'identifier': 'gscam2', 'rc': 1}
+[0.266570] (-) EventReactorShutdown: {}

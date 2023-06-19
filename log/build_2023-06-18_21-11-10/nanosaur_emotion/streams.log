@@ -1,0 +1,44 @@
+[0.140s] Invoking command in '/home/jetson/ros_ws/build/nanosaur_emotion': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_emotion -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_emotion
+[0.486s] -- The C compiler identification is GNU 7.5.0
+[0.758s] -- The CXX compiler identification is GNU 7.5.0
+[0.784s] -- Check for working C compiler: /usr/bin/cc
+[1.125s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.130s] -- Detecting C compiler ABI info
+[1.532s] -- Detecting C compiler ABI info - done
+[1.575s] -- Detecting C compile features
+[2.781s] -- Detecting C compile features - done
+[2.810s] -- Check for working CXX compiler: /usr/bin/c++
+[3.279s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.282s] -- Detecting CXX compiler ABI info
+[3.958s] -- Detecting CXX compiler ABI info - done
+[3.990s] -- Detecting CXX compile features
+[5.362s] -- Detecting CXX compile features - done
+[5.433s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[5.625s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[5.634s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.118s] -- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)
+[7.235s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[7.487s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[7.495s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.503s] -- Looking for pthread.h
+[7.819s] -- Looking for pthread.h - found
+[7.822s] -- Looking for pthread_create
+[8.128s] -- Looking for pthread_create - not found
+[8.129s] -- Looking for pthread_create in pthreads
+[8.376s] -- Looking for pthread_create in pthreads - not found
+[8.377s] -- Looking for pthread_create in pthread
+[8.646s] -- Looking for pthread_create in pthread - found
+[8.650s] -- Found Threads: TRUE  
+[8.823s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[8.845s] -- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)
+[8.925s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[9.360s] CMake Error at /opt/ros/eloquent/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:36 (message):
+[9.361s]   ament_target_dependencies() the first argument must be a valid target name
+[9.361s] Call Stack (most recent call first):
+[9.362s]   CMakeLists.txt:51 (ament_target_dependencies)
+[9.362s] 
+[9.363s] 
+[9.368s] -- Configuring incomplete, errors occurred!
+[9.370s] See also "/home/jetson/ros_ws/build/nanosaur_emotion/CMakeFiles/CMakeOutput.log".
+[9.370s] See also "/home/jetson/ros_ws/build/nanosaur_emotion/CMakeFiles/CMakeError.log".
+[9.828s] Invoked command in '/home/jetson/ros_ws/build/nanosaur_emotion' returned '1': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/rb_nanosaur/nanosaur_emotion -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_emotion

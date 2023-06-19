@@ -1,0 +1,49 @@
+[0.053s] Invoking command in '/home/jetson/ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/ros2_shared
+[0.733s] -- The C compiler identification is GNU 7.5.0
+[1.173s] -- The CXX compiler identification is GNU 7.5.0
+[1.200s] -- Check for working C compiler: /usr/bin/cc
+[1.621s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.682s] -- Detecting C compiler ABI info
+[2.237s] -- Detecting C compiler ABI info - done
+[2.259s] -- Detecting C compile features
+[2.986s] -- Detecting C compile features - done
+[2.998s] -- Check for working CXX compiler: /usr/bin/c++
+[3.271s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.273s] -- Detecting CXX compiler ABI info
+[3.547s] -- Detecting CXX compiler ABI info - done
+[3.566s] -- Detecting CXX compile features
+[4.752s] -- Detecting CXX compile features - done
+[4.779s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[4.929s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.930s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.218s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.662s] -- Configuring done
+[6.673s] -- Generating done
+[6.677s] -- Build files have been written to: /home/jetson/ros_ws/build/ros2_shared
+[6.689s] Invoked command in '/home/jetson/ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_shared -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/ros2_shared
+[6.700s] Invoking command in '/home/jetson/ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/ros2_shared -- -j4 -l4
+[6.853s] Invoked command in '/home/jetson/ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/ros2_shared -- -j4 -l4
+[6.979s] Invoking command in '/home/jetson/ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/ros2_shared --target install -- -j4 -l4
+[7.163s] [36mInstall the project...[0m
+[7.201s] -- Install configuration: ""
+[7.204s] -- Execute custom install script
+[7.207s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[7.241s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[7.275s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[7.310s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[7.345s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[7.381s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[7.418s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[7.454s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[7.488s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[7.522s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[7.557s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[7.599s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[7.640s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[7.674s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[7.710s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[7.745s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.780s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[7.814s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[7.849s] -- Symlinking: /home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/package.xml
+[7.897s] Invoked command in '/home/jetson/ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/ros2_shared --target install -- -j4 -l4

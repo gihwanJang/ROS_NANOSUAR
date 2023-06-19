@@ -1,0 +1,3 @@
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_msgs
+Invoked command in '/home/jetson/ros_ws/build/nanosaur_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/nanosaur/nanosaur_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_msgs
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_msgs -- -j4 -l4

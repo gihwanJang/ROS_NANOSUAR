@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from jetson_stats_msgs/srv/JetsonClocks.srv
+// generated code does not contain a copyright notice
+
+
+module jetson_stats_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " jetson_clocks selection")
+    struct JetsonClocks_Request {
+      boolean status;
+    };
+    struct JetsonClocks_Response {
+      boolean done;
+    };
+  };
+};

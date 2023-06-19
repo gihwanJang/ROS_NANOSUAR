@@ -1,0 +1,50 @@
+[0.092s] Invoking command in '/home/jetson/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4
+[0.348s] [35m[1mScanning dependencies of target gscam_node[0m
+[0.349s] [35m[1mScanning dependencies of target gscam_main[0m
+[0.452s] [ 22%] Built target subscriber_node
+[0.520s] [ 33%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[0.545s] [ 44%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[26.393s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kbool gscam2::GSCamNode::impl::create_pipeline()[m[K’:
+[26.521s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[26.521s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K) {
+[26.522s]                                                                     [01;31m[K^~~~~~~~~~~[m[K
+[26.524s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kbool gscam2::GSCamNode::impl::create_pipeline()[m[K’:
+[26.525s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[26.526s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K) {
+[26.526s]                                                                     [01;31m[K^~~~~~~~~~~[m[K
+[26.527s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[26.528s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K) {
+[26.529s]                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[26.530s]                                                                     [32m[KYUV422[m[K
+[26.530s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:171:68:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[26.531s]    } else if (cxt_.image_encoding_ == sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K) {
+[26.531s]                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[26.532s]                                                                     [32m[KYUV422[m[K
+[26.628s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::restart()[m[K’:
+[26.629s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[26.629s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K &&
+[26.630s]                                                            [01;31m[K^~~~~~~~~~~[m[K
+[26.631s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[26.632s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K &&
+[26.632s]                                                            [01;36m[K^~~~~~~~~~~[m[K
+[26.633s]                                                            [32m[KYUV422[m[K
+[27.194s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:[m[K In member function ‘[01m[Kvoid gscam2::GSCamNode::impl::restart()[m[K’:
+[27.196s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;31m[Kerror: [m[K‘[01m[KYUV422_YUY2[m[K’ is not a member of ‘[01m[Ksensor_msgs::image_encodings[m[K’
+[27.196s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;31m[KYUV422_YUY2[m[K &&
+[27.197s]                                                            [01;31m[K^~~~~~~~~~~[m[K
+[27.197s] [01m[K/home/jetson/ros_ws/src/gscam2/src/gscam_node.cpp:440:59:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KYUV422[m[K’
+[27.198s]      cxt_.image_encoding_ != sensor_msgs::image_encodings::[01;36m[KYUV422_YUY2[m[K &&
+[27.199s]                                                            [01;36m[K^~~~~~~~~~~[m[K
+[27.199s]                                                            [32m[KYUV422[m[K
+[48.752s] make[2]: *** [CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o] Error 1
+[48.803s] CMakeFiles/gscam_main.dir/build.make:86: recipe for target 'CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o' failed
+[48.860s] CMakeFiles/gscam_node.dir/build.make:62: recipe for target 'CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o' failed
+[48.861s] CMakeFiles/Makefile2:206: recipe for target 'CMakeFiles/gscam_node.dir/all' failed
+[48.862s] make[2]: *** [CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o] Error 1
+[48.862s] make[1]: *** [CMakeFiles/gscam_node.dir/all] Error 2
+[48.863s] make[1]: *** Waiting for unfinished jobs....
+[48.863s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/gscam_main.dir/all' failed
+[48.863s] Makefile:140: recipe for target 'all' failed
+[48.864s] make[1]: *** [CMakeFiles/gscam_main.dir/all] Error 2
+[48.864s] make: *** [all] Error 2
+[50.074s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '2': CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4

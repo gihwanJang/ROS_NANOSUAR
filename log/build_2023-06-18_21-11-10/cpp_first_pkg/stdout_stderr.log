@@ -1,0 +1,39 @@
+[ 20%] Built target simple_node
+[ 40%] Built target simple_oop_node
+[ 60%] Built target simple_without_oop_node
+[ 80%] Built target simple_loop_node
+[100%] Built target lifecycle_node
+[ 20%] Built target simple_node
+[ 40%] Built target simple_oop_node
+[ 60%] Built target simple_without_oop_node
+[ 80%] Built target simple_loop_node
+[100%] Built target lifecycle_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/lifecycle_node
+-- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/lifecycle_node" to ""
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_loop_node
+-- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_loop_node" to ""
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_oop_node
+-- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_oop_node" to ""
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_without_oop_node
+-- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_without_oop_node" to ""
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_node
+-- Set runtime path of "/home/jetson/ros_ws/install/cpp_first_pkg/lib/cpp_first_pkg/simple_node" to ""
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_first_pkg
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_first_pkg
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/path.sh
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/environment/path.dsv
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.bash
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.sh
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.zsh
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/local_setup.dsv
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.dsv
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/ament_index/resource_index/packages/cpp_first_pkg
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/cmake/cpp_first_pkgConfig.cmake
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/cmake/cpp_first_pkgConfig-version.cmake
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg/package.xml
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg//launch
+-- Installing: /home/jetson/ros_ws/install/cpp_first_pkg/share/cpp_first_pkg//launch/simple_node.launch.py

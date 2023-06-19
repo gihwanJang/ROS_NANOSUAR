@@ -1,0 +1,3 @@
+Invoking command in '/home/jetson/ros_ws/build/jetson_stats_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs
+Invoked command in '/home/jetson/ros_ws/build/jetson_stats_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs
+Invoking command in '/home/jetson/ros_ws/build/jetson_stats_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/jetson_stats_msgs -- -j4 -l4

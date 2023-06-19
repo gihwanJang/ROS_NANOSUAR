@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.003653] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.003880] (-) JobUnselected: {'identifier': 'gscam2'}
+[0.004044] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.004197] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.004345] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.004600] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.004977] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.005221] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.005360] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.005476] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.005587] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.005707] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.005854] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.005959] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.006064] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.006183] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.006312] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.006448] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.006617] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.008768] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.009007] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.009455] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.009645] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.009813] (nanosaur_camera) JobQueued: {'identifier': 'nanosaur_camera', 'dependencies': OrderedDict()}
+[0.009976] (nanosaur_camera) JobStarted: {'identifier': 'nanosaur_camera'}
+[0.078963] (nanosaur_camera) JobProgress: {'identifier': 'nanosaur_camera', 'progress': 'cmake'}
+[0.084947] (nanosaur_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ros_ws/src/rb_nanosaur/nanosaur_camera', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/nanosaur_camera'], 'cwd': '/home/jetson/ros_ws/build/nanosaur_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GTK_CSD', '0'), ('USER', 'jetson'), ('LANGUAGE', 'en_US'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '6464'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'LXDE'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ux-LXDE.mandatory.path'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'jetson'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/ux-LXDE.default.path'), ('ROS_VERSION', '2'), ('XDG_SESSION_ID', 'c2'), ('TERM', 'xterm-256color'), ('SAL_USE_VCLPLUGIN', 'gtk'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('GDM_LANG', 'en_US'), ('XDG_MENU_PREFIX', 'lxde-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('DISPLAY', ':0.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXDE'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_CONFIG_HOME', '/home/jetson/.config'), ('XDG_SESSION_DESKTOP', 'ux-LXDE'), ('XAUTHORITY', '/home/jetson/.Xauthority'), ('XDG_DATA_HOME', '/home/jetson/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/tmp/ssh-wUFdz3A52f6a/agent.6371'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/jetson'), ('LC_NAME', 'ko_KR.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ux-LXDE'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('_LXSESSION_PID', '6371'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('XDG_VTNR', '7'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/jetson/ros_ws/build/nanosaur_camera'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ux-LXDE:/etc/xdg'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.103581] (-) TimerEvent: {}
+[0.209254] (-) TimerEvent: {}
+[0.310256] (-) TimerEvent: {}
+[0.411409] (-) TimerEvent: {}
+[0.512221] (-) TimerEvent: {}
+[0.613292] (-) TimerEvent: {}
+[0.663704] (nanosaur_camera) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[0.713450] (-) TimerEvent: {}
+[0.814107] (-) TimerEvent: {}
+[0.834600] (nanosaur_camera) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.914333] (-) TimerEvent: {}
+[1.015033] (-) TimerEvent: {}
+[1.115746] (-) TimerEvent: {}
+[1.216511] (-) TimerEvent: {}
+[1.317302] (-) TimerEvent: {}
+[1.418089] (-) TimerEvent: {}
+[1.518836] (-) TimerEvent: {}
+[1.619587] (-) TimerEvent: {}
+[1.720311] (-) TimerEvent: {}
+[1.821035] (-) TimerEvent: {}
+[1.921788] (-) TimerEvent: {}
+[2.022531] (-) TimerEvent: {}
+[2.123304] (-) TimerEvent: {}
+[2.217305] (nanosaur_camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.223466] (-) TimerEvent: {}
+[2.282236] (nanosaur_camera) StdoutLine: {'line': b'-- Found rclcpp: 0.8.5 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[2.323649] (-) TimerEvent: {}
+[2.346220] (nanosaur_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[2.423886] (-) TimerEvent: {}
+[2.510480] (nanosaur_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[2.518761] (nanosaur_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.524099] (-) TimerEvent: {}
+[2.624879] (-) TimerEvent: {}
+[2.668484] (nanosaur_camera) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[2.725145] (-) TimerEvent: {}
+[2.767560] (nanosaur_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)\n'}
+[2.821047] (nanosaur_camera) StderrLine: {'line': b'CMake Error at CMakeLists.txt:24 (find_package):\n'}
+[2.821862] (nanosaur_camera) StderrLine: {'line': b'  By not providing "Findjetson-utils.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.822418] (nanosaur_camera) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.823068] (nanosaur_camera) StderrLine: {'line': b'  "jetson-utils", but CMake did not find one.\n'}
+[2.823678] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[2.824350] (nanosaur_camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "jetson-utils" with\n'}
+[2.824956] (nanosaur_camera) StderrLine: {'line': b'  any of the following names:\n'}
+[2.825584] (-) TimerEvent: {}
+[2.826067] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[2.827017] (nanosaur_camera) StderrLine: {'line': b'    jetson-utilsConfig.cmake\n'}
+[2.827657] (nanosaur_camera) StderrLine: {'line': b'    jetson-utils-config.cmake\n'}
+[2.828293] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[2.828858] (nanosaur_camera) StderrLine: {'line': b'  Add the installation prefix of "jetson-utils" to CMAKE_PREFIX_PATH or set\n'}
+[2.829522] (nanosaur_camera) StderrLine: {'line': b'  "jetson-utils_DIR" to a directory containing one of the above files.  If\n'}
+[2.830109] (nanosaur_camera) StderrLine: {'line': b'  "jetson-utils" provides a separate development package or SDK, be sure it\n'}
+[2.830675] (nanosaur_camera) StderrLine: {'line': b'  has been installed.\n'}
+[2.831255] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[2.831818] (nanosaur_camera) StderrLine: {'line': b'\n'}
+[2.832625] (nanosaur_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.833207] (nanosaur_camera) StdoutLine: {'line': b'See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeOutput.log".\n'}
+[2.833680] (nanosaur_camera) StdoutLine: {'line': b'See also "/home/jetson/ros_ws/build/nanosaur_camera/CMakeFiles/CMakeError.log".\n'}
+[2.847188] (nanosaur_camera) CommandEnded: {'returncode': 1}
+[2.926803] (-) TimerEvent: {}
+[3.020655] (nanosaur_camera) JobEnded: {'identifier': 'nanosaur_camera', 'rc': 1}
+[3.026903] (-) TimerEvent: {}
+[3.033310] (-) EventReactorShutdown: {}

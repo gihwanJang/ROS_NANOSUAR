@@ -1,0 +1,59 @@
+[0.106s] Invoking command in '/home/jetson/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4
+[0.454s] [35m[1mScanning dependencies of target gscam_main[0m
+[0.538s] [ 22%] Built target subscriber_node
+[0.600s] [35m[1mScanning dependencies of target gscam_node[0m
+[0.646s] [ 33%] [32mBuilding CXX object CMakeFiles/gscam_main.dir/src/gscam_node.cpp.o[0m
+[0.790s] [ 44%] [32mBuilding CXX object CMakeFiles/gscam_node.dir/src/gscam_node.cpp.o[0m
+[66.729s] [ 55%] [32m[1mLinking CXX shared library libgscam_node.so[0m
+[66.799s] [ 66%] [32m[1mLinking CXX executable gscam_main[0m
+[69.273s] [ 66%] Built target gscam_node
+[69.282s] [ 77%] Built target gscam_main
+[69.465s] [ 88%] [32m[1mLinking CXX executable ipc_test_main[0m
+[70.450s] [100%] Built target ipc_test_main
+[70.741s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 -- -j4 -l4
+[71.313s] Invoking command in '/home/jetson/ros_ws/build/gscam2': CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 --target install -- -j4 -l4
+[71.795s] [ 33%] Built target gscam_main
+[71.941s] [ 55%] Built target gscam_node
+[72.074s] [ 77%] Built target subscriber_node
+[72.198s] [100%] Built target ipc_test_main
+[72.277s] [36mInstall the project...[0m
+[72.313s] -- Install configuration: ""
+[72.316s] -- Execute custom install script
+[72.320s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/library_path.sh
+[72.321s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/library_path.dsv
+[72.324s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/package_run_dependencies/gscam2
+[72.326s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/parent_prefix_path/gscam2
+[72.328s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.sh
+[72.329s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/ament_prefix_path.dsv
+[72.331s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/path.sh
+[72.332s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/environment/path.dsv
+[72.334s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.bash
+[72.335s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.sh
+[72.339s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.zsh
+[72.340s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/local_setup.dsv
+[72.341s] -- Symlinking: /home/jetson/ros_ws/install/gscam2/share/gscam2/package.dsv
+[72.380s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/packages/gscam2
+[72.381s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/ament_index/resource_index/rclcpp_components/gscam2
+[72.383s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.385s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.386s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_interfaces-extras.cmake
+[72.388s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/ament_cmake_export_libraries-extras.cmake
+[72.389s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config.cmake
+[72.390s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/gscam2Config-version.cmake
+[72.392s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/package.xml
+[72.395s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/include/gscam2/gscam_node.hpp
+[72.396s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/include/gscam2/subscriber_node.hpp
+[72.398s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/lib/gscam2/gscam_main
+[72.399s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/lib/gscam2/ipc_test_main
+[72.403s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/composition_launch.py
+[72.404s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/container_param_launch.py
+[72.405s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/node_param_launch.py
+[72.406s] -- Up-to-date symlink: /home/jetson/ros_ws/install/gscam2/share/gscam2/launch/republish_launch.py
+[72.409s] -- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_gscam_nodeExport.cmake
+[72.410s] -- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_gscam_nodeExport-noconfig.cmake
+[72.411s] -- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_subscriber_nodeExport.cmake
+[72.412s] -- Up-to-date: /home/jetson/ros_ws/install/gscam2/share/gscam2/cmake/export_subscriber_nodeExport-noconfig.cmake
+[72.414s] -- Installing: /home/jetson/ros_ws/install/gscam2/lib/libgscam_node.so
+[72.423s] -- Set runtime path of "/home/jetson/ros_ws/install/gscam2/lib/libgscam_node.so" to ""
+[72.426s] -- Up-to-date: /home/jetson/ros_ws/install/gscam2/lib/libsubscriber_node.so
+[72.453s] Invoked command in '/home/jetson/ros_ws/build/gscam2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ros_ws/install/ros2_shared:/home/jetson/ros_ws/install/gscam2:/home/jetson/ros_ws/install/nanosaur_msgs:/home/jetson/ros_ws/install/nanosaur_description:/home/jetson/ros_ws/install/nanosaur_control:/home/jetson/ros_ws/install/jetson_stats_msgs:/home/jetson/ros_ws/install/cpp_first_pkg:/home/jetson/ros_ws/install/nanosaur_hardware:/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/gscam2 --target install -- -j4 -l4

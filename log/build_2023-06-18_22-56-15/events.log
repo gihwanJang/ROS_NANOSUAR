@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.005408] (-) JobUnselected: {'identifier': 'cpp_first_pkg'}
+[0.005646] (-) JobUnselected: {'identifier': 'jetson_stats_msgs'}
+[0.006092] (-) JobUnselected: {'identifier': 'jetson_stats_wrapper'}
+[0.006327] (-) JobUnselected: {'identifier': 'nanosaur'}
+[0.006494] (-) JobUnselected: {'identifier': 'nanosaur_base'}
+[0.006706] (-) JobUnselected: {'identifier': 'nanosaur_bringup'}
+[0.006977] (-) JobUnselected: {'identifier': 'nanosaur_camera'}
+[0.007150] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.007301] (-) JobUnselected: {'identifier': 'nanosaur_description'}
+[0.007442] (-) JobUnselected: {'identifier': 'nanosaur_emotion'}
+[0.007709] (-) JobUnselected: {'identifier': 'nanosaur_gazebo'}
+[0.007908] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.008134] (-) JobUnselected: {'identifier': 'nanosaur_ignition'}
+[0.008308] (-) JobUnselected: {'identifier': 'nanosaur_isaac_sim'}
+[0.008469] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.008640] (-) JobUnselected: {'identifier': 'nanosaur_robot'}
+[0.008803] (-) JobUnselected: {'identifier': 'nanosaur_simulations'}
+[0.008965] (-) JobUnselected: {'identifier': 'nanosaur_worlds'}
+[0.009114] (-) JobUnselected: {'identifier': 'ros2_jetson_stats'}
+[0.009259] (-) JobUnselected: {'identifier': 'ros2_shared'}
+[0.009455] (-) JobUnselected: {'identifier': 'ros2_system_manager'}
+[0.012046] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.012368] (-) JobUnselected: {'identifier': 'webrtc_pkg'}
+[0.012826] (gscam2) JobQueued: {'identifier': 'gscam2', 'dependencies': OrderedDict([('ros2_shared', '/home/jetson/ros_ws/install/ros2_shared')])}
+[0.013056] (gscam2) JobStarted: {'identifier': 'gscam2'}
+[0.103783] (-) TimerEvent: {}
+[0.137756] (gscam2) JobEnded: {'identifier': 'gscam2', 'rc': 1}
+[0.149399] (-) EventReactorShutdown: {}

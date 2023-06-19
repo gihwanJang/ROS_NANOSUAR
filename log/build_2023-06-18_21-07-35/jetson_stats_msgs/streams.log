@@ -1,0 +1,112 @@
+[0.148s] Invoking command in '/home/jetson/ros_ws/build/jetson_stats_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs
+[0.826s] -- The C compiler identification is GNU 7.5.0
+[1.364s] -- The CXX compiler identification is GNU 7.5.0
+[1.386s] -- Check for working C compiler: /usr/bin/cc
+[1.842s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.858s] -- Detecting C compiler ABI info
+[2.215s] -- Detecting C compiler ABI info - done
+[2.236s] -- Detecting C compile features
+[3.354s] -- Detecting C compile features - done
+[3.366s] -- Check for working CXX compiler: /usr/bin/c++
+[3.837s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.841s] -- Detecting CXX compiler ABI info
+[4.327s] -- Detecting CXX compiler ABI info - done
+[4.356s] -- Detecting CXX compile features
+[6.347s] -- Detecting CXX compile features - done
+[6.382s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[6.585s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[6.586s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.119s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[8.688s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[8.805s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[8.911s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[10.153s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[11.309s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[11.350s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[11.881s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[12.054s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[12.068s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[12.280s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[12.286s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.294s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[12.295s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[12.440s] -- Found PythonExtra: .so  
+[13.075s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[13.224s] -- Added test 'lint_cmake' to check CMake code style
+[13.232s] -- Added test 'xmllint' to check XML markup files
+[13.267s] -- Configuring done
+[13.526s] -- Generating done
+[13.569s] -- Build files have been written to: /home/jetson/ros_ws/build/jetson_stats_msgs
+[13.593s] Invoked command in '/home/jetson/ros_ws/build/jetson_stats_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/jetson/ros_ws/src/ros2_jetson_stats/jetson_stats_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/ros_ws/install/jetson_stats_msgs
+[13.596s] Invoking command in '/home/jetson/ros_ws/build/jetson_stats_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/jetson_stats_msgs -- -j4 -l4
+[13.916s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.939s] [35m[1mScanning dependencies of target jetson_stats_msgs__cpp[0m
+[14.096s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.915s] [  4%] Built target jetson_stats_msgs__cpp
+[19.157s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.164s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[21.130s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_generator_c[0m
+[21.393s] [ 11%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetson_stats_msgs/srv/jetson_clocks__functions.c.o[0m
+[21.424s] [ 13%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetson_stats_msgs/srv/fan__functions.c.o[0m
+[22.316s] [ 15%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_generator_c.dir/rosidl_generator_c/jetson_stats_msgs/srv/nvp_model__functions.c.o[0m
+[22.865s] [ 17%] [32m[1mLinking C shared library libjetson_stats_msgs__rosidl_generator_c.so[0m
+[23.545s] [ 17%] Built target jetson_stats_msgs__rosidl_generator_c
+[23.771s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[102.418s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_introspection_cpp[0m
+[102.501s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_introspection_c[0m
+[102.501s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[102.510s] [ 22%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetson_stats_msgs/srv/fan__type_support.cpp.o[0m
+[102.514s] [ 24%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/fan__type_support.c.o[0m
+[102.517s] [ 26%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetson_stats_msgs/srv/dds_fastrtps/fan__type_support.cpp.o[0m
+[102.524s] [ 28%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetson_stats_msgs/srv/jetson_clocks__type_support.cpp.o[0m
+[103.864s] [ 31%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetson_stats_msgs/srv/dds_fastrtps/jetson_clocks__type_support.cpp.o[0m
+[103.865s] [ 33%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/jetson_clocks__type_support.c.o[0m
+[104.005s] [ 35%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/jetson_stats_msgs/srv/nvp_model__type_support.cpp.o[0m
+[104.330s] [ 37%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/jetson_stats_msgs/srv/nvp_model__type_support.c.o[0m
+[104.976s] [ 40%] [32m[1mLinking C shared library libjetson_stats_msgs__rosidl_typesupport_introspection_c.so[0m
+[105.297s] [ 40%] Built target jetson_stats_msgs__rosidl_typesupport_introspection_c
+[105.616s] [ 42%] [32m[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[105.868s] [ 44%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/jetson_stats_msgs/srv/dds_fastrtps/nvp_model__type_support.cpp.o[0m
+[106.020s] [ 44%] Built target jetson_stats_msgs__rosidl_typesupport_introspection_cpp
+[107.699s] [ 46%] [32m[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[108.200s] [ 46%] Built target jetson_stats_msgs__rosidl_typesupport_fastrtps_cpp
+[108.336s] [ 48%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[110.801s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_cpp[0m
+[110.908s] [ 51%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetson_stats_msgs/srv/fan__type_support.cpp.o[0m
+[112.576s] [ 53%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetson_stats_msgs/srv/nvp_model__type_support.cpp.o[0m
+[114.053s] [ 55%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/jetson_stats_msgs/srv/jetson_clocks__type_support.cpp.o[0m
+[115.488s] [ 57%] [32m[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_cpp.so[0m
+[115.817s] [ 57%] Built target jetson_stats_msgs__rosidl_typesupport_cpp
+[115.871s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[118.838s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_fastrtps_c[0m
+[118.932s] [ 62%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetson_stats_msgs/srv/fan__type_support_c.cpp.o[0m
+[120.200s] [ 64%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetson_stats_msgs/srv/nvp_model__type_support_c.cpp.o[0m
+[121.488s] [ 66%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/jetson_stats_msgs/srv/jetson_clocks__type_support_c.cpp.o[0m
+[122.717s] [ 68%] [32m[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[123.012s] [ 68%] Built target jetson_stats_msgs__rosidl_typesupport_fastrtps_c
+[123.060s] [ 71%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[125.211s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_c[0m
+[125.269s] [ 73%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetson_stats_msgs/srv/fan__type_support.cpp.o[0m
+[125.380s] [ 75%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetson_stats_msgs/srv/nvp_model__type_support.cpp.o[0m
+[125.494s] [ 77%] [32mBuilding CXX object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/jetson_stats_msgs/srv/jetson_clocks__type_support.cpp.o[0m
+[125.603s] [ 80%] [32m[1mLinking CXX shared library libjetson_stats_msgs__rosidl_typesupport_c.so[0m
+[125.799s] [ 80%] Built target jetson_stats_msgs__rosidl_typesupport_c
+[125.846s] [35m[1mScanning dependencies of target jetson_stats_msgs[0m
+[125.893s] [ 80%] Built target jetson_stats_msgs
+[125.944s] [35m[1mScanning dependencies of target jetson_stats_msgs__py[0m
+[125.990s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[131.919s] [ 82%] Built target jetson_stats_msgs__py
+[131.972s] [35m[1mScanning dependencies of target jetson_stats_msgs__python[0m
+[132.134s] [ 84%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__python.dir/rosidl_generator_py/jetson_stats_msgs/srv/_fan_s.c.o[0m
+[132.541s] [ 86%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__python.dir/rosidl_generator_py/jetson_stats_msgs/srv/_nvp_model_s.c.o[0m
+[132.914s] [ 88%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__python.dir/rosidl_generator_py/jetson_stats_msgs/srv/_jetson_clocks_s.c.o[0m
+[133.286s] [ 91%] [32m[1mLinking CXX shared library rosidl_generator_py/jetson_stats_msgs/libjetson_stats_msgs__python.so[0m
+[133.545s] [ 91%] Built target jetson_stats_msgs__python
+[133.594s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_c__pyext[0m
+[133.674s] [ 93%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/jetson_stats_msgs/_jetson_stats_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[134.066s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/jetson_stats_msgs/jetson_stats_msgs_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[134.290s] [ 95%] Built target jetson_stats_msgs__rosidl_typesupport_c__pyext
+[134.339s] [35m[1mScanning dependencies of target jetson_stats_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[134.418s] [ 97%] [32mBuilding C object CMakeFiles/jetson_stats_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/jetson_stats_msgs/_jetson_stats_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[134.807s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/jetson_stats_msgs/jetson_stats_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[135.025s] [100%] Built target jetson_stats_msgs__rosidl_typesupport_fastrtps_c__pyext

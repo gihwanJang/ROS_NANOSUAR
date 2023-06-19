@@ -1,0 +1,4 @@
+source;share/jetson_stats_msgs/environment/ament_prefix_path.sh
+source;share/jetson_stats_msgs/environment/library_path.sh
+source;share/jetson_stats_msgs/environment/path.sh
+source;share/jetson_stats_msgs/environment/pythonpath.sh

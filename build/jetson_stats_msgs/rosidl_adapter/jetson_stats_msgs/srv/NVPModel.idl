@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from jetson_stats_msgs/srv/NVPModel.srv
+// generated code does not contain a copyright notice
+
+
+module jetson_stats_msgs {
+  module srv {
+    struct NVPModel_Request {
+      int64 nvpmodel;
+    };
+    struct NVPModel_Response {
+      string power_mode;
+    };
+  };
+};

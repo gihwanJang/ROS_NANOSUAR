@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/ros_ws/build/nanosaur_camera': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4
+Invoked command in '/home/jetson/ros_ws/build/nanosaur_camera' returned '2': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/jetson/ros_ws/build/nanosaur_camera -- -j4 -l4

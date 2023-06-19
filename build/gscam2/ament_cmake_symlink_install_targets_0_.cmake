@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/jetson/ros_ws/build/gscam2/gscam_main" "/home/jetson/ros_ws/build/gscam2/ipc_test_main" "TARGETS" "gscam_main" "ipc_test_main" "DESTINATION" "lib/gscam2")

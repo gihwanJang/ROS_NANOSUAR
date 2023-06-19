@@ -1,0 +1,17 @@
+-- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found camera_calibration_parsers: 2.2.1 (/opt/ros/eloquent/share/camera_calibration_parsers/cmake)
+-- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/opt/ros/eloquent/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found camera_info_manager: 2.2.1 (/opt/ros/eloquent/share/camera_info_manager/cmake)
+-- Found class_loader: 1.4.1 (/opt/ros/eloquent/share/class_loader/cmake)
+-- Found poco_vendor:  (/opt/ros/eloquent/share/poco_vendor/cmake)
+-- Found rclcpp_components: 0.8.5 (/opt/ros/eloquent/share/rclcpp_components/cmake)
+-- Found rclpy: 0.8.5 (/opt/ros/eloquent/share/rclpy/cmake)
+-- Found ros2_shared: 0.1.0 (/home/jetson/ros_ws/install/ros2_shared/share/ros2_shared/cmake)
+-- Configuring incomplete, errors occurred!
+See also "/home/jetson/ros_ws/build/gscam2/CMakeFiles/CMakeOutput.log".
+See also "/home/jetson/ros_ws/build/gscam2/CMakeFiles/CMakeError.log".

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from jetson_stats_msgs/srv/Fan.srv
+// generated code does not contain a copyright notice
+
+
+module jetson_stats_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " fan selection")
+    struct Fan_Request {
+      string mode;
+
+      int64 speed;
+    };
+    struct Fan_Response {
+      string set_fan_mode;
+
+      int64 set_fan_speed;
+    };
+  };
+};
