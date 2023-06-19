@@ -37,6 +37,14 @@ The Nanosaur moves along the line of the provided track from the starting point 
     - camera/image_raw
 #
 
+## Environment Setting
+
+'''  
+$ cd ~/  
+$ git clone https://github.com/gihwanJang/ROS_NANOSUAR.git
+'''
+#
+
 ## Simulation video
 ![Video Label](http://img.youtube.com/vi/2_ZZi862BUA/0.jpg)  
 (https://youtu.be/2_ZZi862BUA)
