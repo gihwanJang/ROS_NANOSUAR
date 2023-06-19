@@ -10,9 +10,9 @@ The Nanosaur moves along the line of the provided track from the starting point 
 
 ## Package List
 
-- nanosaur_hardware
-- image_pub
-- rover_line_follower
+1. nanosaur_hardware
+2. image_pub
+3. rover_line_follower
 
 #
 
