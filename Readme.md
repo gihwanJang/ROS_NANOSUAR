@@ -46,11 +46,12 @@ $ cd ~/
 $ git clone https://github.com/gihwanJang/ROS_NANOSUAR.git
 ```
 
-ros setting 
+excute
 ```
-$ cd ./
-
-$ . opt/ros/eloquent/setup.bash
+$ . start.sh
+$ . image.sh
+$ . rover.sh
+$ . service.sh
 ```
 
 #
