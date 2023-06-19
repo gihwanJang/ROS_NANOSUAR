@@ -39,10 +39,20 @@ The Nanosaur moves along the line of the provided track from the starting point 
 
 ## Environment Setting
 
-'''  
+make work space
+
+```
 $ cd ~/  
 $ git clone https://github.com/gihwanJang/ROS_NANOSUAR.git
-'''
+```
+
+ros setting 
+```
+$ cd ./
+
+$ . opt/ros/eloquent/setup.bash
+```
+
 #
 
 ## Simulation video
